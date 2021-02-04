@@ -1,0 +1,88 @@
+[
+  {
+    "grouping": "Architecture",
+    "skills": [
+      "Microservices",
+      "Cloud Native Apps",
+      "RESTful APIs",
+      "SaaS/PaaS/IaaS"
+    ]
+  },
+  {
+    "grouping": "Languages, Operating Systems & Tools",
+    "skills": [
+      "JavaScript",
+      "Python",
+      "TypeScript",
+      "git",
+      "linux",
+      "bash",
+      "jquery"
+    ]
+  },
+  {
+    "grouping": "Front End",
+    "skills": [
+      { "name": "Redux", "icon": "react-original" },
+      { "name": "Angular", "icon": "angularjs-plain" },
+      { "name": "Redux", "icon": "redux-original" },
+      "Mobx",
+      "Material UI",
+      { "name": "ELM", "icon": "elm-plain" },
+      "Electron"
+    ]
+  },
+  {
+    "grouping": "Back End",
+    "skills": [
+      { "name": "NodeJS", "icon": "react-original" },
+      { "name": "Ruby on Rails", "icon": "angularjs-plain" }
+    ]
+  },
+  {
+    "grouping": "Datastores",
+    "skills": [
+      { "name": "Postgres", "icon": "react-original" },
+      { "name": "Mongo", "icon": "angularjs-plain" },
+      { "name": "MySQL", "icon": "angularjs-plain" },
+      { "name": "SQLLite", "icon": "angularjs-plain" }
+    ]
+  },
+  {
+    "grouping": "Project/Product Management Tools",
+    "skills": [
+      { "name": "Trello", "icon": "react-original" },
+      { "name": "Gitlab", "icon": "angularjs-plain" }
+    ]
+  },
+  {
+    "grouping": "Platform Development & Administration",
+    "skills": [
+      "Atlassian",
+      "Bamboo",
+      "Bitbucket",
+      "NGINX",
+      "MySQL",
+      "Wordpress"
+    ]
+  },
+  {
+    "grouping": "Data Management",
+    "skills": [
+      { "name": "Microsoft SQL Server", "icon": "msql_server" },
+      { "name": "Oracle", "icon": "database" },
+      "MongoDB",
+      { "name": "Apache Spark" }
+    ]
+  },
+  {
+    "grouping": "Containers & Cloud",
+    "skills": [
+      { "name": "BOSH", "link": "https://bosh.io" },
+      { "name": "Docker", "link": "https://docker.com" },
+      { "name": "AWS", "link": "https://aws.amazon.com" },
+      { "name": "Google Cloud", "link": "https://cloud.google.com" },
+      { "name": "Linux", "link": "https://bosh.io" }
+    ]
+  }
+]
