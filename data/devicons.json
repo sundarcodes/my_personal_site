@@ -192,5 +192,6 @@
   "redux",
   "redux-original",
   "angularjs-plain",
-  "elm-plain"
+  "elm-plain",
+  "electron-original"
 ]

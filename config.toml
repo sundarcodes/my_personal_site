@@ -1,4 +1,4 @@
-title = "Eddie Webb"
+title = "Sundar"
 baseURL = "https://example.com/"
 theme = "hugo-resume"
 languageCode = "en-us"
@@ -14,7 +14,7 @@ favicon = "/favicon.ico"
 firstName = "Sundar"
 lastName = ""
 phone = "+91 99621 43950"
-profileImage = "img/TechChat.png"
+profileImage = "img/sundar.png"
 showEducation = false
 showExperience = false
 showOpenSource = true
@@ -22,6 +22,8 @@ showProjects = true
 showPublications = true
 showQr = true
 showSkills = true
+showBlog = true
+publicationsAlternateName = "talks"
 
 [params.google]
 
@@ -29,7 +31,7 @@ showSkills = true
 trackerID = "XX-123446-01"
 
 [[params.handles]]
-link = "https://www.linkedin.com/in/edwardwebb/"
+link = "https://www.linkedin.com/in/sundararaman-vaidyanathan-67417a18"
 name = "LinkedIn"
 
 [[params.handles]]
@@ -40,13 +42,6 @@ name = "GitHub"
 link = "https://twitter.com/sundar_says/"
 name = "Twitter"
 
-[[params.handles]]
-link = "https://stackoverflow.com/users/story/82880"
-name = "Upwork"
-
-[[params.handles]]
-link = "https://keybase.io/edwardawebb"
-name = "Keybase"
 
 [outputs]
 home = ["HTML", "JSON"]

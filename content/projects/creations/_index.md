@@ -9,12 +9,7 @@ sitemap:
   priority: 0.5
   weight: 0.8
 ---
-<!--
-
-This page represents the landing page for "creations" section. It is also shown under the homepage header for "creations". It should be therefore relatively short and sweet.
-
-\-->
 
 
 
-<p>A collection of projects authored by Eddie, and likely shared out with the community as an open source project.</p>
+<p>A collection of projects developed/architected by me.</p>
