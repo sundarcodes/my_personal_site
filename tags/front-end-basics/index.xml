@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>front-end-basics on Sundar</title>
+    <link>sundarcodes.in/tags/front-end-basics/</link>
+    <description>Recent content in front-end-basics on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/front-end-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Front End development Analogy</title>
+      <link>sundarcodes.in/blog/front-end-analogies/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/front-end-analogies/</guid>
+      <description>Whenever we learn about some topics or if you are teaching someone, I always felt analogies from day to day life makes a greater impact to a person&amp;rsquo;s understanding. This post is my take on analogy of technologies/terminologies/people involved in front end development.
+I am going to compare building a website to building a house where :
+HTML(HyperText Markup Language) would be the raw building materials namely bricks, steels, cement. These help you in building the skeleton or structure of your house.</description>
+    </item>
+    
+  </channel>
+</rss>

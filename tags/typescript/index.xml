@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TypeScript on Sundar</title>
+    <link>sundarcodes.in/tags/typescript/</link>
+    <description>Recent content in TypeScript on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate><atom:link href="sundarcodes.in/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A no/low code developer platform for building ML &amp; RPA solutions</title>
+      <link>sundarcodes.in/projects/creations/nocode_platform/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/projects/creations/nocode_platform/</guid>
+      <description>A platform to develop ML (Machine Learning) and RPA (Robotic process automation)</description>
+    </item>
+    
+    <item>
+      <title>Events Management App</title>
+      <link>sundarcodes.in/projects/creations/discord_events/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/projects/creations/discord_events/</guid>
+      <description>A progressive web app (PWA) place to find and manage events happening around you</description>
+    </item>
+    
+    <item>
+      <title>Tuition Management App</title>
+      <link>sundarcodes.in/projects/creations/tutora/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/projects/creations/tutora/</guid>
+      <description>A Mobile App to connect tutors with students and relieve of tutors from the administrative problems</description>
+    </item>
+    
+  </channel>
+</rss>

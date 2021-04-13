@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Sundar</title>
+    <link>sundarcodes.in/tags/</link>
+    <description>Recent content in Tags on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Mar 2021 17:09:26 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>sundarcodes.in/tags/javascript/</link>
+      <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jest</title>
+      <link>sundarcodes.in/tags/jest/</link>
+      <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/jest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>sundarcodes.in/tags/react/</link>
+      <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>sundarcodes.in/tags/devops/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>sundarcodes.in/tags/machine-learning/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MLflow</title>
+      <link>sundarcodes.in/tags/mlflow/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/mlflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>sundarcodes.in/tags/python/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>sundarcodes.in/tags/aws/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microservices</title>
+      <link>sundarcodes.in/tags/microservices/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monolith</title>
+      <link>sundarcodes.in/tags/monolith/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/monolith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Oriented Architecture</title>
+      <link>sundarcodes.in/tags/service-oriented-architecture/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/service-oriented-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Architecture</title>
+      <link>sundarcodes.in/tags/software-architecture/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/software-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>sundarcodes.in/tags/ai/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amplify</title>
+      <link>sundarcodes.in/tags/amplify/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/amplify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>sundarcodes.in/tags/docker/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DynamoDB</title>
+      <link>sundarcodes.in/tags/dynamodb/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/dynamodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Express</title>
+      <link>sundarcodes.in/tags/express/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/express/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FaunaDB</title>
+      <link>sundarcodes.in/tags/faunadb/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/faunadb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firebase</title>
+      <link>sundarcodes.in/tags/firebase/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GraphQL</title>
+      <link>sundarcodes.in/tags/graphql/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/graphql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>sundarcodes.in/tags/ml/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongo</title>
+      <link>sundarcodes.in/tags/mongo/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/mongo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NestJS</title>
+      <link>sundarcodes.in/tags/nestjs/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/nestjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NodeJS</title>
+      <link>sundarcodes.in/tags/nodejs/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React Native</title>
+      <link>sundarcodes.in/tags/react-native/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/react-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST APIs</title>
+      <link>sundarcodes.in/tags/rest-apis/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/rest-apis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>sundarcodes.in/tags/typescript/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backend</title>
+      <link>sundarcodes.in/tags/backend/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Store</title>
+      <link>sundarcodes.in/tags/data-store/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/data-store/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frontend</title>
+      <link>sundarcodes.in/tags/frontend/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/frontend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech stack</title>
+      <link>sundarcodes.in/tags/tech-stack/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/tech-stack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>sundarcodes.in/tags/mysql/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postgres</title>
+      <link>sundarcodes.in/tags/postgres/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql query tuning</title>
+      <link>sundarcodes.in/tags/sql-query-tuning/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/sql-query-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>editor</title>
+      <link>sundarcodes.in/tags/editor/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lint</title>
+      <link>sundarcodes.in/tags/lint/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/lint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>sundarcodes.in/tags/productivity/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>sundarcodes.in/tags/tools/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-development</title>
+      <link>sundarcodes.in/tags/web-development/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>sundarcodes.in/tags/angular/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular 2&#43;</title>
+      <link>sundarcodes.in/tags/angular-2&#43;/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/angular-2&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ngRx</title>
+      <link>sundarcodes.in/tags/ngrx/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/ngrx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redux</title>
+      <link>sundarcodes.in/tags/redux/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/redux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State Management</title>
+      <link>sundarcodes.in/tags/state-management/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/state-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>what to choose</title>
+      <link>sundarcodes.in/tags/what-to-choose/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/what-to-choose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Change Detection Strategy</title>
+      <link>sundarcodes.in/tags/change-detection-strategy/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/change-detection-strategy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobx</title>
+      <link>sundarcodes.in/tags/mobx/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/mobx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Observables</title>
+      <link>sundarcodes.in/tags/observables/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/observables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RxJS</title>
+      <link>sundarcodes.in/tags/rxjs/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/rxjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Change Detection</title>
+      <link>sundarcodes.in/tags/change-detection/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/change-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>sundarcodes.in/tags/services/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminologies</title>
+      <link>sundarcodes.in/tags/terminologies/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/terminologies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elm</title>
+      <link>sundarcodes.in/tags/elm/</link>
+      <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/elm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>functional programming</title>
+      <link>sundarcodes.in/tags/functional-programming/</link>
+      <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/functional-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game</title>
+      <link>sundarcodes.in/tags/game/</link>
+      <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i10n</title>
+      <link>sundarcodes.in/tags/i10n/</link>
+      <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/i10n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analogy</title>
+      <link>sundarcodes.in/tags/analogy/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/analogy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>front-end-basics</title>
+      <link>sundarcodes.in/tags/front-end-basics/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/front-end-basics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>best-practices</title>
+      <link>sundarcodes.in/tags/best-practices/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>sundarcodes.in/tags/git/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>version-control</title>
+      <link>sundarcodes.in/tags/version-control/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/version-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>angularJS</title>
+      <link>sundarcodes.in/tags/angularjs/</link>
+      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/tags/angularjs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

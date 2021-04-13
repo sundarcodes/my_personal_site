@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Sundar</title>
+    <link>sundarcodes.in/tags/react/</link>
+    <description>Recent content in React on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Mar 2021 17:09:26 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Added a callback props to a React Add to Calendar library</title>
+      <link>sundarcodes.in/projects/contributions/react_add_to_calendar/</link>
+      <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/projects/contributions/react_add_to_calendar/</guid>
+      <description>Add to Calendar is a react package to add an event to calendar (Google, Outlook, Apple etc). I needed a way to handle the calendar dropdown close event when the mouse is clicked anywhere on the document. I added a callback function that would be passed as a param</description>
+    </item>
+    
+    <item>
+      <title>A no/low code developer platform for building ML &amp; RPA solutions</title>
+      <link>sundarcodes.in/projects/creations/nocode_platform/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/projects/creations/nocode_platform/</guid>
+      <description>A platform to develop ML (Machine Learning) and RPA (Robotic process automation)</description>
+    </item>
+    
+    <item>
+      <title>Events Management App</title>
+      <link>sundarcodes.in/projects/creations/discord_events/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/projects/creations/discord_events/</guid>
+      <description>A progressive web app (PWA) place to find and manage events happening around you</description>
+    </item>
+    
+    <item>
+      <title>Angular vs React</title>
+      <link>sundarcodes.in/blog/angular-vs-react-my-take-on-it/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/angular-vs-react-my-take-on-it/</guid>
+      <description>Ahh..I am sure you would have read umpteen number of blogs/articles comparing React, Angular (and Vue). Well this is going to be my version of it after having had a chance to work on both of them. I have developed a decent amount of projects in Angular and in React and kind of got a good grasp on both of these to write about their similarities/differences.
+For starters, both of them are used to build SPAs and good at what they are supposed to.</description>
+    </item>
+    
+  </channel>
+</rss>

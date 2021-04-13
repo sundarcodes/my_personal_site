@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lint on Sundar</title>
+    <link>sundarcodes.in/tags/lint/</link>
+    <description>Recent content in lint on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/lint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools that make me productive - Web Development</title>
+      <link>sundarcodes.in/blog/tools-that-make-me-productive/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/tools-that-make-me-productive/</guid>
+      <description>Just wanted to share and list down the tools that I use for my projects (web-development in particular).
+VS Code I have become a super fan of VS-Code, so so light weight and it has become the defacto Editor for any JS projects - frontend as well as backend. I use it for few of my python projects as well it works as a Charm (infact better than PyCharm.. :)</description>
+    </item>
+    
+  </channel>
+</rss>

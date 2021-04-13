@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redux on Sundar</title>
+    <link>sundarcodes.in/tags/redux/</link>
+    <description>Recent content in Redux on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/redux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 6 - Conclusion</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-6/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-6/</guid>
+      <description>Over the last 5 posts in this series, we have seen various ways of managing state in a Angular application. In this post, we would conclude by giving some pointers on which technique to choose based on the use cases.
+When to go for a Service based approach ? This is most easiest and the simplest approach to share/manage data across components/pages in your App. But this could quickly go haywire if not used in the right way and with proper encapsulation techniques.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 5</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-5/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-5/</guid>
+      <description>In this post of our series in state management, we will be seeing how we can solve our state problem using a solution called Redux. We will be use the angular variant of Redux called ngRx.
+Redux has been inspired by elm and Flux. Elm is a pure functional programming language used for developing the front end of modern day web apps. Flux is a stage management solution. If this is first time you are hearing about Redux, please do watch these videos from the co-creator of Redux, Dan Abramov.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 1</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-1/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-1/</guid>
+      <description>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.
+In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&amp;hellip;
+How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp;amp; 2+) background struggle to answer this question as they haven&amp;rsquo;t encountered the term state while building apps.</description>
+    </item>
+    
+  </channel>
+</rss>

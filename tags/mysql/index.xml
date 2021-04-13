@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on Sundar</title>
+    <link>sundarcodes.in/tags/mysql/</link>
+    <description>Recent content in mysql on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postgres Vs MySQL - My experience on query optimization working on both</title>
+      <link>sundarcodes.in/blog/postgres-mysql-query-optimization/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/postgres-mysql-query-optimization/</guid>
+      <description>Recently, I had a peculiar incident while tuning a slow running SQL query which was logically doing the same thing but one was in Postgres (v11) and other in MySQL (v5.5). I just wanted to share my findings on how query planning/optimizing works in these 2 RDBMS within the context of my problem. Let me first give you the context of the problem in Postgres database. I was having 2 tables - A Client master table having information about client and a Client emails table having emails belonging to each client - 1 to Many relationship between Client and Email entities.</description>
+    </item>
+    
+  </channel>
+</rss>

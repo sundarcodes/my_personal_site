@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frontend on Sundar</title>
+    <link>sundarcodes.in/tags/frontend/</link>
+    <description>Recent content in Frontend on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How did I go about choosing my techstack for my side web app project?</title>
+      <link>sundarcodes.in/blog/how-did-i-go-about-choosing-my-techstack-for-my-pet-project/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/how-did-i-go-about-choosing-my-techstack-for-my-pet-project/</guid>
+      <description>I find it its always good to work on a pet/side project outside my official dev work as it gives me room to explore new stuffs and in that process help in analyzing the pros/cons of choosing different technologies/frameworks for a use case. I am documenting my thoughts on how I went about choosing the stack (front end/back end technologies, code organization, devops workflow) for one of my side project which was a web app.</description>
+    </item>
+    
+  </channel>
+</rss>

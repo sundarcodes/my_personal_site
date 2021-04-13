@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Sundar | State Management in Angular 2&#43; apps - Part 4</title>
+  <meta property="og:title" content="Sundar | State Management in Angular 2&#43; apps - Part 4" />
+  <meta property="og:image" content="sundarcodes.in/img/sundar.png" />
+  <meta name="description" content="">
+  <meta property="og:description" content="" />
+  <meta name="author" content="Sundar ">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"></noscript>
+    
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
+  
+  <link rel="preload" href="sundarcodes.in/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/resume.css"></noscript>
+  <link rel="preload" href="sundarcodes.in/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/tweaks.css"></noscript>
+  <link rel="preload" href="sundarcodes.in/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.76.5" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Sundar </span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/sundarcodes.in/img/sundar.png" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/sundarcodes.in/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#open">Open Source</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#talks">talks</a>
+          </li>
+      
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+          </li>
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="sundarcodes.in/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="sundarcodes.in/blog/">Blogs</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="sundarcodes.in/blog/ui-state-management-part-4/">State Management in Angular 2&#43; apps - Part 4</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">State Management in Angular 2&#43; apps - Part 4</span></h2>
+    <span class="text-primary">January 4, 2018</span>
+    <p>In <a href="sundarcodes.in/blog/ui-state-management-part-1/">part-1</a> of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.</p>
+<p>Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in <a href="sundarcodes.in/blog/ui-state-management-part-3/">part-3</a>. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood. I won&rsquo;t go in depth on how and what of mobx. There are lots of good tutorials, blogs on this. You could check out the official documention of mobx <a href="https://mobx.js.org/getting-started.html">here</a>.</p>
+<p>Before we see how to implement mobx in our good reads app, lets try to understand few terms which are the building blocks of mobx and correlate them to our app.</p>
+<h4 id="store">Store</h4>
+<p>Store is simply a object thats going to hold our state. So in our app, this would just hold the list of books/blogs.</p>
+<h4 id="actions">Actions</h4>
+<p>Actions refer to any event that could change the state of our app. In the context our app, actions could be adding a new read,deleting a read or marking a book/blog as read.</p>
+<h4 id="derivations">Derivations</h4>
+<p>Derivations are values that could be computed or derived from a state. In our app, the total read counter could be derived from the reads collection instead of storing it as a separate entity in the state.</p>
+<h4 id="reactions">Reactions</h4>
+<p>Reactions are there to handle your side effects like doing a network call, DOM updates.</p>
+<p>Mobx is built on the following principle</p>
+<blockquote>
+<p>Reacting to state changes rather than acting on state changes</p>
+</blockquote>
+<p>To implement this, it makes heavy use of observables and to make it easy for the developers, it has done lot of heavy lifting. To understand and read more on this, please refer to this <a href="https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254">blog</a> from the creator of Mobx, <a href="https://twitter.com/mweststrate">Michel Westrate</a>.</p>
+<p>Okay. Its time now to see Mobx in action.We would be using a package called <a href="https://github.com/mobxjs/mobx-angular">mobx-angular</a> which is an angular wrapper on the mobx.</p>
+<p>The first thing we are going to do is to create the store. Our store is going to hold the reads collection. <code>actionStatus</code> will be used to store the status of a network request.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">@Injectable()
+export class GoodReadStore {
+  @observable reads: GoodRead[] = [];
+  @observable actionStatus: networkRequestState;
+  constructor(private backendService: BackendService) {}
+
+</code></pre></div><p>Next is to handle our actions. For this we would be creating different methods in our Store corresponding to different actions that could be performed in our app.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> @action
+  addNewGoodRead(read: GoodRead) {
+    this.actionStatus = networkRequestState.Pending;
+    this.backendService.addNewRead(read).subscribe(
+      readRsp =&gt; {
+        this.reads = [...this.reads, readRsp];
+        this.actionStatus = networkRequestState.Success;
+      },
+      err =&gt; {
+        console.log(err);
+        this.actionStatus = networkRequestState.Failure;
+      }
+    );
+  }
+</code></pre></div><p>The code above handles adding a new good read in our app. <code>@action</code> is a decorator that indicates this is an mobx action where state mutation may happen. We are just invoking the backend service and creating a new collection with the newly added item.</p>
+<p>Now, it time to see how to implement a derivation. Here in our app, it would be the read counter.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">@computed
+  get readsCounter(): number {
+    console.log(`Reading counter @ ${Date.now()}`);
+    return this.reads.filter(read =&gt; read.isRead).length;
+  }
+</code></pre></div><p>We just use the <code>@computed</code> decorator to make the <code>readsCounter</code> a derivation.</p>
+<p>Also if you have noticed, the code that interacts with the service would just simply do one job of interacting with the backend APIs, thus adhering to the Single Responsibility Principle.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  addNewRead(read: GoodRead) {
+    const url = `${this.baseAPIRURL}/create`
+    return this.http.post&lt;GoodRead&gt;(url, read);
+  }
+</code></pre></div><p>Now that we have setup the mobx infra, lets see how to use them from the components. Lets&rsquo;s say the user deletes a read item. All we need to do is call the delete action defined in the mobx store. The below snippet is from <code>home.component</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  deleteItem(id: number) {
+    this.store.deleteRead(id);
+  }
+</code></pre></div><p>Now, lets see what are the changes in <code>home.component.html</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;div class=&#34;container&#34;
+  *mobxAutorun&gt;
+  &lt;div class=&#34;create&#34;&gt;
+    &lt;a routerLink=&#34;/new&#34;
+      class=&#34;btn btn-success&#34;&gt;+New&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-sm-4&#34;
+      *ngFor=&#34;let readItem of store.reads&#34;&gt;
+      &lt;app-read-card [readItem]=&#34;readItem&#34;
+        (checkEvent)=&#34;toggleItemRead(readItem.id, !readItem.isRead)&#34;
+        (deleteEvent)=&#34;deleteItem(readItem.id)&#34;
+        (editEvent)=&#34;editItem(readItem)&#34;&gt;&lt;/app-read-card&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div><p>We now are directly reading the store <code>reads</code> collection. Note that there is no <code>| async</code>, instead we are using <code>*mobxAutorun</code> directive which automatically takes care of rerendering the list if there are any changes to state. This is the magic that Mobx does out of the box for us.</p>
+<p>We can also mark the home component&rsquo;s change detection strategy to OnPush as Mobx would ensure that it would trigger the change detection whenever it sees there is a change in a state that the component would be interested in. This alleviates the developers from the responsbility of making apps more performant.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Component({
+  selector: &#39;app-home&#39;,
+  templateUrl: &#39;./home.component.html&#39;,
+  styleUrls: [&#39;./home.component.css&#39;],
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+</code></pre></div><p>That&rsquo;s all we need to do for Mobx implementation. The code is lot more concise, concerns separated and easy to code with lot of magic happening under the hood through Mobx.</p>
+<p>To summarize, we did the following:</p>
+<ul>
+<li>Created a store to hold our state</li>
+<li>Created actions which updates the state</li>
+<li>Created derivations</li>
+<li>Called the actions methods through the store from the Components</li>
+<li>Added the mobxAutorun directive to the component view (html) to automatically detect changes and rerender the DOM</li>
+</ul>
+<p>You could find the complete source code for the Mobx implementation <a href="https://github.com/sundarcodes/my-good-reads-app/tree/master/frontend/angular/mobx-based-state-management/my-good-reads-app">here</a>.</p>
+<p>Mobx implmentation has so far being the most easy and consise. With lot less code, we get lot of value. But sometimes this could also backfire, if you do not understand how it all works under the hood. So please make it a point to read more about how Mobx works in this <a href="https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254">post</a>.</p>
+<p>See you soon in the next post on Redux !! Till then Happy learning.</p>
+
+    
+    <ul class="tags">
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/state-management">State Management</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/mobx">Mobx</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/change-detection-strategy">Change Detection Strategy</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/angular-2&#43;">Angular 2&#43;</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Template By <a href="https://startbootstrap.com/theme/resume">Start Bootstrap Theme</a> Ported to Hugo by <a class="pen-owner-link" href="https://github.com/eddiewebb/hugo-resume">eddiewebb</a> </span>
+    
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=XX-123446-01"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'XX-123446-01');
+  </script>
+  
+
+  
+</body>
+</html>

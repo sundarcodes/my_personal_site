@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>i10n on Sundar</title>
+    <link>sundarcodes.in/tags/i10n/</link>
+    <description>Recent content in i10n on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Aug 2017 17:09:26 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/i10n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Added support for thousand separator in Angular localization library</title>
+      <link>sundarcodes.in/projects/contributions/angular_i10n/</link>
+      <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/projects/contributions/angular_i10n/</guid>
+      <description>Angular l10n is a Angular localization library that supports text translation, formatting dates and numbers. The number directive that comes as part of this library was missing the thousand&amp;rsquo;s separator. My PR was to add support to the thousand&amp;rsquo;s separator.</description>
+    </item>
+    
+  </channel>
+</rss>

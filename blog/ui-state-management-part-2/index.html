@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Sundar | State Management in Angular 2&#43; apps - Part 2</title>
+  <meta property="og:title" content="Sundar | State Management in Angular 2&#43; apps - Part 2" />
+  <meta property="og:image" content="sundarcodes.in/img/sundar.png" />
+  <meta name="description" content="">
+  <meta property="og:description" content="" />
+  <meta name="author" content="Sundar ">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"></noscript>
+    
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
+  
+  <link rel="preload" href="sundarcodes.in/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/resume.css"></noscript>
+  <link rel="preload" href="sundarcodes.in/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/tweaks.css"></noscript>
+  <link rel="preload" href="sundarcodes.in/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.76.5" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Sundar </span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/sundarcodes.in/img/sundar.png" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/sundarcodes.in/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#open">Open Source</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#talks">talks</a>
+          </li>
+      
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+          </li>
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="sundarcodes.in/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="sundarcodes.in/blog/">Blogs</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="sundarcodes.in/blog/ui-state-management-part-2/">State Management in Angular 2&#43; apps - Part 2</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">State Management in Angular 2&#43; apps - Part 2</span></h2>
+    <span class="text-primary">December 11, 2017</span>
+    <p>In <a href="sundarcodes.in/blog/ui-state-management-part-1/">part-1</a> of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using plain Angular services.</p>
+<p>In the last post we identified that the good reads collection is the data that is being shared by the home component and the navbar component. So we know that when we need to share data between components, we just need to introduce a service, place the data in the service and inject the service in components that needs it. This is the approach which we would have taken if we are working in AngularJS(Angular 1.x) also this is precisely what we will be doing here.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">Injectable</span>()
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">BackendService</span> {
+  <span style="color:#a6e22e">baseAPIRURL</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http://localhost:3000/api&#39;</span>;
+  <span style="color:#a6e22e">reads</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">GoodRead</span>[];
+  <span style="color:#a6e22e">subs</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Subscription</span>;
+  <span style="color:#a6e22e">constructor</span>(<span style="color:#66d9ef">private</span> <span style="color:#a6e22e">http</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">HttpClient</span>) {
+    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span> <span style="color:#f92672">=</span> [];
+  }
+</code></pre></div><p>We have a <code>BackendService</code> which is going to hold our collection in the reads variable. <code>GoodRead</code> is our model class which is going to have all attributes of blog/book like title, description, catergory etc.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">GoodRead</span> {
+    <span style="color:#a6e22e">constructor</span>(<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">description</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">category</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>,
+        <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">isRead</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">boolean</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">?:</span> <span style="color:#a6e22e">number</span>) {
+
+    }
+}
+</code></pre></div><p>The service is going to talk with the backend and get the data and store it back in the <code>reads</code> variable.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"> <span style="color:#a6e22e">fetchAllReads</span>() {
+    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">url</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">baseAPIRURL</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/index`</span>;
+    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">subs</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">get</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">GoodRead</span>[]<span style="color:#f92672">&gt;</span>(<span style="color:#a6e22e">url</span>)
+      .<span style="color:#a6e22e">subscribe</span>(<span style="color:#a6e22e">data</span> =&gt; <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>);
+  }
+</code></pre></div><p>And we would be exposing this <code>reads</code> array using a getter.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">get</span> <span style="color:#a6e22e">allReads</span>()<span style="color:#f92672">:</span> <span style="color:#a6e22e">GoodRead</span>[] {
+    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span>;
+  }
+</code></pre></div><p>Now in our home.component.ts, we would inject this service and in the home.component.html, we would be using this the service in our html to render the items in the DOM.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">    &lt;div class=&#34;col-sm-4&#34;
+      *ngFor=&#34;let readItem of backendService.allReads&#34;&gt;
+      &lt;div class=&#34;card&#34;&gt;
+        &lt;div class=&#34;card-body&#34;&gt;
+</code></pre></div><p>Now to display the number of items read, we expose a getter in the <code>BackendService</code>. I will come to the console.log statement in just a while.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  get allReadsCount(): number {
+    console.log(`Reading counter at ${Date.now()}`);
+    return this.reads.filter(read =&gt; read.isRead).length;
+  }
+</code></pre></div><p>We would be using this method in the navbar component to display the number of reads.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  &lt;ul class=&#34;nav&#34;&gt;
+    &lt;li class=&#34;nav-item&#34;&gt;
+       Read
+      &lt;span class=&#34;badge badge-primary badge-pill&#34;&gt;{{backendService.allReadsCount}}&lt;/span&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+</code></pre></div><p>Please look <a href="https://github.com/sundarcodes/my-good-reads-app/tree/master/frontend/angular/services-based-state-management/my-good-reads-app">here</a> for the complete code base.</p>
+<p>We have achieved what we wanted but is this the best solution. This offcourse is the simplest and more importantly it works!! But it has its own pitfalls. Lets see what are those.</p>
+<h4 id="pitfall--1---relying-on-angulars-change-detection">Pitfall # 1 - Relying on Angular&rsquo;s Change Detection</h4>
+<p>Here, you have to understand how Angular magically updates the <strong>DOM</strong> whenever the <code>reads</code> variable in the <code>BackendService</code> gets updated. This happens through a change detection mechanism that gets triggered on every event that happens and Angular checks all the variables referenced in the HTML to see if its reference or value has changed. If there is a change, Angular rerenders the correspoding part of the DOM.</p>
+<p>The following line in the <code>navbar.component.html</code> is supposed to show the value of the total number of read items. I have added a console log inside the allReadCount getter, just to show the number of times the getter function is called.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;span class=&#34;badge badge-primary badge-pill&#34;&gt;{{backendService.allReadsCount}}&lt;/span&gt;
+</code></pre></div><p>You could observe from the below snapshot that for every event that happens in the UI, keypress, mouse scroll etc, Angular triggers the change detection mechanism to check any value has changed. This is a costly operation and for large scale apps with lot of component, this will cause performance issues. So this also help us understand how Angular does this magic of updating the DOM when we change anything in our state in the service.</p>
+<p><img src="/img/change-detection.png" alt="alt text"></p>
+<p>The read counter gets called for every keypress that I do in the form which is not required.</p>
+<h4 id="pitfall--2---exposing-the-state-data">Pitfall # 2 - Exposing the state data</h4>
+<p>If you notice, although we have a getter method to fetch all the <code>reads</code> from the <code>BackendService</code>, we are exposing the entire array out to the public. Any component, service which has access to <code>BackendService</code> could potentially alter/update the array. Although we can make it private, we still need to have a getter which would return the reference to the array thereby exposing the array outside and breaking the encapsulation. This would make trouble shooting and would create a maintenance nightmare when you don&rsquo;t know which component is consuming and updating the array inadvertently when the app gets bigger.</p>
+<h4 id="summary">Summary</h4>
+<p>This approach of managing state through Angular Services turns out to be a <a href="https://en.wikipedia.org/wiki/Anti-pattern">anti-pattern</a>. Please do not use this technique. In the next <a href="sundarcodes.in/blog/ui-state-management-part-3/">post</a>, we would be seeing a better approach using Observables.</p>
+
+    
+    <ul class="tags">
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/state-management">State Management</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/services">Services</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/change-detection">Change Detection</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/angular-2&#43;">Angular 2&#43;</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Template By <a href="https://startbootstrap.com/theme/resume">Start Bootstrap Theme</a> Ported to Hugo by <a class="pen-owner-link" href="https://github.com/eddiewebb/hugo-resume">eddiewebb</a> </span>
+    
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=XX-123446-01"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'XX-123446-01');
+  </script>
+  
+
+  
+</body>
+</html>

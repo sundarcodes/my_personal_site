@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web-development on Sundar</title>
+    <link>sundarcodes.in/tags/web-development/</link>
+    <description>Recent content in web-development on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools that make me productive - Web Development</title>
+      <link>sundarcodes.in/blog/tools-that-make-me-productive/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/tools-that-make-me-productive/</guid>
+      <description>Just wanted to share and list down the tools that I use for my projects (web-development in particular).
+VS Code I have become a super fan of VS-Code, so so light weight and it has become the defacto Editor for any JS projects - frontend as well as backend. I use it for few of my python projects as well it works as a Charm (infact better than PyCharm.. :)</description>
+    </item>
+    
+    <item>
+      <title>Front End development Analogy</title>
+      <link>sundarcodes.in/blog/front-end-analogies/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/front-end-analogies/</guid>
+      <description>Whenever we learn about some topics or if you are teaching someone, I always felt analogies from day to day life makes a greater impact to a person&amp;rsquo;s understanding. This post is my take on analogy of technologies/terminologies/people involved in front end development.
+I am going to compare building a website to building a house where :
+HTML(HyperText Markup Language) would be the raw building materials namely bricks, steels, cement. These help you in building the skeleton or structure of your house.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Sundar | Postgres Vs MySQL - My experience on query optimization working on both</title>
+  <meta property="og:title" content="Sundar | Postgres Vs MySQL - My experience on query optimization working on both" />
+  <meta property="og:image" content="sundarcodes.in/img/sundar.png" />
+  <meta name="description" content="">
+  <meta property="og:description" content="" />
+  <meta name="author" content="Sundar ">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"></noscript>
+    
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
+  
+  <link rel="preload" href="sundarcodes.in/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/resume.css"></noscript>
+  <link rel="preload" href="sundarcodes.in/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/tweaks.css"></noscript>
+  <link rel="preload" href="sundarcodes.in/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.76.5" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Sundar </span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/sundarcodes.in/img/sundar.png" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/sundarcodes.in/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#open">Open Source</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#talks">talks</a>
+          </li>
+      
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+          </li>
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="sundarcodes.in/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="sundarcodes.in/blog/">Blogs</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="sundarcodes.in/blog/postgres-mysql-query-optimization/">Postgres Vs MySQL - My experience on query optimization working on both</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Postgres Vs MySQL - My experience on query optimization working on both</span></h2>
+    <span class="text-primary">October 11, 2018</span>
+    <p>Recently, I had a peculiar incident while tuning a slow running SQL query which was logically doing the same thing but one was in Postgres (v11) and other in MySQL (v5.5). I just wanted to share my findings on how query planning/optimizing works in these 2 RDBMS within the context of my problem.
+Let me first give you the context of the problem in Postgres database. I was having 2 tables - A Client master table having information about client and a Client emails table having emails belonging to each client - 1 to Many relationship between Client and Email entities.</p>
+<p>Below is the client master table schema.</p>
+<p><img src="/img/postgres-client-master.png" alt="alt text"></p>
+<p>Below is the client emails table schema.</p>
+<p><img src="/img/postgres-client-emails.png" alt="alt text"></p>
+<p>The client_id in the client emails table is a Foreign Key to the id in the client master table.</p>
+<p>Now the ask was to generate all client domains who doesn&rsquo;t have emails in the client emails table. The ask was pretty simple and so I started with this query - was intutive to me.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">SELECT * FROM CLIENT_MASTER WHERE ID NOT IN (SELECT DISTINCT CLIENT_ID FROM CLIENT_EMAILS)
+</code></pre></div><p>Here, I am using a subquery to fetch all the distinct client ids and then filtering out the records in the client master which doesn&rsquo;t have the client ids. This query was very intuitive for me, so I used this. But it never gave me the result I was looking for and it was just running for an eternity&hellip;</p>
+<p>I did a check on the record count. The client_master table had 1084701 (~ 1 million) records and 251929 (~ 0.25 million). It was quite huge but not worse to take such a long time to query them.</p>
+<p>Now, I did a quick EXPLAIN to see the execution plan of the query. I got the following result.</p>
+<p><img src="/img/pg-explain-plan.png" alt="alt text"></p>
+<p>From the above figure, what I could gather was the subquery would execute first and it will use the index that we have created based on the client_id. After that, the outer or parent query would be executed. This subquery plan looked good to me. But on checking the outer query plan, I found that it was going to do a sequential scan (going to check each and every row from the 1 million set) and apply the NOT in filter.</p>
+<p><img src="/img/pg-explain-outer-query-plan.png" alt="alt text"></p>
+<p>I was quickly able to tweak this query by converting the NOT IN with a NOT EXISTS. The new query was like this.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">SELECT * FROM CLIENT_MASTER CM WHERE NOT EXISTS (SELECT * FROM CLIENT_EMAILS CE WHERE CE.client_id = cm.id)
+</code></pre></div><p>On doing an explain on this, I got the following output.</p>
+<p><img src="/img/pg-exists-join.png" alt="alt text"></p>
+<p>Now, we could see that the result sets are fetched separately from the tables using the indices and the output are merged (Anti join as it was a NOT EXISTS). After running the query, I was able to get the results less than 3 seconds which was acceptable for the business use case.</p>
+<p>The take away from this lesson was when using IN operator, the query planner was effectively getting converted into a WHERE CLAUSE with a OR condition for each of the 1 million record in the client_master table thus resulting in sequential scan. When we switches to EXIST operator, the query planner did a fetch from both tables using the indices and then did a merge to filter out the records.</p>
+<p>Now, lets get into the context of the problem that I faced in MySQLDB. I was having 2 tables here - A Campaigns table which has all details about campaigns sent to prospective clients and subscribers/client table having list of email. Again 1 to many relationship between campaign and subscribers.</p>
+<p>The ask was to fetch all subscribers emails for a set of campaigns. So I used a subquery to first fetch the campaigns and then the subscriber details for this campaign. The query for this was -</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">SELECT * from subscribers s where s.last_campaign in (SELECT id FROM `campaigns` c WHERE from_unixtime(c.sent) &gt;=( CURDATE() - INTERVAL 10 DAY ))
+</code></pre></div><p>Again this query was taking an eternity. The record cound in the campaigns was only 280 but the count of total subscribers was ~ 1 million. There was also an index on last_campaign column,</p>
+<p>If you look at the query above, it is similar to the one we had seen earlier in PG. On doing an explain on this, it showed that it was doing a sequential scan of 1 million records similar to doing a where with a OR condition for the 1 million records.</p>
+<p>As I had seen the issue in this type of query in PG, I didn&rsquo;t take much of time to rewrite this query using EXISTS. The modified query looked like this.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">SELECT * from
+subscribers as b where exists (select * from campaigns c
+where b.last_campaign = c.id and
+from_unixtime(c.sent) &gt;=( CURDATE() - INTERVAL 10 DAY ))
+</code></pre></div><p>I was confident that this would work like a charm but to my dismay it didn&rsquo;t. It kept running and running.. :(
+On doing an EXPLAIN, I found that the outer(parent) query was still doing a sequential scan and going through all the records in the table.</p>
+<p><img src="/img/mysql-explain-exists-query-plan.png" alt="alt text"></p>
+<p>I didn&rsquo;t understand why was this happening till I stumbled upon <a href="https://dev.mysql.com/doc/refman/5.6/en/subquery-optimization-with-exists.html">this</a> article and <a href="https://www.xaprb.com/blog/2006/04/30/how-to-optimize-subqueries-and-joins-in-mysql/">this</a>.
+What I found was mysql does something called &ldquo;outside to inside&rdquo; when it comes to executing queries. It would first try to execute/evaluate the parent or the outer query and then use the evaluated value in the sub or inner query. So the final query looked like this.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">SELECT b.email, b.id, b.bounced, b.unsubscribed, b.bounce_soft, b.last_campaign from
+subscribers as b where b.last_campaign in (select id from (select id from campaigns c
+where from_unixtime(c.sent) &gt;=( CURDATE() - INTERVAL 10 DAY )) as x)
+</code></pre></div><p>To make mySQL execute the inner or sub query first, the above query uses temporary or materialized views which would make the query planner to execute the inner query first and then use the results as a filter in the outer query.</p>
+<p>This was one of my firsts in query optimization and it was fun learning and understanding how query planning and optimization works. This my no means a post explaining how query planning and optimization works, but shows how different RDBMS employ query planning and optimization techniques while executing a query. You could read <a href="https://www.postgresql.org/docs/11/static/geqo.html">this</a> and <a href="https://dev.mysql.com/doc/refman/8.0/en/select-optimization.html">this</a> for more in-depth explanation from the official docs.</p>
+
+    
+    <ul class="tags">
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/postgres">Postgres</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/mysql">mysql</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/sql-query-tuning">sql query tuning</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Template By <a href="https://startbootstrap.com/theme/resume">Start Bootstrap Theme</a> Ported to Hugo by <a class="pen-owner-link" href="https://github.com/eddiewebb/hugo-resume">eddiewebb</a> </span>
+    
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=XX-123446-01"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'XX-123446-01');
+  </script>
+  
+
+  
+</body>
+</html>

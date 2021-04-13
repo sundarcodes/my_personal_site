@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>angularJS on Sundar</title>
+    <link>sundarcodes.in/tags/angularjs/</link>
+    <description>Recent content in angularJS on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Difference between AngularJS and Angular</title>
+      <link>sundarcodes.in/blog/angularjs-vs-angular/</link>
+      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/angularjs-vs-angular/</guid>
+      <description>Angular the framework as this is what the Angular team would like to call, has evolved(and evolving) from being the most popular front end JavaScript framework over the last 5 years to a framework that has transformed itself to survive and be a leader for years to come. All references to Angular points to the version 2 and above and AngularJS means Angular 1.x.
+In this post, we would be seeing how different is Angular and what are the new additions it is bringing to the world of Single Page App development.</description>
+    </item>
+    
+  </channel>
+</rss>

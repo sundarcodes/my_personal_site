@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angular 2&#43; on Sundar</title>
+    <link>sundarcodes.in/tags/angular-2&#43;/</link>
+    <description>Recent content in Angular 2&#43; on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/angular-2+/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 6 - Conclusion</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-6/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-6/</guid>
+      <description>Over the last 5 posts in this series, we have seen various ways of managing state in a Angular application. In this post, we would conclude by giving some pointers on which technique to choose based on the use cases.
+When to go for a Service based approach ? This is most easiest and the simplest approach to share/manage data across components/pages in your App. But this could quickly go haywire if not used in the right way and with proper encapsulation techniques.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 5</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-5/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-5/</guid>
+      <description>In this post of our series in state management, we will be seeing how we can solve our state problem using a solution called Redux. We will be use the angular variant of Redux called ngRx.
+Redux has been inspired by elm and Flux. Elm is a pure functional programming language used for developing the front end of modern day web apps. Flux is a stage management solution. If this is first time you are hearing about Redux, please do watch these videos from the co-creator of Redux, Dan Abramov.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 4</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-4/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-4/</guid>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.
+Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in part-3. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 3</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-3/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-3/</guid>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using Observables. We will also see how we can overcome the pitfalls of the Angular services approach discussed in part-2 of this series.
+Observables is something that I have seen which unsettles developers.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 2</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-2/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-2/</guid>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using plain Angular services.
+In the last post we identified that the good reads collection is the data that is being shared by the home component and the navbar component.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 1</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-1/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-1/</guid>
+      <description>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.
+In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&amp;hellip;
+How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp;amp; 2+) background struggle to answer this question as they haven&amp;rsquo;t encountered the term state while building apps.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Sundar | State Management in Angular 2&#43; apps - Part 3</title>
+  <meta property="og:title" content="Sundar | State Management in Angular 2&#43; apps - Part 3" />
+  <meta property="og:image" content="sundarcodes.in/img/sundar.png" />
+  <meta name="description" content="">
+  <meta property="og:description" content="" />
+  <meta name="author" content="Sundar ">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"></noscript>
+    
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
+  
+  <link rel="preload" href="sundarcodes.in/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/resume.css"></noscript>
+  <link rel="preload" href="sundarcodes.in/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/tweaks.css"></noscript>
+  <link rel="preload" href="sundarcodes.in/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="sundarcodes.in/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.76.5" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Sundar </span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/sundarcodes.in/img/sundar.png" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/sundarcodes.in/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#open">Open Source</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#talks">talks</a>
+          </li>
+      
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+          </li>
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="sundarcodes.in/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="sundarcodes.in/blog/">Blogs</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="sundarcodes.in/blog/ui-state-management-part-3/">State Management in Angular 2&#43; apps - Part 3</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">State Management in Angular 2&#43; apps - Part 3</span></h2>
+    <span class="text-primary">December 15, 2017</span>
+    <p>In <a href="sundarcodes.in/blog/ui-state-management-part-1/">part-1</a> of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using Observables. We will also see how we can overcome the pitfalls of the Angular services approach discussed in <a href="sundarcodes.in/blog/ui-state-management-part-2/">part-2</a> of this series.</p>
+<p>Observables is something that I have seen which unsettles developers. It does take some time to settle in especially people coming from a imperative background. We will be using RxJS, a library that implements observables and a load of other operators. Warning - RxJS again has a steep learning curve. You must give it time to sink in if you are new to this.</p>
+<h4 id="whatwhy-observables-">What/Why Observables ?</h4>
+<p>Let me try to explain this in the context of state management. Observables provides a mechanism to link a piece of data or state with a view or component that is interested in it by employing the <a href="https://en.wikipedia.org/wiki/Observer_pattern">Observer</a> Design Pattern. It simply connects the data or a subject to a list of Components or Observers. RxJS is the library which has the implementation of Observables. Infact, Angular has RxJS as a part of its dependency as the framework heavily uses these concepts and tonns of other utitlities in the RxJS library. If you need a detailed explaination, please do read this wonderful <a href="https://medium.com/@benlesh/learning-observable-by-building-observable-d5da57405d87">blog</a> by the author of RxJS 5 BenLesh. One other misunderstanding of Observables is that its used for your async events like XHR, setTimeout etc. As clarified in BenLesh&rsquo;s blog post, Observables can be sync or async and it depends on the data source type. If the data has to be fetched from a backend, the observable would turn out to be async or if the data source is just an array stored in your service, it would be sync in nature.</p>
+<h4 id="how-are-we-going-to-implement-observables-">How are we going to implement Observables ?</h4>
+<p>Now that we got the fundas out, lets look at how Observables and the RxJS library are going to help us manage our state. Talking in terms of the Observer pattern, our list of reads is going to be the subject which our home component and navbar component would be interested in. So we are going to wrap our shared state which is the <code>reads</code> collection inside a subject using RxJS BehaviorSubject class.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  private readsSubject: BehaviorSubject&lt;GoodRead[]&gt;;
+  public allReads$: Observable&lt;GoodRead[]&gt;;
+  public readsCounter$: Observable&lt;number&gt;;
+</code></pre></div><p>We are declaring 3 variable here. <code>readsSubject</code> which is going to hold our reads collections and hence the term subject. <code>allReads$</code> is an observable which the home component would be interested in and <code>readsCounter$</code> is other obserable which the navbar component would need to be hooked into. We are basically modelling our state management problem to fit into solution given by the Observer pattern. BTW, prefixing a variable with <code>$</code> is just a convention to indicate it is an Observable type.</p>
+<p>For the question on why we are using a BehaviorSubject instead of Subject, please look <a href="https://stackoverflow.com/a/40231605">here</a>.</p>
+<p>One more point that you can notice is, we have declared our subject as private and observables as public. This is to take advantage of the encapsulation features that typescript gives to inadvertently get access to the subject outside the service and updating it. You may also wonder, how we are going tie up the observables from the subject. Well, here we go. We do that in the contructor.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">constructor(private http: HttpClient) {
+    this.readsSubject = new BehaviorSubject([]);
+    this.allReads$ = this.readsSubject.asObservable();
+    this.readsCounter$ = this.allReads$.map((arr: GoodRead[]) =&gt; arr.filter(read =&gt; read.isRead).length);
+  }
+</code></pre></div><p>There is an <code>asObservable()</code> api exposed on the Subject which returns an observable hooked on to that subject. Any one interested in subscribing to this subject, could do so by subscribing to this observable. We could also directly subscribe to the Subject but that would mean exposing the Subject out to the consumers which violates the encapsulation principle. For the <code>readCounter$</code> observable, we would just need to send out the number of good reads. Observables have a load of operators just like we have in <code>underscore</code> or <code>lodash</code> with which we could get the reads count out. It is similar to what we did in the Angular services approach.</p>
+<p>Now in our components, all we need to do is to subscribe on these observables using Angular <code>async</code> pipe.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  &lt;div class=&#34;col-sm-4&#34;
+      *ngFor=&#34;let readItem of backendService.allReads$ | async&#34;&gt;
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  &lt;span class=&#34;badge badge-primary badge-pill&#34;&gt;{{backendService.readsCounter$ | async}}&lt;/span&gt;
+</code></pre></div><p>You would be interested to know how the subject is getting updated, for instance lets say when we mark an item as read. Below it the code for that.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  markItem(id: number, isRead: boolean) {
+    const url = `${this.baseAPIRURL}/update/${id}`;
+    return this.http.patch&lt;GoodRead&gt;(url, {
+      isRead
+    })
+      .do(rsp =&gt; {
+        const allReads = this.readsSubject.getValue();
+        const itemToBeUpdated = allReads.find(read =&gt; read.id === id);
+        itemToBeUpdated.isRead = isRead;
+        this.readsSubject.next(allReads);
+      })
+  }
+</code></pre></div><p>We send a http PATCH request to the backend and once we get the response, we get the currently stored data in the subject using <code>getValue()</code>, then update the item that is marked and finally publish the updated array using <code>next()</code>. When we do a next on a subject, it triggers the call back function passed in the <code>subscribe</code> api of all the observables interested in this subject. You could see below in the home component, this markItem() function is being subscribed and you would see the log whenenver you check or uncheck an item.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> toggleItemRead(id: number, isRead: boolean) {
+    this.subscriptions = this.backendService.markItem(id, isRead)
+      .subscribe(() =&gt; {
+        console.log(`Item marked as ${isRead ? &#39;read&#39; : &#39;unread&#39;}`);
+      });
+  }
+</code></pre></div><p>Well, if you are getting to know about Observables/RxJS for the first time, this may feel little overwhelming initially, but once you get your head around it, you would really appreciate it. It took me good part of 3 months to get a basic understanding of it all works and am still continuing to learn. So just be patient&hellip; By the looks of it, Observable could soon land up as a part of the browser API soon. Check out <a href="https://github.com/whatwg/dom/issues/544">this</a>.</p>
+<p>Ok, coming back to our state management problem. Lets see how this approach eliminates the pitfalls of Angular Services approach discussed in <a href="sundarcodes.in/blog/ui-state-management-part-2/">part-2</a>.</p>
+<h4 id="no-longer-have-to-rely-on-angular-change-detection">No longer have to rely on Angular Change Detection</h4>
+<p>Now, we would no longer need to depend on Angular&rsquo;s Change Detection mechanism to check and rerender the DOM whenever there is a change in the reference or value of variable referenced in the html. As we have implemented the Observer Pattern here through Observables/Subject, we could be rest assured that the view would get the updates whenever there is a change in actual state, here in our case the reads collection. We could now take advantage of this and make the <code>read-card</code> component&rsquo;s change detection strategy to be OnPush.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">@Component({
+  selector: &#39;app-read-card&#39;,
+  templateUrl: &#39;./read-card.component.html&#39;,
+  styleUrls: [&#39;./read-card.component.css&#39;],
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+</code></pre></div><p>This will notify Angular not to check this component&rsquo;s variables for any changes when running the Change detection algorithm. For a more in depth post on how Change Detection works, please refer <a href="https://vsavkin.com/change-detection-in-angular-2-4f216b855d4c">here</a>.</p>
+<p>This is big plus especially for making apps more performant as we are avoding costly checks by resorting to OnPush change detection strategy. A component marked with OnPush get rerendered only when there is a change in its inputs (reference or value). So we have to ensure that the refernce or value gets changed whenever we do an update on the <code>reads</code> data. For instance, while marking an item to be read or unread, it is important that we update the <code>reads</code> subject with a new object having the updated data instead of updating the data in place. Notice below that we are replacing the object to the updated in the array with a new object coming as the response from the backend.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> markItem(id: number, isRead: boolean) {
+    const url = `${this.baseAPIRURL}/update/${id}`;
+    return this.http.patch&lt;GoodRead&gt;(url, {
+      isRead
+    })
+      .do(rsp =&gt; {
+        const allReads = this.readsSubject.getValue();
+        const indexOfItemToBeUpdated = allReads.findIndex(read =&gt; read.id === id);
+        allReads[indexOfItemToBeUpdated] = rsp;
+        this.readsSubject.next(allReads);
+      })
+  }
+</code></pre></div><p>These are some of things that we should be extra cautious when dealing with OnPush Change Detection. The onus falls on the developers to implement things in such a way, the Change Detection works properly and value gets updated in the DOM. This is where libraries like <a href="https://facebook.github.io/immutable-js/">immutable.js</a> could help which implements Immutable amd Persitent Data structures which would always yield a new value on whatever operations you perform on the value.</p>
+<p>With that we come to end of this part. Hope you got an essence of how RxJS Subjects and Observables work, how Angular Change Detection works and also how using immutable collection would help us in building more predictive apps. The source code of the app implementing this strategy could be found <a href="https://github.com/sundarcodes/my-good-reads-app/tree/master/frontend/angular/observables-based-state-management/my-good-reads-app">here</a>.</p>
+
+    
+    <ul class="tags">
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/state-management">State Management</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/rxjs">RxJS</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/observables">Observables</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/change-detection-strategy">Change Detection Strategy</a></li>
+    
+      <li><a class="tag" href="/sundarcodes.in/tags/angular-2&#43;">Angular 2&#43;</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Template By <a href="https://startbootstrap.com/theme/resume">Start Bootstrap Theme</a> Ported to Hugo by <a class="pen-owner-link" href="https://github.com/eddiewebb/hugo-resume">eddiewebb</a> </span>
+    
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=XX-123446-01"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'XX-123446-01');
+  </script>
+  
+
+  
+</body>
+</html>

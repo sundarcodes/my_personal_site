@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Sundar</title>
+    <link>sundarcodes.in/</link>
+    <description>Recent content in Home on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate><atom:link href="sundarcodes.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tooling in Maching Learning Lifecycle</title>
+      <link>sundarcodes.in/publications/mlflow_talk/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/publications/mlflow_talk/</guid>
+      <description>This talk looked at Liberty Mutual’s transformation to Continuous Integration, Continuous Delivery, and DevOps. For a large, heavily regulated industry, this task can not only be daunting, but viewed by many as impossible. Often, organizations try to reduce the friction through micro-fixes, but Eddie’s team asked how to change the culture to reduce the friction and concluded with the following final points:
+ Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.</description>
+    </item>
+    
+    <item>
+      <title>Journey from Monolith to Microservices - AWS Story</title>
+      <link>sundarcodes.in/publications/aws_microservices/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/publications/aws_microservices/</guid>
+      <description>This talk looked at Liberty Mutual’s transformation to Continuous Integration, Continuous Delivery, and DevOps. For a large, heavily regulated industry, this task can not only be daunting, but viewed by many as impossible. Often, organizations try to reduce the friction through micro-fixes, but Eddie’s team asked how to change the culture to reduce the friction and concluded with the following final points:
+ Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.</description>
+    </item>
+    
+    <item>
+      <title>Added a callback props to a React Add to Calendar library</title>
+      <link>sundarcodes.in/projects/contributions/react_add_to_calendar/</link>
+      <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/projects/contributions/react_add_to_calendar/</guid>
+      <description>Add to Calendar is a react package to add an event to calendar (Google, Outlook, Apple etc). I needed a way to handle the calendar dropdown close event when the mouse is clicked anywhere on the document. I added a callback function that would be passed as a param</description>
+    </item>
+    
+    <item>
+      <title>Added my own version of tictactoe game to builtwithelm</title>
+      <link>sundarcodes.in/projects/contributions/elm_tictactoe/</link>
+      <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/projects/contributions/elm_tictactoe/</guid>
+      <description>BuiltWithElm is a place where Elm enthusiasts can post any of their cool projects built on Elm. I wanted to try a functional programming language and got impressed with Elm. I came know about Elm after reading how it has influenced the Flux and Redux architecture that are being used for State management in the front end. Elm is inspired by haskell and it is something that I want to make use for building a production grade web app.</description>
+    </item>
+    
+    <item>
+      <title>Added support for thousand separator in Angular localization library</title>
+      <link>sundarcodes.in/projects/contributions/angular_i10n/</link>
+      <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/projects/contributions/angular_i10n/</guid>
+      <description>Angular l10n is a Angular localization library that supports text translation, formatting dates and numbers. The number directive that comes as part of this library was missing the thousand&amp;rsquo;s separator. My PR was to add support to the thousand&amp;rsquo;s separator.</description>
+    </item>
+    
+    <item>
+      <title>A no/low code developer platform for building ML &amp; RPA solutions</title>
+      <link>sundarcodes.in/projects/creations/nocode_platform/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/projects/creations/nocode_platform/</guid>
+      <description>A platform to develop ML (Machine Learning) and RPA (Robotic process automation)</description>
+    </item>
+    
+    <item>
+      <title>Events Management App</title>
+      <link>sundarcodes.in/projects/creations/discord_events/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/projects/creations/discord_events/</guid>
+      <description>A progressive web app (PWA) place to find and manage events happening around you</description>
+    </item>
+    
+    <item>
+      <title>Tuition Management App</title>
+      <link>sundarcodes.in/projects/creations/tutora/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>sundarcodes.in/projects/creations/tutora/</guid>
+      <description>A Mobile App to connect tutors with students and relieve of tutors from the administrative problems</description>
+    </item>
+    
+    <item>
+      <title>How did I go about choosing my techstack for my side web app project?</title>
+      <link>sundarcodes.in/blog/how-did-i-go-about-choosing-my-techstack-for-my-pet-project/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/how-did-i-go-about-choosing-my-techstack-for-my-pet-project/</guid>
+      <description>I find it its always good to work on a pet/side project outside my official dev work as it gives me room to explore new stuffs and in that process help in analyzing the pros/cons of choosing different technologies/frameworks for a use case. I am documenting my thoughts on how I went about choosing the stack (front end/back end technologies, code organization, devops workflow) for one of my side project which was a web app.</description>
+    </item>
+    
+    <item>
+      <title>Postgres Vs MySQL - My experience on query optimization working on both</title>
+      <link>sundarcodes.in/blog/postgres-mysql-query-optimization/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/postgres-mysql-query-optimization/</guid>
+      <description>Recently, I had a peculiar incident while tuning a slow running SQL query which was logically doing the same thing but one was in Postgres (v11) and other in MySQL (v5.5). I just wanted to share my findings on how query planning/optimizing works in these 2 RDBMS within the context of my problem. Let me first give you the context of the problem in Postgres database. I was having 2 tables - A Client master table having information about client and a Client emails table having emails belonging to each client - 1 to Many relationship between Client and Email entities.</description>
+    </item>
+    
+    <item>
+      <title>Tools that make me productive - Web Development</title>
+      <link>sundarcodes.in/blog/tools-that-make-me-productive/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/tools-that-make-me-productive/</guid>
+      <description>Just wanted to share and list down the tools that I use for my projects (web-development in particular).
+VS Code I have become a super fan of VS-Code, so so light weight and it has become the defacto Editor for any JS projects - frontend as well as backend. I use it for few of my python projects as well it works as a Charm (infact better than PyCharm.. :)</description>
+    </item>
+    
+    <item>
+      <title>Angular vs React</title>
+      <link>sundarcodes.in/blog/angular-vs-react-my-take-on-it/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/angular-vs-react-my-take-on-it/</guid>
+      <description>Ahh..I am sure you would have read umpteen number of blogs/articles comparing React, Angular (and Vue). Well this is going to be my version of it after having had a chance to work on both of them. I have developed a decent amount of projects in Angular and in React and kind of got a good grasp on both of these to write about their similarities/differences.
+For starters, both of them are used to build SPAs and good at what they are supposed to.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 6 - Conclusion</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-6/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-6/</guid>
+      <description>Over the last 5 posts in this series, we have seen various ways of managing state in a Angular application. In this post, we would conclude by giving some pointers on which technique to choose based on the use cases.
+When to go for a Service based approach ? This is most easiest and the simplest approach to share/manage data across components/pages in your App. But this could quickly go haywire if not used in the right way and with proper encapsulation techniques.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 5</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-5/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-5/</guid>
+      <description>In this post of our series in state management, we will be seeing how we can solve our state problem using a solution called Redux. We will be use the angular variant of Redux called ngRx.
+Redux has been inspired by elm and Flux. Elm is a pure functional programming language used for developing the front end of modern day web apps. Flux is a stage management solution. If this is first time you are hearing about Redux, please do watch these videos from the co-creator of Redux, Dan Abramov.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 4</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-4/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-4/</guid>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.
+Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in part-3. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 3</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-3/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-3/</guid>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using Observables. We will also see how we can overcome the pitfalls of the Angular services approach discussed in part-2 of this series.
+Observables is something that I have seen which unsettles developers.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 2</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-2/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-2/</guid>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using plain Angular services.
+In the last post we identified that the good reads collection is the data that is being shared by the home component and the navbar component.</description>
+    </item>
+    
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 1</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-1/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-1/</guid>
+      <description>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.
+In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&amp;hellip;
+How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp;amp; 2+) background struggle to answer this question as they haven&amp;rsquo;t encountered the term state while building apps.</description>
+    </item>
+    
+    <item>
+      <title>A-Z of JavaScript</title>
+      <link>sundarcodes.in/blog/a-z-of-javascript/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/a-z-of-javascript/</guid>
+      <description>This is my collection of A-to-Z terms that one should know if they are into serious javascript programming.
+Async/Await Async and Await are new features introduced in the language to make asynchronous code block look synchronous and more importantly make it more readable.
+Brendan Eich Brendan Eich is the creator of JavaScript. He created the language in a matter of 10 days when working for Netscape Navigator. Due credit to be given to him for creating this language.</description>
+    </item>
+    
+    <item>
+      <title>Front End development Analogy</title>
+      <link>sundarcodes.in/blog/front-end-analogies/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/front-end-analogies/</guid>
+      <description>Whenever we learn about some topics or if you are teaching someone, I always felt analogies from day to day life makes a greater impact to a person&amp;rsquo;s understanding. This post is my take on analogy of technologies/terminologies/people involved in front end development.
+I am going to compare building a website to building a house where :
+HTML(HyperText Markup Language) would be the raw building materials namely bricks, steels, cement. These help you in building the skeleton or structure of your house.</description>
+    </item>
+    
+    <item>
+      <title>Git workflow - my ramblings</title>
+      <link>sundarcodes.in/blog/git-workflow/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/git-workflow/</guid>
+      <description>In this post, I would be talking about the git workflow that could be adopted when you are working on a project all alone and also when you are working in a team. Before we start, lets try to understand what is Git and why it is becoming the leader in Version control/SCM (Software Configuration Management).
+What is Git ? Git is a version control system with a de-centralized approach to source control.</description>
+    </item>
+    
+    <item>
+      <title>Difference between AngularJS and Angular</title>
+      <link>sundarcodes.in/blog/angularjs-vs-angular/</link>
+      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/angularjs-vs-angular/</guid>
+      <description>Angular the framework as this is what the Angular team would like to call, has evolved(and evolving) from being the most popular front end JavaScript framework over the last 5 years to a framework that has transformed itself to survive and be a leader for years to come. All references to Angular points to the version 2 and above and AngularJS means Angular 1.x.
+In this post, we would be seeing how different is Angular and what are the new additions it is bringing to the world of Single Page App development.</description>
+    </item>
+    
+  </channel>
+</rss>

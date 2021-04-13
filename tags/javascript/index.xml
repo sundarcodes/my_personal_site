@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on Sundar</title>
+    <link>sundarcodes.in/tags/javascript/</link>
+    <description>Recent content in JavaScript on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Mar 2021 17:09:26 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Added a callback props to a React Add to Calendar library</title>
+      <link>sundarcodes.in/projects/contributions/react_add_to_calendar/</link>
+      <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/projects/contributions/react_add_to_calendar/</guid>
+      <description>Add to Calendar is a react package to add an event to calendar (Google, Outlook, Apple etc). I needed a way to handle the calendar dropdown close event when the mouse is clicked anywhere on the document. I added a callback function that would be passed as a param</description>
+    </item>
+    
+    <item>
+      <title>Added support for thousand separator in Angular localization library</title>
+      <link>sundarcodes.in/projects/contributions/angular_i10n/</link>
+      <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
+      
+      <guid>sundarcodes.in/projects/contributions/angular_i10n/</guid>
+      <description>Angular l10n is a Angular localization library that supports text translation, formatting dates and numbers. The number directive that comes as part of this library was missing the thousand&amp;rsquo;s separator. My PR was to add support to the thousand&amp;rsquo;s separator.</description>
+    </item>
+    
+    <item>
+      <title>A-Z of JavaScript</title>
+      <link>sundarcodes.in/blog/a-z-of-javascript/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/a-z-of-javascript/</guid>
+      <description>This is my collection of A-to-Z terms that one should know if they are into serious javascript programming.
+Async/Await Async and Await are new features introduced in the language to make asynchronous code block look synchronous and more importantly make it more readable.
+Brendan Eich Brendan Eich is the creator of JavaScript. He created the language in a matter of 10 days when working for Netscape Navigator. Due credit to be given to him for creating this language.</description>
+    </item>
+    
+  </channel>
+</rss>

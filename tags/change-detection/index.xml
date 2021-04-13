@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Change Detection on Sundar</title>
+    <link>sundarcodes.in/tags/change-detection/</link>
+    <description>Recent content in Change Detection on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/change-detection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>State Management in Angular 2&#43; apps - Part 2</title>
+      <link>sundarcodes.in/blog/ui-state-management-part-2/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>sundarcodes.in/blog/ui-state-management-part-2/</guid>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using plain Angular services.
+In the last post we identified that the good reads collection is the data that is being shared by the home component and the navbar component.</description>
+    </item>
+    
+  </channel>
+</rss>
