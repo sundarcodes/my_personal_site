@@ -13,7 +13,8 @@
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/publications/aws_microservices/</guid>
-      <description>This was a workshop cum training program for faculties of engineering colleges across India. I had the chance to talk about the evolution of modern day architecture - Cloud Native, Microservices.</description>
+      <description>This was a workshop cum training program for faculties of engineering colleges across India. I had the chance to talk about the evolution of modern day architecture - Cloud Native, Microservices. In this talk, I covered the tech journey of how amazon grew from a online book buying platform to a massive ecommerce market place. In the due process, covered the following topics
+ Started as a 2 tier architecture Grew into a monolith with multi tier architecture Evolved into a Service Oriented architecture Birth of AWS - Amazon web services NoSQL movement Microservices all the way Serverless/Lambda  </description>
     </item>
     
     <item>
