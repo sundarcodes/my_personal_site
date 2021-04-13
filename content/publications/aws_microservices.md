@@ -13,7 +13,7 @@ tags:
     'Service Oriented Architecture',
   ]
 image: '/img/monolith_to_microservices.jpeg'
-link: 'http://www.alldaydevops.com/blog/organically-devops-building-quality-and-security-into-the-software-supply-chain-at-liberty-mutual'
+link: 'https://www.slideshare.net/SundararamanVaidyana/journey-from-a-monolith-to-microservices'
 fact: 'Interesting little tidbit shown below image on summary and detail page'
 weight: 400
 sitemap:
@@ -21,3 +21,12 @@ sitemap:
 ---
 
 This was a workshop cum training program for faculties of engineering colleges across India. I had the chance to talk about the evolution of modern day architecture - Cloud Native, Microservices.
+In this talk, I covered the tech journey of how amazon grew from a online book buying platform to a massive ecommerce market place. In the due process, covered the following topics
+
+- Started as a 2 tier architecture
+- Grew into a monolith with multi tier architecture
+- Evolved into a Service Oriented architecture
+- Birth of AWS - Amazon web services
+- NoSQL movement
+- Microservices all the way
+- Serverless/Lambda
