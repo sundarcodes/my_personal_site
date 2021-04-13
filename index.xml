@@ -28,21 +28,12 @@
     </item>
     
     <item>
-      <title>Added a callback props to a React Add to Calendar library</title>
+      <title>Callback props to a React Add to Calendar library</title>
       <link>/projects/contributions/react_add_to_calendar/</link>
       <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
       
       <guid>/projects/contributions/react_add_to_calendar/</guid>
       <description>Add to Calendar is a react package to add an event to calendar (Google, Outlook, Apple etc). I needed a way to handle the calendar dropdown close event when the mouse is clicked anywhere on the document. I added a callback function that would be passed as a param</description>
-    </item>
-    
-    <item>
-      <title>Added my own version of tictactoe game to builtwithelm</title>
-      <link>/projects/contributions/elm_tictactoe/</link>
-      <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
-      
-      <guid>/projects/contributions/elm_tictactoe/</guid>
-      <description>BuiltWithElm is a place where Elm enthusiasts can post any of their cool projects built on Elm. I wanted to try a functional programming language and got impressed with Elm. I came know about Elm after reading how it has influenced the Flux and Redux architecture that are being used for State management in the front end. Elm is inspired by haskell and it is something that I want to make use for building a production grade web app.</description>
     </item>
     
     <item>
@@ -55,12 +46,21 @@
     </item>
     
     <item>
+      <title>My own version of tictactoe game to builtwithelm</title>
+      <link>/projects/contributions/elm_tictactoe/</link>
+      <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
+      
+      <guid>/projects/contributions/elm_tictactoe/</guid>
+      <description>BuiltWithElm is a place where Elm enthusiasts can post any of their cool projects built on Elm. I wanted to try a functional programming language and got impressed with Elm. I came know about Elm after reading how it has influenced the Flux and Redux architecture that are being used for State management in the front end. Elm is inspired by haskell and it is something that I want to make use for building a production grade web app.</description>
+    </item>
+    
+    <item>
       <title>A no/low code developer platform for building ML &amp; RPA solutions</title>
       <link>/projects/creations/nocode_platform/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/nocode_platform/</guid>
-      <description>A platform to develop ML (Machine Learning) and RPA (Robotic process automation)</description>
+      <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions.</description>
     </item>
     
     <item>
