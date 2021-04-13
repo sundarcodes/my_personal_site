@@ -10,56 +10,59 @@
   },
   {
     "grouping": "Languages, Operating Systems & Tools",
-    "skills": ["JavaScript", "Python", "TypeScript", "git", "linux", "bash"]
+    "skills": [
+      { "name": "JavaScript", "icon": "javascript-plain" },
+      { "name": "Python", "icon": "python-plain" },
+      { "name": "TypeScript", "icon": "typescript-plain" },
+      { "name": "git", "icon": "git-plain" },
+      { "name": "linux", "icon": "linux-plain" },
+      { "name": "bash", "icon": "bash-plain" }
+    ]
   },
   {
     "grouping": "Front End",
     "skills": [
-      { "name": "Redux", "icon": "react-original" },
+      { "name": "React", "icon": "react-original" },
       { "name": "Angular", "icon": "angularjs-plain" },
       { "name": "Redux", "icon": "redux-original" },
-      "Mobx",
-      "jquery",
-      "Material UI",
+      { "name": "jquery", "icon": "jquery-plain" },
+      { "name": "Material UI", "icon": "materialui-plain" },
       { "name": "ELM", "icon": "elm-plain" },
-      { "name": "Electron", "icon": "electron-original" }
+      { "name": "Electron", "icon": "electron-original" },
+      "Mobx"
     ]
   },
   {
     "grouping": "Back End",
     "skills": [
-      { "name": "NodeJS", "icon": "react-original" },
-      { "name": "Ruby on Rails", "icon": "angularjs-plain" }
+      { "name": "NodeJS", "icon": "nodejs-plain" },
+      { "name": "Ruby on Rails" }
     ]
   },
   {
     "grouping": "Datastores",
     "skills": [
-      { "name": "Postgres", "icon": "react-original" },
-      { "name": "Mongo", "icon": "angularjs-plain" },
-      { "name": "MySQL", "icon": "angularjs-plain" },
-      { "name": "SQLLite", "icon": "angularjs-plain" }
+      { "name": "Postgres", "icon": "postgresql-plain" },
+      { "name": "Mongo", "icon": "mongodb-plain" },
+      { "name": "MySQL", "icon": "mysql-plain" },
+      { "name": "SQLLite" }
     ]
   },
   {
     "grouping": "Project/Product Management Tools",
     "skills": [
-      { "name": "Trello", "icon": "react-original" },
-      { "name": "Gitlab", "icon": "angularjs-plain" },
-      { "name": "Github Projects", "icon": "angularjs-plain" }
+      { "name": "Trello", "icon": "trello-plain" },
+      { "name": "Gitlab", "icon": "gitlab-plain" },
+      { "name": "Github Projects", "icon": "github-original" }
     ]
-  },
-  {
-    "grouping": "Platform Development & Administration",
-    "skills": ["git", "gitlab", "github"]
   },
   {
     "grouping": "Containers & Cloud",
     "skills": [
-      { "name": "Docker" },
-      { "name": "AWS" },
-      { "name": "Google Cloud" },
-      { "name": "Digital Ocean" }
+      { "name": "Docker", "icon": "docker-plain" },
+      { "name": "AWS", "icon": "amazonwebservices-original" },
+      { "name": "Google Cloud", "icon": "googlecloud-plain" },
+      { "name": "Digital Ocean", "icon": "digitalocean-plain" }
     ]
   },
   {

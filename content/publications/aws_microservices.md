@@ -13,7 +13,7 @@ tags:
     'Service Oriented Architecture',
   ]
 image: '/img/monolith_to_microservices.jpeg'
-link: 'https://www.slideshare.net/SundararamanVaidyana/journey-from-a-monolith-to-microservices'
+link: 'https://docs.google.com/presentation/d/e/2PACX-1vRr2LVL0Am_TFH-2wTokdjmZy-sAXJpsTdykkTIyYVgdZ3fkF8gGTSXCzblLmV9Dggm9XHenkVLi-Q-/pub?start=false&loop=false&delayms=3000'
 fact: 'Interesting little tidbit shown below image on summary and detail page'
 weight: 400
 sitemap:
