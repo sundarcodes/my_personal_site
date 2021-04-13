@@ -1,5 +1,5 @@
 title = "Sundar"
-baseURL = "https://example.com/"
+baseURL = "sundarcodes.in"
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
@@ -13,7 +13,7 @@ email = "sundar82@gmail.com"
 favicon = "/favicon.ico"
 firstName = "Sundar"
 lastName = ""
-phone = "+91 99621 43950"
+phone = ""
 profileImage = "img/sundar.png"
 showEducation = false
 showExperience = false
