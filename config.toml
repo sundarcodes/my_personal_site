@@ -1,5 +1,5 @@
 title = "Sundar"
-baseURL = "sundarcodes.in"
+baseURL = ""
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
