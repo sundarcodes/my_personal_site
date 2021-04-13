@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microservices on Sundar</title>
-    <link>sundarcodes.in/tags/microservices/</link>
+    <link>/tags/microservices/</link>
     <description>Recent content in Microservices on Sundar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Journey from Monolith to Microservices - AWS Story</title>
-      <link>sundarcodes.in/publications/aws_microservices/</link>
+      <link>/publications/aws_microservices/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>sundarcodes.in/publications/aws_microservices/</guid>
+      <guid>/publications/aws_microservices/</guid>
       <description>This talk looked at Liberty Mutual’s transformation to Continuous Integration, Continuous Delivery, and DevOps. For a large, heavily regulated industry, this task can not only be daunting, but viewed by many as impossible. Often, organizations try to reduce the friction through micro-fixes, but Eddie’s team asked how to change the culture to reduce the friction and concluded with the following final points:
  Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.</description>
     </item>
     
     <item>
       <title>A no/low code developer platform for building ML &amp; RPA solutions</title>
-      <link>sundarcodes.in/projects/creations/nocode_platform/</link>
+      <link>/projects/creations/nocode_platform/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
-      <guid>sundarcodes.in/projects/creations/nocode_platform/</guid>
+      <guid>/projects/creations/nocode_platform/</guid>
       <description>A platform to develop ML (Machine Learning) and RPA (Robotic process automation)</description>
     </item>
     

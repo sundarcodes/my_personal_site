@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular on Sundar</title>
-    <link>sundarcodes.in/tags/angular/</link>
+    <link>/tags/angular/</link>
     <description>Recent content in Angular on Sundar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/angular/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Added support for thousand separator in Angular localization library</title>
-      <link>sundarcodes.in/projects/contributions/angular_i10n/</link>
+      <link>/projects/contributions/angular_i10n/</link>
       <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
       
-      <guid>sundarcodes.in/projects/contributions/angular_i10n/</guid>
+      <guid>/projects/contributions/angular_i10n/</guid>
       <description>Angular l10n is a Angular localization library that supports text translation, formatting dates and numbers. The number directive that comes as part of this library was missing the thousand&amp;rsquo;s separator. My PR was to add support to the thousand&amp;rsquo;s separator.</description>
     </item>
     
     <item>
       <title>Angular vs React</title>
-      <link>sundarcodes.in/blog/angular-vs-react-my-take-on-it/</link>
+      <link>/blog/angular-vs-react-my-take-on-it/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>sundarcodes.in/blog/angular-vs-react-my-take-on-it/</guid>
+      <guid>/blog/angular-vs-react-my-take-on-it/</guid>
       <description>Ahh..I am sure you would have read umpteen number of blogs/articles comparing React, Angular (and Vue). Well this is going to be my version of it after having had a chance to work on both of them. I have developed a decent amount of projects in Angular and in React and kind of got a good grasp on both of these to write about their similarities/differences.
 For starters, both of them are used to build SPAs and good at what they are supposed to.</description>
     </item>
     
     <item>
       <title>Difference between AngularJS and Angular</title>
-      <link>sundarcodes.in/blog/angularjs-vs-angular/</link>
+      <link>/blog/angularjs-vs-angular/</link>
       <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>sundarcodes.in/blog/angularjs-vs-angular/</guid>
+      <guid>/blog/angularjs-vs-angular/</guid>
       <description>Angular the framework as this is what the Angular team would like to call, has evolved(and evolving) from being the most popular front end JavaScript framework over the last 5 years to a framework that has transformed itself to survive and be a leader for years to come. All references to Angular points to the version 2 and above and AngularJS means Angular 1.x.
 In this post, we would be seeing how different is Angular and what are the new additions it is bringing to the world of Single Page App development.</description>
     </item>

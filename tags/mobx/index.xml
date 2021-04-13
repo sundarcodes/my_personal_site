@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobx on Sundar</title>
-    <link>sundarcodes.in/tags/mobx/</link>
+    <link>/tags/mobx/</link>
     <description>Recent content in Mobx on Sundar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="sundarcodes.in/tags/mobx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mobx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>State Management in Angular 2&#43; apps - Part 4</title>
-      <link>sundarcodes.in/blog/ui-state-management-part-4/</link>
+      <link>/blog/ui-state-management-part-4/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>sundarcodes.in/blog/ui-state-management-part-4/</guid>
+      <guid>/blog/ui-state-management-part-4/</guid>
       <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.
 Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in part-3. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood.</description>
     </item>
     
     <item>
       <title>State Management in Angular 2&#43; apps - Part 1</title>
-      <link>sundarcodes.in/blog/ui-state-management-part-1/</link>
+      <link>/blog/ui-state-management-part-1/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>sundarcodes.in/blog/ui-state-management-part-1/</guid>
+      <guid>/blog/ui-state-management-part-1/</guid>
       <description>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.
 In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&amp;hellip;
 How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp;amp; 2+) background struggle to answer this question as they haven&amp;rsquo;t encountered the term state while building apps.</description>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Sundar</title>
-    <link>sundarcodes.in/tags/ai/</link>
+    <link>/tags/ai/</link>
     <description>Recent content in AI on Sundar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate><atom:link href="sundarcodes.in/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate><atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A no/low code developer platform for building ML &amp; RPA solutions</title>
-      <link>sundarcodes.in/projects/creations/nocode_platform/</link>
+      <link>/projects/creations/nocode_platform/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
-      <guid>sundarcodes.in/projects/creations/nocode_platform/</guid>
+      <guid>/projects/creations/nocode_platform/</guid>
       <description>A platform to develop ML (Machine Learning) and RPA (Robotic process automation)</description>
     </item>
     

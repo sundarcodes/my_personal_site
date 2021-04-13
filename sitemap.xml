@@ -3,468 +3,468 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>sundarcodes.in/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2020-01-07T16:47:30+00:00</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/publications/</loc>
+    <loc>/publications/</loc>
     <lastmod>2020-01-07T16:47:30+00:00</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/projects/creations/</loc>
+    <loc>/projects/creations/</loc>
     <lastmod>2020-01-07T15:00:28+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/projects/contributions/</loc>
+    <loc>/projects/contributions/</loc>
     <lastmod>2020-01-07T16:49:15+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/publications/mlflow_talk/</loc>
+    <loc>/publications/mlflow_talk/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/publications/aws_microservices/</loc>
+    <loc>/publications/aws_microservices/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/projects/contributions/react_add_to_calendar/</loc>
+    <loc>/projects/contributions/react_add_to_calendar/</loc>
     <lastmod>2021-03-14T17:09:26+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/projects/contributions/elm_tictactoe/</loc>
+    <loc>/projects/contributions/elm_tictactoe/</loc>
     <lastmod>2017-08-14T17:09:26+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/projects/contributions/angular_i10n/</loc>
+    <loc>/projects/contributions/angular_i10n/</loc>
     <lastmod>2017-08-14T17:09:26+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/javascript/</loc>
+    <loc>/tags/javascript/</loc>
     <lastmod>2021-03-14T17:09:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/jest/</loc>
+    <loc>/tags/jest/</loc>
     <lastmod>2021-03-14T17:09:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2021-03-14T17:09:26+00:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/react/</loc>
+    <loc>/tags/react/</loc>
     <lastmod>2021-03-14T17:09:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2021-03-14T17:09:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/devops/</loc>
+    <loc>/tags/devops/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/machine-learning/</loc>
+    <loc>/tags/machine-learning/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/mlflow/</loc>
+    <loc>/tags/mlflow/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/aws/</loc>
+    <loc>/tags/aws/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/microservices/</loc>
+    <loc>/tags/microservices/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/monolith/</loc>
+    <loc>/tags/monolith/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/service-oriented-architecture/</loc>
+    <loc>/tags/service-oriented-architecture/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/software-architecture/</loc>
+    <loc>/tags/software-architecture/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/projects/creations/nocode_platform/</loc>
+    <loc>/projects/creations/nocode_platform/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/ai/</loc>
+    <loc>/tags/ai/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/amplify/</loc>
+    <loc>/tags/amplify/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/docker/</loc>
+    <loc>/tags/docker/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/dynamodb/</loc>
+    <loc>/tags/dynamodb/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/projects/creations/discord_events/</loc>
+    <loc>/projects/creations/discord_events/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/express/</loc>
+    <loc>/tags/express/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/faunadb/</loc>
+    <loc>/tags/faunadb/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/firebase/</loc>
+    <loc>/tags/firebase/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/graphql/</loc>
+    <loc>/tags/graphql/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/ml/</loc>
+    <loc>/tags/ml/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/mongo/</loc>
+    <loc>/tags/mongo/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/nestjs/</loc>
+    <loc>/tags/nestjs/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/nodejs/</loc>
+    <loc>/tags/nodejs/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/react-native/</loc>
+    <loc>/tags/react-native/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/rest-apis/</loc>
+    <loc>/tags/rest-apis/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/projects/creations/tutora/</loc>
+    <loc>/projects/creations/tutora/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/typescript/</loc>
+    <loc>/tags/typescript/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/backend/</loc>
+    <loc>/tags/backend/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/data-store/</loc>
+    <loc>/tags/data-store/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/frontend/</loc>
+    <loc>/tags/frontend/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/how-did-i-go-about-choosing-my-techstack-for-my-pet-project/</loc>
+    <loc>/blog/how-did-i-go-about-choosing-my-techstack-for-my-pet-project/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/tech-stack/</loc>
+    <loc>/tags/tech-stack/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/mysql/</loc>
+    <loc>/tags/mysql/</loc>
     <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/postgres/</loc>
+    <loc>/tags/postgres/</loc>
     <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/postgres-mysql-query-optimization/</loc>
+    <loc>/blog/postgres-mysql-query-optimization/</loc>
     <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/sql-query-tuning/</loc>
+    <loc>/tags/sql-query-tuning/</loc>
     <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/editor/</loc>
+    <loc>/tags/editor/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/lint/</loc>
+    <loc>/tags/lint/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/productivity/</loc>
+    <loc>/tags/productivity/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/tools/</loc>
+    <loc>/tags/tools/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/tools-that-make-me-productive/</loc>
+    <loc>/blog/tools-that-make-me-productive/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/web-development/</loc>
+    <loc>/tags/web-development/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/angular/</loc>
+    <loc>/tags/angular/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/angular-vs-react-my-take-on-it/</loc>
+    <loc>/blog/angular-vs-react-my-take-on-it/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/angular-2&#43;/</loc>
+    <loc>/tags/angular-2&#43;/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/ngrx/</loc>
+    <loc>/tags/ngrx/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/redux/</loc>
+    <loc>/tags/redux/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/state-management/</loc>
+    <loc>/tags/state-management/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/ui-state-management-part-6/</loc>
+    <loc>/blog/ui-state-management-part-6/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/what-to-choose/</loc>
+    <loc>/tags/what-to-choose/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/</loc>
+    <loc>/</loc>
     <lastmod>2018-02-10T18:56:13-05:00</lastmod>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/ui-state-management-part-5/</loc>
+    <loc>/blog/ui-state-management-part-5/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/change-detection-strategy/</loc>
+    <loc>/tags/change-detection-strategy/</loc>
     <lastmod>2018-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/mobx/</loc>
+    <loc>/tags/mobx/</loc>
     <lastmod>2018-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/ui-state-management-part-4/</loc>
+    <loc>/blog/ui-state-management-part-4/</loc>
     <lastmod>2018-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/observables/</loc>
+    <loc>/tags/observables/</loc>
     <lastmod>2017-12-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/rxjs/</loc>
+    <loc>/tags/rxjs/</loc>
     <lastmod>2017-12-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/ui-state-management-part-3/</loc>
+    <loc>/blog/ui-state-management-part-3/</loc>
     <lastmod>2017-12-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/change-detection/</loc>
+    <loc>/tags/change-detection/</loc>
     <lastmod>2017-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/services/</loc>
+    <loc>/tags/services/</loc>
     <lastmod>2017-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/ui-state-management-part-2/</loc>
+    <loc>/blog/ui-state-management-part-2/</loc>
     <lastmod>2017-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/ui-state-management-part-1/</loc>
+    <loc>/blog/ui-state-management-part-1/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/a-z-of-javascript/</loc>
+    <loc>/blog/a-z-of-javascript/</loc>
     <lastmod>2017-09-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/terminologies/</loc>
+    <loc>/tags/terminologies/</loc>
     <lastmod>2017-09-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/elm/</loc>
+    <loc>/tags/elm/</loc>
     <lastmod>2017-08-14T17:09:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/functional-programming/</loc>
+    <loc>/tags/functional-programming/</loc>
     <lastmod>2017-08-14T17:09:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/game/</loc>
+    <loc>/tags/game/</loc>
     <lastmod>2017-08-14T17:09:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/i10n/</loc>
+    <loc>/tags/i10n/</loc>
     <lastmod>2017-08-14T17:09:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/analogy/</loc>
+    <loc>/tags/analogy/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/front-end-analogies/</loc>
+    <loc>/blog/front-end-analogies/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/front-end-basics/</loc>
+    <loc>/tags/front-end-basics/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/best-practices/</loc>
+    <loc>/tags/best-practices/</loc>
     <lastmod>2017-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/git/</loc>
+    <loc>/tags/git/</loc>
     <lastmod>2017-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/git-workflow/</loc>
+    <loc>/blog/git-workflow/</loc>
     <lastmod>2017-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/version-control/</loc>
+    <loc>/tags/version-control/</loc>
     <lastmod>2017-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/tags/angularjs/</loc>
+    <loc>/tags/angularjs/</loc>
     <lastmod>2017-03-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>sundarcodes.in/blog/angularjs-vs-angular/</loc>
+    <loc>/blog/angularjs-vs-angular/</loc>
     <lastmod>2017-03-25T00:00:00+00:00</lastmod>
   </url>
   
