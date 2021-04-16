@@ -28,7 +28,7 @@ publicationsAlternateName = "talks"
 [params.google]
 
 [params.google.analytics]
-trackerID = "XX-123446-01"
+trackerID = "UA-96880592-1"
 
 [[params.handles]]
 link = "https://www.linkedin.com/in/sundararaman-vaidyanathan-67417a18"
