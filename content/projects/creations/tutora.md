@@ -11,4 +11,4 @@
 "category": "Mobile App"
 }
 
-A Mobile App to connect tutors with students and relieve of tutors from the administrative problems
+This is a side project where I am working on developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles while conducting online/offline classes/tuitions. It is designed to be cloud native application with options to scale at will.
