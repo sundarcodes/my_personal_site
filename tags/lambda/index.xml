@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lambda on Sundar</title>
+    <link>/tags/lambda/</link>
+    <description>Recent content in Lambda on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate><atom:link href="/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tuition Management App</title>
+      <link>/projects/creations/tutora/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/tutora/</guid>
+      <description>This is a side project where I am working on developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles while conducting online/offline classes/tuitions. It is designed to be cloud native application with options to scale at will.</description>
+    </item>
+    
+    <item>
+      <title>Handwritten Data Recognition</title>
+      <link>/projects/creations/form_reader/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/form_reader/</guid>
+      <description>This project was about creating an OCR solution to understand and read hand written information from application forms. This involved using deep learning algorithms for image classification, object detection and character recognition. The entire ML life cycle of gathering data, annotating the data, training the models on different deep learning algorithms was followed and finally the solution was deployed on Cloud.</description>
+    </item>
+    
+  </channel>
+</rss>

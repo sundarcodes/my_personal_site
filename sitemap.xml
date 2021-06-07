@@ -138,17 +138,12 @@
   </url>
   
   <url>
-    <loc>/tags/amplify/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/docker/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/dynamodb/</loc>
+    <loc>/tags/electron/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
@@ -163,11 +158,6 @@
   </url>
   
   <url>
-    <loc>/tags/faunadb/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/firebase/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
@@ -178,12 +168,27 @@
   </url>
   
   <url>
+    <loc>/tags/lambda/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/ml/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
+    <loc>/tags/mobx/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/mongo/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/mongo-realm/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
   
@@ -208,6 +213,11 @@
   </url>
   
   <url>
+    <loc>/tags/sns/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/projects/creations/tutora/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url>
@@ -215,6 +225,41 @@
   <url>
     <loc>/tags/typescript/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/auto-scaling/</loc>
+    <lastmod>2020-06-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/computer-vision/</loc>
+    <lastmod>2020-06-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/deep-learning/</loc>
+    <lastmod>2020-06-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/creations/form_reader/</loc>
+    <lastmod>2020-06-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/opencv/</loc>
+    <lastmod>2020-06-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rest-api/</loc>
+    <lastmod>2020-06-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/creations/cheque_ocr/</loc>
+    <lastmod>2019-08-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
@@ -345,11 +390,6 @@
   
   <url>
     <loc>/tags/change-detection-strategy/</loc>
-    <lastmod>2018-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/mobx/</loc>
     <lastmod>2018-01-04T00:00:00+00:00</lastmod>
   </url>
   

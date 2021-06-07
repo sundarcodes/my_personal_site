@@ -6,7 +6,16 @@
     <description>Recent content in Mobx on Sundar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mobx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate><atom:link href="/tags/mobx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tuition Management App</title>
+      <link>/projects/creations/tutora/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/tutora/</guid>
+      <description>This is a side project where I am working on developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles while conducting online/offline classes/tuitions. It is designed to be cloud native application with options to scale at will.</description>
+    </item>
+    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 4</title>
       <link>/blog/ui-state-management-part-4/</link>

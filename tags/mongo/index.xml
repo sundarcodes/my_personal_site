@@ -13,7 +13,16 @@
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/nocode_platform/</guid>
-      <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions.</description>
+      <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions. Architected the entire platform right from ground up. Had created a framework for plugging in the custom blocks using python.</description>
+    </item>
+    
+    <item>
+      <title>Tuition Management App</title>
+      <link>/projects/creations/tutora/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/tutora/</guid>
+      <description>This is a side project where I am working on developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles while conducting online/offline classes/tuitions. It is designed to be cloud native application with options to scale at will.</description>
     </item>
     
   </channel>

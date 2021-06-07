@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>REST API on Sundar</title>
+    <link>/tags/rest-api/</link>
+    <description>Recent content in REST API on Sundar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jun 2020 12:41:05 -0500</lastBuildDate><atom:link href="/tags/rest-api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Handwritten Data Recognition</title>
+      <link>/projects/creations/form_reader/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/form_reader/</guid>
+      <description>This project was about creating an OCR solution to understand and read hand written information from application forms. This involved using deep learning algorithms for image classification, object detection and character recognition. The entire ML life cycle of gathering data, annotating the data, training the models on different deep learning algorithms was followed and finally the solution was deployed on Cloud.</description>
+    </item>
+    
+    <item>
+      <title>Scanned Cheque OCR</title>
+      <link>/projects/creations/cheque_ocr/</link>
+      <pubDate>Sun, 11 Aug 2019 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/cheque_ocr/</guid>
+      <description>As the traditional computer vision solutions were not able to recognize all the printed characters in a scanned cheque, this solution based on deep learning provided an acceptable level of results - More than 80% as opposed the traditional open cv based approach which yielded 60%. This involved annotating and training close to 10000 cheques.I was instrumental in designing and developing the entire solution.</description>
+    </item>
+    
+  </channel>
+</rss>

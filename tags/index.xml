@@ -125,15 +125,6 @@
     </item>
     
     <item>
-      <title>Amplify</title>
-      <link>/tags/amplify/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/amplify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Docker</title>
       <link>/tags/docker/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
@@ -143,11 +134,11 @@
     </item>
     
     <item>
-      <title>DynamoDB</title>
-      <link>/tags/dynamodb/</link>
+      <title>Electron</title>
+      <link>/tags/electron/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
-      <guid>/tags/dynamodb/</guid>
+      <guid>/tags/electron/</guid>
       <description></description>
     </item>
     
@@ -157,15 +148,6 @@
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/express/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FaunaDB</title>
-      <link>/tags/faunadb/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/faunadb/</guid>
       <description></description>
     </item>
     
@@ -188,6 +170,15 @@
     </item>
     
     <item>
+      <title>Lambda</title>
+      <link>/tags/lambda/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/lambda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ML</title>
       <link>/tags/ml/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
@@ -197,11 +188,29 @@
     </item>
     
     <item>
+      <title>Mobx</title>
+      <link>/tags/mobx/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/mobx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mongo</title>
       <link>/tags/mongo/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/mongo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongo REALM</title>
+      <link>/tags/mongo-realm/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/mongo-realm/</guid>
       <description></description>
     </item>
     
@@ -242,11 +251,65 @@
     </item>
     
     <item>
+      <title>SNS</title>
+      <link>/tags/sns/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/sns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>TypeScript</title>
       <link>/tags/typescript/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Auto Scaling</title>
+      <link>/tags/auto-scaling/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/auto-scaling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>/tags/computer-vision/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opencv</title>
+      <link>/tags/opencv/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/opencv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST API</title>
+      <link>/tags/rest-api/</link>
+      <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/rest-api/</guid>
       <description></description>
     </item>
     
@@ -418,15 +481,6 @@
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/change-detection-strategy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobx</title>
-      <link>/tags/mobx/</link>
-      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mobx/</guid>
       <description></description>
     </item>
     
