@@ -49,15 +49,7 @@
   },
   {
     "grouping": "Machine Learning",
-    "skills": [
-      "NLP",
-      "Computer Vision",
-      "Deep Learning",
-      "Open CV",
-      "spacy",
-      "YOLO",
-      "MaskRCNN"
-    ]
+    "skills": ["NLP", "Computer Vision", "Deep Learning", "Open CV", "spacy"]
   },
   {
     "grouping": "Datastores",

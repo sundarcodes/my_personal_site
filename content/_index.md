@@ -12,7 +12,7 @@ outputs:
 
 A software engineer having more than a decade and half years of experience in writing and developing network, system and web application softwares. Started my career as a C,C++ programmer, helped companies build network management softwares and later went on to build stock exchange management systems software. Moved to web and mobile app development over the few years and has absolutely enjoyed the transition since then. Have dabbled with machine learning in last few years. I love to mentor and build strong tech teams. To summarise, a polyglot programmer who loves to build teams and products.
 
-I enjoy designing and architecting solutions and at the same time love coding them in could cruse at **_10000_** feet and **0** feet. Over the recent years, I have been involved productizing few ideas and what I realized the best way to charter a product road map is to allow the product itself lay it through constant user feedback. This is to me is the most important recipe for building a great product.
+I enjoy designing and architecting solutions and at the same time love coding them, in short could cruse at **_10000_** feet and **0** feet. Over the recent years, I have been involved in productizing few ideas and what I realized the best way to charter a product road map is to allow the product itself to lay it through constant user feedback. This is to me is the most important recipe for building a great product or a solution for that matter.
 
 Over the years, I got to realize that writing code is an art which is not just about solving a problem but more importantly to write in such a way people are able to read, understand, learn, appreciate and maintain it. Currently, freelancing on anything related to software development.
 
