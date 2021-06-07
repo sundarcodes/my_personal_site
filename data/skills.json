@@ -3,19 +3,23 @@
     "grouping": "Architecture",
     "skills": [
       "Microservices",
-      "Cloud Native Apps",
-      "RESTful APIs",
-      "SaaS/PaaS/IaaS"
+      "Event Driven Architecture",
+      "Cloud Native Apps"
     ]
   },
   {
-    "grouping": "Languages, Operating Systems & Tools",
+    "grouping": "Programming Languages",
     "skills": [
       { "name": "JavaScript", "icon": "javascript-plain" },
       { "name": "Python", "icon": "python-plain" },
-      { "name": "TypeScript", "icon": "typescript-plain" },
-      { "name": "git", "icon": "git-plain" },
+      { "name": "TypeScript", "icon": "typescript-plain" }
+    ]
+  },
+  {
+    "grouping": "Operating Systems & Tools",
+    "skills": [
       { "name": "linux", "icon": "linux-plain" },
+      { "name": "git", "icon": "git-plain" },
       { "name": "bash", "icon": "bash-plain" }
     ]
   },
@@ -36,7 +40,23 @@
     "grouping": "Back End",
     "skills": [
       { "name": "NodeJS", "icon": "nodejs-plain" },
-      { "name": "Ruby on Rails" }
+      "AWS Amplify",
+      "Mongo Realm",
+      "RESTful APIs",
+      { "name": "GraphQL", "icon": "graphql-plain" },
+      { "name": "Ruby on Rails", "icon": "rails-plain" }
+    ]
+  },
+  {
+    "grouping": "Machine Learning",
+    "skills": [
+      "NLP",
+      "Computer Vision",
+      "Deep Learning",
+      "Open CV",
+      "spacy",
+      "YOLO",
+      "MaskRCNN"
     ]
   },
   {

@@ -210,5 +210,7 @@
   "postgresql-plain",
   "nodejs-plain",
   "jquery-plain",
-  "materialui-plain"
+  "materialui-plain",
+  "rails-plain",
+  "graphql-plain"
 ]

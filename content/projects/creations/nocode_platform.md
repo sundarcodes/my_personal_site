@@ -5,10 +5,10 @@
 "link": "",
 "image": "",
 "description": "A platform to develop ML (Machine Learning) and RPA (Robotic process automation)",
-"tags": ["AI","ML", "Python", "React", "Mongo", "Docker", "NestJS", "TypeScript","REST APIs", "Microservices"],
+"tags": ["AI","ML", "Python", "React", "Mongo", "Docker", "NestJS", "TypeScript","REST APIs", "Microservices", "Electron"],
 "fact": "",
 "featured":true,
 "category": "Platform"
 }
 
-This low code platform's objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions.
+This low code platform's objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions. Architected the entire platform right from ground up. Had created a framework for plugging in the custom blocks using python.
