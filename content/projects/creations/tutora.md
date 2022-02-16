@@ -12,3 +12,33 @@
 }
 
 This is a side project where I am working on developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles while conducting online/offline classes/tuitions. It is designed to be cloud native application with options to scale at will.
+
+### Tech Stack
+
+#### Frontend
+
+- React Native as UI framework
+- Mobx for state management
+- GraphQL/REST clients for CRUD
+
+#### Backend
+
+- AWS Serverless for business logic
+- AWS API Gateway for routing
+- AWS Cognito for authentication
+- AWS S3 for storage
+- AWS Event Bridge for integrations with third party apps
+
+#### DataStore
+
+- Mongo DB Atlas for storing application data
+- Mongo Realm as the persistence layer interface exposing GraphQL server
+
+#### Integrations
+
+- Twilio for SMS and Email
+
+#### Programming Languages
+
+- TypeScript
+- JavaScript

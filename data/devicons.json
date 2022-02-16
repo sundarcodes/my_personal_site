@@ -211,6 +211,8 @@
   "nodejs-plain",
   "jquery-plain",
   "materialui-plain",
+  "elasticsearch-plain",
   "rails-plain",
-  "graphql-plain"
+  "graphql-plain",
+  "apple-original"
 ]

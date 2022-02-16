@@ -3,7 +3,7 @@ title: 'A-Z of JavaScript'
 date: 2017-09-06
 tags: ['JavaScript', 'terminologies']
 draft: false
-featured: true
+featured: false
 ---
 
 This is my collection of A-to-Z terms that one should know if they are into serious javascript programming.

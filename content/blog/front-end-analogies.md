@@ -3,6 +3,7 @@ title: 'Front End development Analogy'
 date: 2017-08-01
 tags: ['web-development', 'analogy', 'front-end-basics']
 draft: false
+featured: true
 ---
 
 Whenever we learn about some topics or if you are teaching someone, I always felt analogies from day to day life makes a greater impact to a person's understanding. This post is my take on analogy of technologies/terminologies/people involved in front end development.

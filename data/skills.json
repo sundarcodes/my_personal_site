@@ -19,6 +19,7 @@
     "grouping": "Operating Systems & Tools",
     "skills": [
       { "name": "linux", "icon": "linux-plain" },
+      { "name": "osx", "icon": "apple-original" },
       { "name": "git", "icon": "git-plain" },
       { "name": "bash", "icon": "bash-plain" }
     ]
@@ -57,7 +58,8 @@
       { "name": "Postgres", "icon": "postgresql-plain" },
       { "name": "Mongo", "icon": "mongodb-plain" },
       { "name": "MySQL", "icon": "mysql-plain" },
-      { "name": "SQLLite" }
+      { "name": "SQLLite" },
+      { "name": "Elasticsearch", "icon": "elasticsearch-plain" }
     ]
   },
   {
