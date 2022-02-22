@@ -30,7 +30,7 @@
   <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
   
-  <meta name="generator" content="Hugo 0.76.5" />
+  <meta name="generator" content="Hugo 0.92.2" />
   
    
   
@@ -118,7 +118,7 @@
     <span class="text-primary">December 11, 2017</span>
     <p>In <a href="/blog/ui-state-management-part-1/">part-1</a> of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using plain Angular services.</p>
 <p>In the last post we identified that the good reads collection is the data that is being shared by the home component and the navbar component. So we know that when we need to share data between components, we just need to introduce a service, place the data in the service and inject the service in components that needs it. This is the approach which we would have taken if we are working in AngularJS(Angular 1.x) also this is precisely what we will be doing here.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">Injectable</span>()
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">Injectable</span>()
 <span style="color:#66d9ef">export</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">BackendService</span> {
   <span style="color:#a6e22e">baseAPIRURL</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http://localhost:3000/api&#39;</span>;
   <span style="color:#a6e22e">reads</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">GoodRead</span>[];
@@ -127,34 +127,34 @@
     <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span> <span style="color:#f92672">=</span> [];
   }
 </code></pre></div><p>We have a <code>BackendService</code> which is going to hold our collection in the reads variable. <code>GoodRead</code> is our model class which is going to have all attributes of blog/book like title, description, catergory etc.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">GoodRead</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">GoodRead</span> {
     <span style="color:#a6e22e">constructor</span>(<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">description</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">category</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>,
         <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">isRead</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">boolean</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">?:</span> <span style="color:#a6e22e">number</span>) {
 
     }
 }
 </code></pre></div><p>The service is going to talk with the backend and get the data and store it back in the <code>reads</code> variable.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"> <span style="color:#a6e22e">fetchAllReads</span>() {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"> <span style="color:#a6e22e">fetchAllReads</span>() {
     <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">url</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">baseAPIRURL</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/index`</span>;
     <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">subs</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">get</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">GoodRead</span>[]<span style="color:#f92672">&gt;</span>(<span style="color:#a6e22e">url</span>)
       .<span style="color:#a6e22e">subscribe</span>(<span style="color:#a6e22e">data</span> =&gt; <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>);
   }
 </code></pre></div><p>And we would be exposing this <code>reads</code> array using a getter.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">get</span> <span style="color:#a6e22e">allReads</span>()<span style="color:#f92672">:</span> <span style="color:#a6e22e">GoodRead</span>[] {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">get</span> <span style="color:#a6e22e">allReads</span>()<span style="color:#f92672">:</span> <span style="color:#a6e22e">GoodRead</span>[] {
     <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span>;
   }
 </code></pre></div><p>Now in our home.component.ts, we would inject this service and in the home.component.html, we would be using this the service in our html to render the items in the DOM.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">    &lt;div class=&#34;col-sm-4&#34;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">    &lt;div class=&#34;col-sm-4&#34;
       *ngFor=&#34;let readItem of backendService.allReads&#34;&gt;
       &lt;div class=&#34;card&#34;&gt;
         &lt;div class=&#34;card-body&#34;&gt;
 </code></pre></div><p>Now to display the number of items read, we expose a getter in the <code>BackendService</code>. I will come to the console.log statement in just a while.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  get allReadsCount(): number {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  get allReadsCount(): number {
     console.log(`Reading counter at ${Date.now()}`);
     return this.reads.filter(read =&gt; read.isRead).length;
   }
 </code></pre></div><p>We would be using this method in the navbar component to display the number of reads.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  &lt;ul class=&#34;nav&#34;&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  &lt;ul class=&#34;nav&#34;&gt;
     &lt;li class=&#34;nav-item&#34;&gt;
        Read
       &lt;span class=&#34;badge badge-primary badge-pill&#34;&gt;{{backendService.allReadsCount}}&lt;/span&gt;
@@ -165,7 +165,7 @@
 <h4 id="pitfall--1---relying-on-angulars-change-detection">Pitfall # 1 - Relying on Angular&rsquo;s Change Detection</h4>
 <p>Here, you have to understand how Angular magically updates the <strong>DOM</strong> whenever the <code>reads</code> variable in the <code>BackendService</code> gets updated. This happens through a change detection mechanism that gets triggered on every event that happens and Angular checks all the variables referenced in the HTML to see if its reference or value has changed. If there is a change, Angular rerenders the correspoding part of the DOM.</p>
 <p>The following line in the <code>navbar.component.html</code> is supposed to show the value of the total number of read items. I have added a console log inside the allReadCount getter, just to show the number of times the getter function is called.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;span class=&#34;badge badge-primary badge-pill&#34;&gt;{{backendService.allReadsCount}}&lt;/span&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;span class=&#34;badge badge-primary badge-pill&#34;&gt;{{backendService.allReadsCount}}&lt;/span&gt;
 </code></pre></div><p>You could observe from the below snapshot that for every event that happens in the UI, keypress, mouse scroll etc, Angular triggers the change detection mechanism to check any value has changed. This is a costly operation and for large scale apps with lot of component, this will cause performance issues. So this also help us understand how Angular does this magic of updating the DOM when we change anything in our state in the service.</p>
 <p><img src="/img/change-detection.png" alt="alt text"></p>
 <p>The read counter gets called for every keypress that I do in the form which is not required.</p>

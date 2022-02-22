@@ -30,7 +30,7 @@
   <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
   
-  <meta name="generator" content="Hugo 0.76.5" />
+  <meta name="generator" content="Hugo 0.92.2" />
   
    
   
@@ -134,14 +134,14 @@
 <p>To implement this, it makes heavy use of observables and to make it easy for the developers, it has done lot of heavy lifting. To understand and read more on this, please refer to this <a href="https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254">blog</a> from the creator of Mobx, <a href="https://twitter.com/mweststrate">Michel Westrate</a>.</p>
 <p>Okay. Its time now to see Mobx in action.We would be using a package called <a href="https://github.com/mobxjs/mobx-angular">mobx-angular</a> which is an angular wrapper on the mobx.</p>
 <p>The first thing we are going to do is to create the store. Our store is going to hold the reads collection. <code>actionStatus</code> will be used to store the status of a network request.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">@Injectable()
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">@Injectable()
 export class GoodReadStore {
   @observable reads: GoodRead[] = [];
   @observable actionStatus: networkRequestState;
   constructor(private backendService: BackendService) {}
 
 </code></pre></div><p>Next is to handle our actions. For this we would be creating different methods in our Store corresponding to different actions that could be performed in our app.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> @action
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> @action
   addNewGoodRead(read: GoodRead) {
     this.actionStatus = networkRequestState.Pending;
     this.backendService.addNewRead(read).subscribe(
@@ -157,23 +157,23 @@ export class GoodReadStore {
   }
 </code></pre></div><p>The code above handles adding a new good read in our app. <code>@action</code> is a decorator that indicates this is an mobx action where state mutation may happen. We are just invoking the backend service and creating a new collection with the newly added item.</p>
 <p>Now, it time to see how to implement a derivation. Here in our app, it would be the read counter.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">@computed
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">@computed
   get readsCounter(): number {
     console.log(`Reading counter @ ${Date.now()}`);
     return this.reads.filter(read =&gt; read.isRead).length;
   }
 </code></pre></div><p>We just use the <code>@computed</code> decorator to make the <code>readsCounter</code> a derivation.</p>
 <p>Also if you have noticed, the code that interacts with the service would just simply do one job of interacting with the backend APIs, thus adhering to the Single Responsibility Principle.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  addNewRead(read: GoodRead) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  addNewRead(read: GoodRead) {
     const url = `${this.baseAPIRURL}/create`
     return this.http.post&lt;GoodRead&gt;(url, read);
   }
 </code></pre></div><p>Now that we have setup the mobx infra, lets see how to use them from the components. Lets&rsquo;s say the user deletes a read item. All we need to do is call the delete action defined in the mobx store. The below snippet is from <code>home.component</code>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  deleteItem(id: number) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  deleteItem(id: number) {
     this.store.deleteRead(id);
   }
 </code></pre></div><p>Now, lets see what are the changes in <code>home.component.html</code>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;div class=&#34;container&#34;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;div class=&#34;container&#34;
   *mobxAutorun&gt;
   &lt;div class=&#34;create&#34;&gt;
     &lt;a routerLink=&#34;/new&#34;
@@ -191,7 +191,7 @@ export class GoodReadStore {
 &lt;/div&gt;
 </code></pre></div><p>We now are directly reading the store <code>reads</code> collection. Note that there is no <code>| async</code>, instead we are using <code>*mobxAutorun</code> directive which automatically takes care of rerendering the list if there are any changes to state. This is the magic that Mobx does out of the box for us.</p>
 <p>We can also mark the home component&rsquo;s change detection strategy to OnPush as Mobx would ensure that it would trigger the change detection whenever it sees there is a change in a state that the component would be interested in. This alleviates the developers from the responsbility of making apps more performant.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Component({
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Component({
   selector: &#39;app-home&#39;,
   templateUrl: &#39;./home.component.html&#39;,
   styleUrls: [&#39;./home.component.css&#39;],

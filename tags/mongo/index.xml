@@ -13,7 +13,8 @@
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/nocode_platform/</guid>
-      <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions. Architected the entire platform right from ground up. Had created a framework for plugging in the custom blocks using python.</description>
+      <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions for ML and RPA needs. Architected the entire platform right from ground up.
+Tech Stack Frontend  React as UI library Redux for state management REST APIs for CRUD Electron for desktop application  Backend  NestJS for business logic ML microservices NodeRed for low-code development  DataStore  MongoDB  Integrations  MLFlow for machine learning lifecycle  Programming Languages  TypeScript JavaScript Python  </description>
     </item>
     
     <item>
@@ -22,7 +23,8 @@
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/tutora/</guid>
-      <description>This is a side project where I am working on developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles while conducting online/offline classes/tuitions. It is designed to be cloud native application with options to scale at will.</description>
+      <description>This is about developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles of managing/running a online/physical classes. The backend is cloud native and frontend is built using React Native.
+Tech Stack Frontend  React Native as UI framework Mobx for state management GraphQL/REST clients for CRUD  Backend  AWS Serverless for business logic AWS API Gateway for routing AWS Cognito for authentication AWS S3 for storage AWS Event Bridge for integrations with third party apps  DataStore  Mongo DB Atlas for storing application data Mongo Realm as the persistence layer interface exposing GraphQL server  Integrations  Twilio for SMS and Email  Programming Languages  TypeScript JavaScript  </description>
     </item>
     
   </channel>

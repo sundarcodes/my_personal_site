@@ -30,7 +30,7 @@
   <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
   
-  <meta name="generator" content="Hugo 0.76.5" />
+  <meta name="generator" content="Hugo 0.92.2" />
   
    
   
@@ -129,7 +129,7 @@
 <p>Though reducers are the place where most of your business logic may reside, but we cannot do any thing that may cause side effects inside them - which means we cannot do a network request to fetch some data from backend. But we cannot build apps which doesn&rsquo;t have any network requests. This is where the effects come into play. It is the effects which handles codes that produces side effects and convert them to actions which gets sent to the reducer to yield a new state.</p>
 <p>I know it&rsquo;s a bit vague now. Let&rsquo;s look at some code to get a better picture. The code below uses ngRx version 2. Please note that the latest version of ngRx has moved into a mono repo and has a slightly different API. However, the concept remains the same.</p>
 <p>First, we would be listing down all the actions in our app that could possiblly change the state in a <code>actions.ts</code> file.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">    static FETCH_ALL_READS = &#39;FETCH_ALL_READS&#39;;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">    static FETCH_ALL_READS = &#39;FETCH_ALL_READS&#39;;
     static FETCH_ALL_READS_SUCCESS = &#39;FETCH_ALL_READS_SUCCESS&#39;;
     static FETCH_ALL_READS_FAILURE = &#39;FETCH_ALL_READS_FAILURE&#39;;
 
@@ -153,7 +153,7 @@
     static DELETE_READ_SUCCESS = &#39;DELETE_READ_SUCCESS&#39;;
     static DELETE_READ_FAILURE = &#39;DELETE_READ_FAILURE&#39;;
 </code></pre></div><p>Then we define the state of our application and we also initialize it.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">export interface GoodReadState {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">export interface GoodReadState {
     readsCollection: GoodRead[];
     operationMsg: string;
 }
@@ -164,7 +164,7 @@ export const initialState: GoodReadState =  {
 }
 </code></pre></div><p>Then we define our reducer which is just a pure function and returns a new state, given the current state and an action.
 I have used the lodash cloneDeep function to create a new instance of the state and update it. I could have also used ES6 features to achieve the same thing. Remember pure functions should not alter the input passed and also should not cause any side effects.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">export function reducer(state: AppState = initialState, { type, payload }: Action) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">export function reducer(state: AppState = initialState, { type, payload }: Action) {
     let newState: AppState;
     let findIndexToReplace;
     switch (type) {
@@ -211,7 +211,7 @@ I have used the lodash cloneDeep function to create a new instance of the state 
     return newState;
 }
 </code></pre></div><p>And finally to handle our network request, we need to wire up the effects part. The effects are going to intercept the actions that needs a call to backend, does the actual call through a service and finally dispatches an action with the resultant data or server response.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">@Injectable()
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">@Injectable()
 export class GoodReadEffects {
 
     constructor(private action$: Actions, private backendService: BackendService,
@@ -250,7 +250,7 @@ export class GoodReadEffects {
     .map((read: GoodRead) =&gt; this.goodReadActions.addNewReadSuccess(read));
 }
 </code></pre></div><p>Now that we have tough part out, lets look at how we are going to utilize this redux setup. Let&rsquo;s assume the user clicks on the read checkbox. Below is the code in the <code>home.component.ts</code> that handles this functionality. It just simply dispatches an action to mark a particular item as read/not read. This would be handled in the reducer and</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  toggleItemRead(id: number, isRead: boolean) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  toggleItemRead(id: number, isRead: boolean) {
     if (isRead) {
       this.store.dispatch(this.goodReadActions.markAsRead(id))
     } else {
@@ -258,12 +258,12 @@ export class GoodReadEffects {
     }
 }
 </code></pre></div><p>Now that we have seen how to dispatch/trigger the action through the store, we need to know how the view/DOM gets updated once there is a change in the state. For this we hook up an observable to the store. Here below is the code in <code>home.component.ts</code> where the <code>allReads$</code> variable is hooked on to the state&rsquo;s readCollection property.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ngOnInit() {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ngOnInit() {
     // this.allReads$ = this.store.select(selectAllReads);
     this.allReads$ = this.store.select((state: AppState) =&gt; state.readsCollection)
 }
 </code></pre></div><p>Any changes to the readCollection would trigger a re-render to the DOM as shown below.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> &lt;div class=&#34;col-sm-4&#34;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> &lt;div class=&#34;col-sm-4&#34;
       *ngFor=&#34;let readItem of allReads$ | async&#34;&gt;
       &lt;app-read-card [readItem]=&#34;readItem&#34;
         (checkEvent)=&#34;toggleItemRead(readItem.id, !readItem.isRead)&#34;
