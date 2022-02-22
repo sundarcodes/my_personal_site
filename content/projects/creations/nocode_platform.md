@@ -11,7 +11,7 @@
 "category": "Platform"
 }
 
-This low code platform's objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions. Architected the entire platform right from ground up. Had created a framework for plugging in the custom blocks using python.
+This low code platform's objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions for ML and RPA needs. Architected the entire platform right from ground up.
 
 ### Tech Stack
 

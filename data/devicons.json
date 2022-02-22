@@ -214,5 +214,6 @@
   "elasticsearch-plain",
   "rails-plain",
   "graphql-plain",
-  "apple-original"
+  "apple-original",
+  "flask-original"
 ]

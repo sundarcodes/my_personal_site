@@ -12,7 +12,8 @@
     "skills": [
       { "name": "JavaScript", "icon": "javascript-plain" },
       { "name": "Python", "icon": "python-plain" },
-      { "name": "TypeScript", "icon": "typescript-plain" }
+      { "name": "TypeScript", "icon": "typescript-plain" },
+      { "name": "SOLID Design Principles", "icon": "" }
     ]
   },
   {
@@ -45,6 +46,7 @@
       "Mongo Realm",
       "RESTful APIs",
       { "name": "GraphQL", "icon": "graphql-plain" },
+      { "name": "Flask", "icon": "flask-original" },
       { "name": "Ruby on Rails", "icon": "rails-plain" }
     ]
   },
