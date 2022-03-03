@@ -18,12 +18,13 @@ Tech Stack Frontend  React as UI library Redux for state management REST APIs fo
     </item>
     
     <item>
-      <title>Events Management App</title>
-      <link>/projects/creations/discord_events/</link>
+      <title>Search Engine for Discord</title>
+      <link>/projects/creations/discord_search_engine/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
-      <guid>/projects/creations/discord_events/</guid>
-      <description>A progressive web app (PWA) place to find and manage events happening around you</description>
+      <guid>/projects/creations/discord_search_engine/</guid>
+      <description>This is about building an aggregated search engine for Discord servers. Users could see and search on what people are talking publicly on popular discord servers. The current version of app is targeted to be used by people interested in fin tech and crypto news.
+Tech Stack Frontend  React, Mithriljs Mobx for state management REST clients for CRUD  Backend  Feathersjs for REST APIs NodeJS app for data collection/scraping Bullmq for queueing  DataStore  Redis as in-memory data store Firestore for persistent data storage  Programming Languages  TypeScript JavaScript  </description>
     </item>
     
     <item>
@@ -54,6 +55,16 @@ Tech Stack Frontend  Angular as UI framework REST APIs for CRUD  Backend  NestJS
       <guid>/projects/creations/cheque_ocr/</guid>
       <description>As the traditional computer vision solutions were not able to recognize all the printed characters in a scanned cheque, this solution based on deep learning provided an acceptable level of results - More than 80% as opposed the traditional open cv based approach which yielded 60%. This involved annotating and training close to 10000 cheques.I was instrumental in designing and developing the entire solution.
 Tech Stack Backend  Flask for ML API Docker Yolo and Faster RCNN for object detection Inception for image classification Tesseract for OCR Tensorflow as the deep learning framework  Programming Languages and libraries  Python OpenCV  </description>
+    </item>
+    
+    <item>
+      <title>FIX Messages Testing tool</title>
+      <link>/projects/creations/fix_rattler/</link>
+      <pubDate>Fri, 11 Aug 2017 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/fix_rattler/</guid>
+      <description>This was a tool developed in python to stress test a stock exchange management system. The tool could be configured to pump in different kinds of orders and also the rate at which orders need to be sent.
+Tech Stack  Python XML Parser  </description>
     </item>
     
   </channel>

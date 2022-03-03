@@ -17,14 +17,5 @@
 Tech Stack Frontend  React as UI library Redux for state management REST APIs for CRUD Electron for desktop application  Backend  NestJS for business logic ML microservices NodeRed for low-code development  DataStore  MongoDB  Integrations  MLFlow for machine learning lifecycle  Programming Languages  TypeScript JavaScript Python  </description>
     </item>
     
-    <item>
-      <title>Events Management App</title>
-      <link>/projects/creations/discord_events/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/projects/creations/discord_events/</guid>
-      <description>A progressive web app (PWA) place to find and manage events happening around you</description>
-    </item>
-    
   </channel>
 </rss>

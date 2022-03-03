@@ -47,5 +47,15 @@ Tech Stack Frontend  Angular as UI framework REST APIs for CRUD  Backend  NestJS
 Tech Stack Backend  Flask for ML API Docker Yolo and Faster RCNN for object detection Inception for image classification Tesseract for OCR Tensorflow as the deep learning framework  Programming Languages and libraries  Python OpenCV  </description>
     </item>
     
+    <item>
+      <title>FIX Messages Testing tool</title>
+      <link>/projects/creations/fix_rattler/</link>
+      <pubDate>Fri, 11 Aug 2017 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/fix_rattler/</guid>
+      <description>This was a tool developed in python to stress test a stock exchange management system. The tool could be configured to pump in different kinds of orders and also the rate at which orders need to be sent.
+Tech Stack  Python XML Parser  </description>
+    </item>
+    
   </channel>
 </rss>

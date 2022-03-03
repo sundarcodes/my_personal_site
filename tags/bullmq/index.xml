@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NodeJS on Sundar</title>
-    <link>/tags/nodejs/</link>
-    <description>Recent content in NodeJS on Sundar</description>
+    <title>BullMQ on Sundar</title>
+    <link>/tags/bullmq/</link>
+    <description>Recent content in BullMQ on Sundar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate><atom:link href="/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate><atom:link href="/tags/bullmq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search Engine for Discord</title>
       <link>/projects/creations/discord_search_engine/</link>

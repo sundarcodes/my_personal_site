@@ -87,19 +87,13 @@
     <loc>/tags/ai/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
+    <loc>/tags/bullmq/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url><url>
     <loc>/tags/docker/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>/tags/electron/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/projects/creations/discord_events/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/tags/express/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/tags/firebase/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>/tags/graphql/</loc>
@@ -129,7 +123,16 @@
     <loc>/tags/react-native/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
+    <loc>/tags/redis/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url><url>
     <loc>/tags/rest-apis/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/scalable/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/projects/creations/discord_search_engine/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>/tags/sns/</loc>
@@ -283,6 +286,18 @@
     <loc>/tags/i10n/</loc>
     <lastmod>2017-08-14T17:09:26+00:00</lastmod>
   </url><url>
+    <loc>/tags/fix/</loc>
+    <lastmod>2017-08-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/projects/creations/fix_rattler/</loc>
+    <lastmod>2017-08-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/stock-exchange-management-system/</loc>
+    <lastmod>2017-08-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/testing-tool/</loc>
+    <lastmod>2017-08-11T12:41:05-05:00</lastmod>
+  </url><url>
     <loc>/tags/analogy/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -309,5 +324,7 @@
   </url><url>
     <loc>/blog/angularjs-vs-angular/</loc>
     <lastmod>2017-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/stress/performance-testing/</loc>
   </url>
 </urlset>
