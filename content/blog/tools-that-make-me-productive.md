@@ -33,8 +33,14 @@ I love working on the command line, but it slowly pulls me down when I have too 
 
 Nowadays, if I am working on a NodeJS or on building a web app, TypeScript is what I setup first. TypeScript has become an indespensable part of web development these days with official starter kits of Angular(by default), VueJS and React (coming up, though we have create-react-app starter for TypeScript)
 
+
+### [Mock Data generator][mockaroo]
+
+I found a great tool to generate mock data for my projects. I use it for testing purposes and it is very useful. Its [mockaroo][mockaroo]
+
 [vs-code-mac-cheat-sheet]: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
 [vs-code-windows-cheat-sheet]: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 [transfer.sh]: https://transfer.sh/
 [dutch-coders]: http://dutchcoders.io/
 [iterm]: https://www.iterm2.com/
+[mockaroo]: https://www.mockaroo.com/

@@ -4,11 +4,32 @@
 "image": "/img/circleci-workflow.webp",
 "link": "",
 "image": "",
-"description": "A progressive web app (PWA) place to find and manage events happening around you",
+"description": "A web app to find and manage events happening around you",
 "tags": ["React","NodeJS", "Express", "Firebase", "REST APIs", "TypeScript"],
 "fact": "",
 "featured":false,
-"category": "PWA"
+"category": "PWA",
+"draft": true
 }
 
-A progressive web app (PWA) place to find and manage events happening around you
+A web app find and manage events happening around you.
+
+
+### Tech Stack
+
+
+#### Frontend
+
+- React as UI library
+- Mobx for state management
+- REST APIs for CRUD
+#### Backend
+
+- Express
+
+#### DataStore
+- Firebase
+#### Programming Languages and libraries
+
+- JavaScript
+- TypeScript

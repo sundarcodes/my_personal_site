@@ -78,11 +78,17 @@
       { "name": "Docker", "icon": "docker-plain" },
       { "name": "AWS", "icon": "amazonwebservices-original" },
       { "name": "Google Cloud", "icon": "googlecloud-plain" },
-      { "name": "Digital Ocean", "icon": "digitalocean-plain" }
+      { "name": "Digital Ocean", "icon": "digitalocean-plain" },
+      { "name": "Infra as Code" }
     ]
   },
   {
-    "grouping": "Testing tools",
-    "skills": [{ "name": "Cypress" }, { "name": "Jest" }]
+    "grouping": "DevOps",
+    "skills": [
+      { "name": "Cypress" },
+      { "name": "Jest" },
+      { "name": "Fastlane" },
+      { "name": "Gitlab CI/CD" }
+    ]
   }
 ]
