@@ -8,12 +8,15 @@
     ]
   },
   {
+    "grouping": "Healthy Code",
+    "skills": ["SOLID", "DRY", "Lerna", "commitlint", "eslint", "Unit testing"]
+  },
+  {
     "grouping": "Programming Languages",
     "skills": [
       { "name": "JavaScript", "icon": "javascript-plain" },
       { "name": "Python", "icon": "python-plain" },
-      { "name": "TypeScript", "icon": "typescript-plain" },
-      { "name": "SOLID Design Principles", "icon": "" }
+      { "name": "TypeScript", "icon": "typescript-plain" }
     ]
   },
   {
@@ -33,6 +36,7 @@
       { "name": "Redux", "icon": "redux-original" },
       { "name": "jquery", "icon": "jquery-plain" },
       { "name": "Material UI", "icon": "materialui-plain" },
+      { "name": "tailwind", "icon": "tailwindcss-original" },
       { "name": "ELM", "icon": "elm-plain" },
       { "name": "Electron", "icon": "electron-original" },
       "Mobx"
@@ -67,9 +71,9 @@
   {
     "grouping": "Project/Product Management Tools",
     "skills": [
+      { "name": "Jira", "icon": "jira-original" },
       { "name": "Trello", "icon": "trello-plain" },
-      { "name": "Gitlab", "icon": "gitlab-plain" },
-      { "name": "Github Projects", "icon": "github-original" }
+      { "name": "Gitlab", "icon": "gitlab-plain" }
     ]
   },
   {
@@ -80,6 +84,18 @@
       { "name": "Google Cloud", "icon": "googlecloud-plain" },
       { "name": "Digital Ocean", "icon": "digitalocean-plain" },
       { "name": "Infra as Code" }
+    ]
+  },
+  {
+    "grouping": "AWS Services",
+    "skills": [
+      { "name": "Lambda", "icon": "docker-plain" },
+      { "name": "SQS", "icon": "amazonwebservices-original" },
+      { "name": "SNS", "icon": "googlecloud-plain" },
+      { "name": "Event Bridge", "icon": "digitalocean-plain" },
+      { "name": "Cloud Watch" },
+      { "name": "Dynamo DB" },
+      { "name": "Amplify" }
     ]
   },
   {
