@@ -14,7 +14,7 @@
       
       <guid>/publications/aws_microservices/</guid>
       <description>This was a workshop cum training program for faculties of engineering colleges across India. I had the chance to talk about the evolution of modern day architecture - Cloud Native, Microservices. In this talk, I covered the tech journey of how amazon grew from a online book buying platform to a massive ecommerce market place. In the due process, covered the following topics
- Started as a 2 tier architecture Grew into a monolith with multi tier architecture Evolved into a Service Oriented architecture Birth of AWS - Amazon web services NoSQL movement Microservices all the way Serverless/Lambda  </description>
+Started as a 2 tier architecture Grew into a monolith with multi tier architecture Evolved into a Service Oriented architecture Birth of AWS - Amazon web services NoSQL movement Microservices all the way Serverless/Lambda </description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       
       <guid>/projects/creations/nocode_platform/</guid>
       <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions for ML and RPA needs. Architected the entire platform right from ground up.
-Tech Stack Frontend  React as UI library Redux for state management REST APIs for CRUD Electron for desktop application  Backend  NestJS for business logic ML microservices NodeRed for low-code development  DataStore  MongoDB  Integrations  MLFlow for machine learning lifecycle  Programming Languages  TypeScript JavaScript Python  </description>
+Tech Stack Frontend React as UI library Redux for state management REST APIs for CRUD Electron for desktop application Backend NestJS for business logic ML microservices NodeRed for low-code development DataStore MongoDB Integrations MLFlow for machine learning lifecycle Programming Languages TypeScript JavaScript Python </description>
     </item>
     
   </channel>

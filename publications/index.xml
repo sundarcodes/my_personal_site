@@ -14,7 +14,7 @@
       
       <guid>/publications/mlflow_talk/</guid>
       <description>This talk was on the importance of tooling in a ML development lifecyle.
- Importance of tracking the various metrics involved in training the model - training parameters, training results Tieing up the model with the datasets and the training params Packaging the model in a standard format to be later deployed to any modern tech stack.    </description>
+Importance of tracking the various metrics involved in training the model - training parameters, training results Tieing up the model with the datasets and the training params Packaging the model in a standard format to be later deployed to any modern tech stack. </description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       
       <guid>/publications/aws_microservices/</guid>
       <description>This was a workshop cum training program for faculties of engineering colleges across India. I had the chance to talk about the evolution of modern day architecture - Cloud Native, Microservices. In this talk, I covered the tech journey of how amazon grew from a online book buying platform to a massive ecommerce market place. In the due process, covered the following topics
- Started as a 2 tier architecture Grew into a monolith with multi tier architecture Evolved into a Service Oriented architecture Birth of AWS - Amazon web services NoSQL movement Microservices all the way Serverless/Lambda  </description>
+Started as a 2 tier architecture Grew into a monolith with multi tier architecture Evolved into a Service Oriented architecture Birth of AWS - Amazon web services NoSQL movement Microservices all the way Serverless/Lambda </description>
     </item>
     
   </channel>

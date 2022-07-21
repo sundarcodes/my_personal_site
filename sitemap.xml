@@ -38,20 +38,65 @@
     <lastmod>2017-08-14T17:09:26+00:00</lastmod>
     <priority>0.8</priority>
   </url><url>
+    <loc>/tags/aws/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/graphql/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/lambda/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/mobx/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/mongo/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/mongo-realm/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/projects/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>/tags/react-native/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/sns/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/projects/creations/tutora/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/typescript/</loc>
+    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/chrome-extension/</loc>
+    <lastmod>2022-05-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/projects/creations/procure/</loc>
+    <lastmod>2022-05-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/lerna/</loc>
+    <lastmod>2022-05-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/postgres/</loc>
+    <lastmod>2022-05-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/react/</loc>
+    <lastmod>2022-05-11T12:41:05-05:00</lastmod>
+  </url><url>
+    <loc>/tags/redux/</loc>
+    <lastmod>2022-05-11T12:41:05-05:00</lastmod>
+  </url><url>
     <loc>/tags/javascript/</loc>
     <lastmod>2021-03-14T17:09:26+00:00</lastmod>
   </url><url>
     <loc>/tags/jest/</loc>
-    <lastmod>2021-03-14T17:09:26+00:00</lastmod>
-  </url><url>
-    <loc>/projects/</loc>
-    <lastmod>2021-03-14T17:09:26+00:00</lastmod>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>/tags/react/</loc>
-    <lastmod>2021-03-14T17:09:26+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-03-14T17:09:26+00:00</lastmod>
   </url><url>
     <loc>/tags/devops/</loc>
@@ -65,9 +110,6 @@
   </url><url>
     <loc>/tags/python/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/aws/</loc>
-    <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/microservices/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
@@ -96,31 +138,13 @@
     <loc>/tags/electron/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
-    <loc>/tags/graphql/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/tags/lambda/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
     <loc>/tags/ml/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/tags/mobx/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/tags/mongo/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/tags/mongo-realm/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>/tags/nestjs/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>/tags/nodejs/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/tags/react-native/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>/tags/redis/</loc>
@@ -133,15 +157,6 @@
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>/projects/creations/discord_search_engine/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/tags/sns/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/projects/creations/tutora/</loc>
-    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/tags/typescript/</loc>
     <lastmod>2020-08-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>/tags/auto-scaling/</loc>
@@ -183,9 +198,6 @@
     <loc>/tags/mysql/</loc>
     <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/postgres/</loc>
-    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/blog/postgres-mysql-query-optimization/</loc>
     <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -220,9 +232,6 @@
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/ngrx/</loc>
-    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/redux/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/state-management/</loc>

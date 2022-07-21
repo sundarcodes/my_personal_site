@@ -4,9 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Sundar | State Management in Angular 2&#43; apps - Part 1</title>
-  <meta property="og:title" content="Sundar | State Management in Angular 2&#43; apps - Part 1" />
-  <meta property="og:image" content="/img/sundar.png" />
   <meta name="description" content="">
+
+  
+  
+    <meta property="og:image" content="/img/sundar.png" />
+    <meta property="og:title" content="Sundar | State Management in Angular 2&#43; apps - Part 1" />   
+  
   <meta property="og:description" content="" />
   <meta name="author" content="Sundar ">
   
@@ -18,10 +22,8 @@
       <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
   <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
-  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"></noscript>
-    
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous"></noscript>
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
   
@@ -29,8 +31,9 @@
     <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
   <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
-  
-  <meta name="generator" content="Hugo 0.92.2" />
+  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.101.0" />
   
    
   
@@ -112,11 +115,14 @@
 
 
 
-<section class="resume-section p-3 p-lg-5 d-flex d-column">
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
   <div class="my-auto">
-    <h2 class="mb-0"><span class="text-primary">State Management in Angular 2&#43; apps - Part 1</span></h2>
-    <span class="text-primary">December 1, 2017</span>
-    <p>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.</p>
+  	<div class="mb-3 d-flex flex-row justify-content-between">
+    	<h2 class="mb-0"><span class="text-primary">State Management in Angular 2&#43; apps - Part 1</span></h2>
+    	<span class="">December 1, 2017</span>
+    </div>
+    <div>
+    	<p>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.</p>
 <p>In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&hellip;</p>
 <h3 id="how-do-you-define-state-or-what-is-state-of-an-app-">How do you define state or what is state of an app ?</h3>
 <p>I have seen junior developers who just have Angular(1 &amp; 2+) background struggle to answer this question as they haven&rsquo;t encountered the term <strong>state</strong> while building apps. This is where getting to know different alternative like React or Vue helps. React is built on the philosophy of UI is a function of state. Please read <a href="http://beletsky.net/2016/04/the-functional-approach-to-ui.html">this</a> to understand more about the philosophy.</p>
@@ -156,20 +162,12 @@ Programatically speaking, a state is nothing but the variables - objects, number
 <li>Managing state using Redux via ngRx - Part 5</li>
 </ul>
 
-    
+	    
+	</div>
+    <div>
+    	
+    </div>
     <ul class="tags">
-    
-      <li><a class="tag" href="/tags/state-management">State Management</a></li>
-    
-      <li><a class="tag" href="/tags/rxjs">RxJS</a></li>
-    
-      <li><a class="tag" href="/tags/mobx">Mobx</a></li>
-    
-      <li><a class="tag" href="/tags/redux">Redux</a></li>
-    
-      <li><a class="tag" href="/tags/ngrx">ngRx</a></li>
-    
-      <li><a class="tag" href="/tags/angular-2&#43;">Angular 2&#43;</a></li>
     
 </ul>
 
@@ -177,12 +175,14 @@ Programatically speaking, a state is nothing but the variables - objects, number
 </section>
 
 
-    <span style="color: #999999; font-size: 60%;">Template By <a href="https://startbootstrap.com/theme/resume">Start Bootstrap Theme</a> Ported to Hugo by <a class="pen-owner-link" href="https://github.com/eddiewebb/hugo-resume">eddiewebb</a> </span>
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
     
   </div>
   
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
   
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>

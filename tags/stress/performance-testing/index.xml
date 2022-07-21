@@ -13,7 +13,7 @@
       
       <guid>/projects/creations/fix_rattler/</guid>
       <description>This was a tool developed in python to stress test a stock exchange management system. The tool could be configured to pump in different kinds of orders and also the rate at which orders need to be sent.
-Tech Stack  Python XML Parser  </description>
+Tech Stack Python XML Parser </description>
     </item>
     
   </channel>

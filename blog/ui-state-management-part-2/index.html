@@ -4,9 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Sundar | State Management in Angular 2&#43; apps - Part 2</title>
-  <meta property="og:title" content="Sundar | State Management in Angular 2&#43; apps - Part 2" />
-  <meta property="og:image" content="/img/sundar.png" />
   <meta name="description" content="">
+
+  
+  
+    <meta property="og:image" content="/img/sundar.png" />
+    <meta property="og:title" content="Sundar | State Management in Angular 2&#43; apps - Part 2" />   
+  
   <meta property="og:description" content="" />
   <meta name="author" content="Sundar ">
   
@@ -18,10 +22,8 @@
       <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
   <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
-  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"></noscript>
-    
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous"></noscript>
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
   
@@ -29,8 +31,9 @@
     <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
   <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
-  
-  <meta name="generator" content="Hugo 0.92.2" />
+  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.101.0" />
   
    
   
@@ -112,61 +115,64 @@
 
 
 
-<section class="resume-section p-3 p-lg-5 d-flex d-column">
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
   <div class="my-auto">
-    <h2 class="mb-0"><span class="text-primary">State Management in Angular 2&#43; apps - Part 2</span></h2>
-    <span class="text-primary">December 11, 2017</span>
-    <p>In <a href="/blog/ui-state-management-part-1/">part-1</a> of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using plain Angular services.</p>
+  	<div class="mb-3 d-flex flex-row justify-content-between">
+    	<h2 class="mb-0"><span class="text-primary">State Management in Angular 2&#43; apps - Part 2</span></h2>
+    	<span class="">December 11, 2017</span>
+    </div>
+    <div>
+    	<p>In <a href="/blog/ui-state-management-part-1/">part-1</a> of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using plain Angular services.</p>
 <p>In the last post we identified that the good reads collection is the data that is being shared by the home component and the navbar component. So we know that when we need to share data between components, we just need to introduce a service, place the data in the service and inject the service in components that needs it. This is the approach which we would have taken if we are working in AngularJS(Angular 1.x) also this is precisely what we will be doing here.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">Injectable</span>()
-<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">BackendService</span> {
-  <span style="color:#a6e22e">baseAPIRURL</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http://localhost:3000/api&#39;</span>;
-  <span style="color:#a6e22e">reads</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">GoodRead</span>[];
-  <span style="color:#a6e22e">subs</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Subscription</span>;
-  <span style="color:#a6e22e">constructor</span>(<span style="color:#66d9ef">private</span> <span style="color:#a6e22e">http</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">HttpClient</span>) {
-    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span> <span style="color:#f92672">=</span> [];
-  }
-</code></pre></div><p>We have a <code>BackendService</code> which is going to hold our collection in the reads variable. <code>GoodRead</code> is our model class which is going to have all attributes of blog/book like title, description, catergory etc.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">GoodRead</span> {
-    <span style="color:#a6e22e">constructor</span>(<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">description</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">category</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>,
-        <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">isRead</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">boolean</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">?:</span> <span style="color:#a6e22e">number</span>) {
-
-    }
-}
-</code></pre></div><p>The service is going to talk with the backend and get the data and store it back in the <code>reads</code> variable.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"> <span style="color:#a6e22e">fetchAllReads</span>() {
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">url</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">baseAPIRURL</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/index`</span>;
-    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">subs</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">get</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">GoodRead</span>[]<span style="color:#f92672">&gt;</span>(<span style="color:#a6e22e">url</span>)
-      .<span style="color:#a6e22e">subscribe</span>(<span style="color:#a6e22e">data</span> =&gt; <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>);
-  }
-</code></pre></div><p>And we would be exposing this <code>reads</code> array using a getter.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">get</span> <span style="color:#a6e22e">allReads</span>()<span style="color:#f92672">:</span> <span style="color:#a6e22e">GoodRead</span>[] {
-    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span>;
-  }
-</code></pre></div><p>Now in our home.component.ts, we would inject this service and in the home.component.html, we would be using this the service in our html to render the items in the DOM.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">    &lt;div class=&#34;col-sm-4&#34;
-      *ngFor=&#34;let readItem of backendService.allReads&#34;&gt;
-      &lt;div class=&#34;card&#34;&gt;
-        &lt;div class=&#34;card-body&#34;&gt;
-</code></pre></div><p>Now to display the number of items read, we expose a getter in the <code>BackendService</code>. I will come to the console.log statement in just a while.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  get allReadsCount(): number {
-    console.log(`Reading counter at ${Date.now()}`);
-    return this.reads.filter(read =&gt; read.isRead).length;
-  }
-</code></pre></div><p>We would be using this method in the navbar component to display the number of reads.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  &lt;ul class=&#34;nav&#34;&gt;
-    &lt;li class=&#34;nav-item&#34;&gt;
-       Read
-      &lt;span class=&#34;badge badge-primary badge-pill&#34;&gt;{{backendService.allReadsCount}}&lt;/span&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
-</code></pre></div><p>Please look <a href="https://github.com/sundarcodes/my-good-reads-app/tree/master/frontend/angular/services-based-state-management/my-good-reads-app">here</a> for the complete code base.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">Injectable</span>()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">BackendService</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">baseAPIRURL</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http://localhost:3000/api&#39;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">reads</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">GoodRead</span>[];
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">subs</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Subscription</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">constructor</span>(<span style="color:#66d9ef">private</span> <span style="color:#a6e22e">http</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">HttpClient</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span> <span style="color:#f92672">=</span> [];
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>We have a <code>BackendService</code> which is going to hold our collection in the reads variable. <code>GoodRead</code> is our model class which is going to have all attributes of blog/book like title, description, catergory etc.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">GoodRead</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">constructor</span>(<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">description</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">category</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">isRead</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">boolean</span>, <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">?:</span> <span style="color:#a6e22e">number</span>) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The service is going to talk with the backend and get the data and store it back in the <code>reads</code> variable.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span> <span style="color:#a6e22e">fetchAllReads</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">url</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">baseAPIRURL</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/index`</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">subs</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">get</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">GoodRead</span>[]<span style="color:#f92672">&gt;</span>(<span style="color:#a6e22e">url</span>)
+</span></span><span style="display:flex;"><span>      .<span style="color:#a6e22e">subscribe</span>(<span style="color:#a6e22e">data</span> =&gt; <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>And we would be exposing this <code>reads</code> array using a getter.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">get</span> <span style="color:#a6e22e">allReads</span>()<span style="color:#f92672">:</span> <span style="color:#a6e22e">GoodRead</span>[] {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">reads</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>Now in our home.component.ts, we would inject this service and in the home.component.html, we would be using this the service in our html to render the items in the DOM.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    &lt;div class=&#34;col-sm-4&#34;
+</span></span><span style="display:flex;"><span>      *ngFor=&#34;let readItem of backendService.allReads&#34;&gt;
+</span></span><span style="display:flex;"><span>      &lt;div class=&#34;card&#34;&gt;
+</span></span><span style="display:flex;"><span>        &lt;div class=&#34;card-body&#34;&gt;
+</span></span></code></pre></div><p>Now to display the number of items read, we expose a getter in the <code>BackendService</code>. I will come to the console.log statement in just a while.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>  get allReadsCount(): number {
+</span></span><span style="display:flex;"><span>    console.log(`Reading counter at ${Date.now()}`);
+</span></span><span style="display:flex;"><span>    return this.reads.filter(read =&gt; read.isRead).length;
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>We would be using this method in the navbar component to display the number of reads.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>  &lt;ul class=&#34;nav&#34;&gt;
+</span></span><span style="display:flex;"><span>    &lt;li class=&#34;nav-item&#34;&gt;
+</span></span><span style="display:flex;"><span>       Read
+</span></span><span style="display:flex;"><span>      &lt;span class=&#34;badge badge-primary badge-pill&#34;&gt;{{backendService.allReadsCount}}&lt;/span&gt;
+</span></span><span style="display:flex;"><span>    &lt;/li&gt;
+</span></span><span style="display:flex;"><span>  &lt;/ul&gt;
+</span></span></code></pre></div><p>Please look <a href="https://github.com/sundarcodes/my-good-reads-app/tree/master/frontend/angular/services-based-state-management/my-good-reads-app">here</a> for the complete code base.</p>
 <p>We have achieved what we wanted but is this the best solution. This offcourse is the simplest and more importantly it works!! But it has its own pitfalls. Lets see what are those.</p>
 <h4 id="pitfall--1---relying-on-angulars-change-detection">Pitfall # 1 - Relying on Angular&rsquo;s Change Detection</h4>
 <p>Here, you have to understand how Angular magically updates the <strong>DOM</strong> whenever the <code>reads</code> variable in the <code>BackendService</code> gets updated. This happens through a change detection mechanism that gets triggered on every event that happens and Angular checks all the variables referenced in the HTML to see if its reference or value has changed. If there is a change, Angular rerenders the correspoding part of the DOM.</p>
 <p>The following line in the <code>navbar.component.html</code> is supposed to show the value of the total number of read items. I have added a console log inside the allReadCount getter, just to show the number of times the getter function is called.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;span class=&#34;badge badge-primary badge-pill&#34;&gt;{{backendService.allReadsCount}}&lt;/span&gt;
-</code></pre></div><p>You could observe from the below snapshot that for every event that happens in the UI, keypress, mouse scroll etc, Angular triggers the change detection mechanism to check any value has changed. This is a costly operation and for large scale apps with lot of component, this will cause performance issues. So this also help us understand how Angular does this magic of updating the DOM when we change anything in our state in the service.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;span class=&#34;badge badge-primary badge-pill&#34;&gt;{{backendService.allReadsCount}}&lt;/span&gt;
+</span></span></code></pre></div><p>You could observe from the below snapshot that for every event that happens in the UI, keypress, mouse scroll etc, Angular triggers the change detection mechanism to check any value has changed. This is a costly operation and for large scale apps with lot of component, this will cause performance issues. So this also help us understand how Angular does this magic of updating the DOM when we change anything in our state in the service.</p>
 <p><img src="/img/change-detection.png" alt="alt text"></p>
 <p>The read counter gets called for every keypress that I do in the form which is not required.</p>
 <h4 id="pitfall--2---exposing-the-state-data">Pitfall # 2 - Exposing the state data</h4>
@@ -174,16 +180,12 @@
 <h4 id="summary">Summary</h4>
 <p>This approach of managing state through Angular Services turns out to be a <a href="https://en.wikipedia.org/wiki/Anti-pattern">anti-pattern</a>. Please do not use this technique. In the next <a href="/blog/ui-state-management-part-3/">post</a>, we would be seeing a better approach using Observables.</p>
 
-    
+	    
+	</div>
+    <div>
+    	
+    </div>
     <ul class="tags">
-    
-      <li><a class="tag" href="/tags/state-management">State Management</a></li>
-    
-      <li><a class="tag" href="/tags/services">Services</a></li>
-    
-      <li><a class="tag" href="/tags/change-detection">Change Detection</a></li>
-    
-      <li><a class="tag" href="/tags/angular-2&#43;">Angular 2&#43;</a></li>
     
 </ul>
 
@@ -191,12 +193,14 @@
 </section>
 
 
-    <span style="color: #999999; font-size: 60%;">Template By <a href="https://startbootstrap.com/theme/resume">Start Bootstrap Theme</a> Ported to Hugo by <a class="pen-owner-link" href="https://github.com/eddiewebb/hugo-resume">eddiewebb</a> </span>
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
     
   </div>
   
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
   
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>

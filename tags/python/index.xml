@@ -14,7 +14,7 @@
       
       <guid>/publications/mlflow_talk/</guid>
       <description>This talk was on the importance of tooling in a ML development lifecyle.
- Importance of tracking the various metrics involved in training the model - training parameters, training results Tieing up the model with the datasets and the training params Packaging the model in a standard format to be later deployed to any modern tech stack.    </description>
+Importance of tracking the various metrics involved in training the model - training parameters, training results Tieing up the model with the datasets and the training params Packaging the model in a standard format to be later deployed to any modern tech stack. </description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       
       <guid>/projects/creations/nocode_platform/</guid>
       <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions for ML and RPA needs. Architected the entire platform right from ground up.
-Tech Stack Frontend  React as UI library Redux for state management REST APIs for CRUD Electron for desktop application  Backend  NestJS for business logic ML microservices NodeRed for low-code development  DataStore  MongoDB  Integrations  MLFlow for machine learning lifecycle  Programming Languages  TypeScript JavaScript Python  </description>
+Tech Stack Frontend React as UI library Redux for state management REST APIs for CRUD Electron for desktop application Backend NestJS for business logic ML microservices NodeRed for low-code development DataStore MongoDB Integrations MLFlow for machine learning lifecycle Programming Languages TypeScript JavaScript Python </description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@ Tech Stack Frontend  React as UI library Redux for state management REST APIs fo
       
       <guid>/projects/creations/form_reader/</guid>
       <description>This was about creating an OCR solution to understand and read hand written information from application forms. This involved using deep learning algorithms for image classification, object detection and character recognition. The entire ML life cycle of gathering data, annotating the data, training the models on different deep learning algorithms was followed and finally the solution was deployed on Cloud.
-Tech Stack Frontend  Angular as UI framework REST APIs for CRUD  Backend  NestJS as backend for UI Flask for ML API AWS S3 for storage AWS EC2 for app container AWS lamda for micro services AWS Auto Scaling for scaling AWS DynamoDB for persistence Tensorflow for deep learning Yolo and Faster RCNN for object detection Inception for image classification  DataStore  Postgres  Programming Languages  TypeScript Python  </description>
+Tech Stack Frontend Angular as UI framework REST APIs for CRUD Backend NestJS as backend for UI Flask for ML API AWS S3 for storage AWS EC2 for app container AWS lamda for micro services AWS Auto Scaling for scaling AWS DynamoDB for persistence Tensorflow for deep learning Yolo and Faster RCNN for object detection Inception for image classification DataStore Postgres Programming Languages TypeScript Python </description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@ Tech Stack Frontend  Angular as UI framework REST APIs for CRUD  Backend  NestJS
       
       <guid>/projects/creations/cheque_ocr/</guid>
       <description>As the traditional computer vision solutions were not able to recognize all the printed characters in a scanned cheque, this solution based on deep learning provided an acceptable level of results - More than 80% as opposed the traditional open cv based approach which yielded 60%. This involved annotating and training close to 10000 cheques.I was instrumental in designing and developing the entire solution.
-Tech Stack Backend  Flask for ML API Docker Yolo and Faster RCNN for object detection Inception for image classification Tesseract for OCR Tensorflow as the deep learning framework  Programming Languages and libraries  Python OpenCV  </description>
+Tech Stack Backend Flask for ML API Docker Yolo and Faster RCNN for object detection Inception for image classification Tesseract for OCR Tensorflow as the deep learning framework Programming Languages and libraries Python OpenCV </description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@ Tech Stack Backend  Flask for ML API Docker Yolo and Faster RCNN for object dete
       
       <guid>/projects/creations/fix_rattler/</guid>
       <description>This was a tool developed in python to stress test a stock exchange management system. The tool could be configured to pump in different kinds of orders and also the rate at which orders need to be sent.
-Tech Stack  Python XML Parser  </description>
+Tech Stack Python XML Parser </description>
     </item>
     
   </channel>

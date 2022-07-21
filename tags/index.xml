@@ -6,7 +6,133 @@
     <description>Recent content in Tags on Sundar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Mar 2021 17:09:26 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 12:41:05 -0500</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS</title>
+      <link>/tags/aws/</link>
+      <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GraphQL</title>
+      <link>/tags/graphql/</link>
+      <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/graphql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lambda</title>
+      <link>/tags/lambda/</link>
+      <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/lambda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobx</title>
+      <link>/tags/mobx/</link>
+      <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/mobx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongo</title>
+      <link>/tags/mongo/</link>
+      <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/mongo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongo REALM</title>
+      <link>/tags/mongo-realm/</link>
+      <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/mongo-realm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React Native</title>
+      <link>/tags/react-native/</link>
+      <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/react-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SNS</title>
+      <link>/tags/sns/</link>
+      <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/sns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>/tags/typescript/</link>
+      <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome Extension</title>
+      <link>/tags/chrome-extension/</link>
+      <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/chrome-extension/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lerna</title>
+      <link>/tags/lerna/</link>
+      <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/lerna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postgres</title>
+      <link>/tags/postgres/</link>
+      <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>/tags/react/</link>
+      <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redux</title>
+      <link>/tags/redux/</link>
+      <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/redux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>JavaScript</title>
       <link>/tags/javascript/</link>
@@ -22,15 +148,6 @@
       <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
       
       <guid>/tags/jest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>/tags/react/</link>
-      <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
-      
-      <guid>/tags/react/</guid>
       <description></description>
     </item>
     
@@ -67,15 +184,6 @@
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AWS</title>
-      <link>/tags/aws/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/aws/</guid>
       <description></description>
     </item>
     
@@ -152,56 +260,11 @@
     </item>
     
     <item>
-      <title>GraphQL</title>
-      <link>/tags/graphql/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/graphql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lambda</title>
-      <link>/tags/lambda/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/lambda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ML</title>
       <link>/tags/ml/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobx</title>
-      <link>/tags/mobx/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/mobx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mongo</title>
-      <link>/tags/mongo/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/mongo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mongo REALM</title>
-      <link>/tags/mongo-realm/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/mongo-realm/</guid>
       <description></description>
     </item>
     
@@ -220,15 +283,6 @@
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/nodejs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React Native</title>
-      <link>/tags/react-native/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/react-native/</guid>
       <description></description>
     </item>
     
@@ -256,24 +310,6 @@
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/scalable/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SNS</title>
-      <link>/tags/sns/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/sns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TypeScript</title>
-      <link>/tags/typescript/</link>
-      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/typescript/</guid>
       <description></description>
     </item>
     
@@ -368,15 +404,6 @@
     </item>
     
     <item>
-      <title>Postgres</title>
-      <link>/tags/postgres/</link>
-      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/postgres/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>sql query tuning</title>
       <link>/tags/sql-query-tuning/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
@@ -454,15 +481,6 @@
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/ngrx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Redux</title>
-      <link>/tags/redux/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/redux/</guid>
       <description></description>
     </item>
     

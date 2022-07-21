@@ -14,7 +14,7 @@
       
       <guid>/projects/creations/nocode_platform/</guid>
       <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions for ML and RPA needs. Architected the entire platform right from ground up.
-Tech Stack Frontend  React as UI library Redux for state management REST APIs for CRUD Electron for desktop application  Backend  NestJS for business logic ML microservices NodeRed for low-code development  DataStore  MongoDB  Integrations  MLFlow for machine learning lifecycle  Programming Languages  TypeScript JavaScript Python  </description>
+Tech Stack Frontend React as UI library Redux for state management REST APIs for CRUD Electron for desktop application Backend NestJS for business logic ML microservices NodeRed for low-code development DataStore MongoDB Integrations MLFlow for machine learning lifecycle Programming Languages TypeScript JavaScript Python </description>
     </item>
     
   </channel>

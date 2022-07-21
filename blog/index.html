@@ -4,9 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Sundar | Blogs</title>
-  <meta property="og:title" content="Sundar | Blogs" />
-  <meta property="og:image" content="/img/sundar.png" />
   <meta name="description" content="NA">
+
+  
+  
+    <meta property="og:image" content="/img/sundar.png" />
+    <meta property="og:title" content="Sundar | Blogs" />   
+  
   <meta property="og:description" content="NA" />
   <meta name="author" content="Sundar ">
   
@@ -18,10 +22,8 @@
       <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
   <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
-  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"></noscript>
-    
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous"></noscript>
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
   
@@ -29,8 +31,9 @@
     <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
   <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
-  
-  <meta name="generator" content="Hugo 0.92.2" />
+  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.101.0" />
   
    
   
@@ -113,374 +116,286 @@
 <p>These posts are my own little way of sharing my knowledge and giving back to the community from where I have learned a lot. I also believe that knowledge is one of few commodities which when shared never decreases but on the contrary increases :) Would love to have your feedback, comments on my ramblings as its all based on my own little experiences..</p>
 </p>
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/how-did-i-go-about-choosing-my-techstack-for-my-pet-project/">How did I go about choosing my techstack for my side web app project?</a></h3>
     <div>I find it its always good to work on a pet/side project outside my official dev work as it gives me room to explore new stuffs and in that process help in analyzing the pros/cons of choosing different technologies/frameworks for a use case. I am documenting my thoughts on how I went about choosing the stack (front end/back end technologies, code organization, devops workflow) for one of my side project which was a web app.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/tech-stack">Tech stack</a></li>
-    
-      <li><a class="tag" href="/tags/backend">Backend</a></li>
-    
-      <li><a class="tag" href="/tags/frontend">Frontend</a></li>
-    
-      <li><a class="tag" href="/tags/data-store">Data Store</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">December 20, 2018</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/postgres-mysql-query-optimization/">Postgres Vs MySQL - My experience on query optimization working on both</a></h3>
     <div>Recently, I had a peculiar incident while tuning a slow running SQL query which was logically doing the same thing but one was in Postgres (v11) and other in MySQL (v5.5). I just wanted to share my findings on how query planning/optimizing works in these 2 RDBMS within the context of my problem. Let me first give you the context of the problem in Postgres database. I was having 2 tables - A Client master table having information about client and a Client emails table having emails belonging to each client - 1 to Many relationship between Client and Email entities.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/postgres">Postgres</a></li>
-    
-      <li><a class="tag" href="/tags/mysql">mysql</a></li>
-    
-      <li><a class="tag" href="/tags/sql-query-tuning">sql query tuning</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">October 11, 2018</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/tools-that-make-me-productive/">Tools that make me productive - Web Development</a></h3>
     <div>Just wanted to share and list down the tools that I use for my projects (web-development in particular).
 VS Code I have become a super fan of VS-Code, so so light weight and it has become the defacto Editor for any JS projects - frontend as well as backend. I use it for few of my python projects as well it works as a Charm (infact better than PyCharm.. :)</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/productivity">productivity</a></li>
-    
-      <li><a class="tag" href="/tags/tools">tools</a></li>
-    
-      <li><a class="tag" href="/tags/editor">editor</a></li>
-    
-      <li><a class="tag" href="/tags/lint">lint</a></li>
-    
-      <li><a class="tag" href="/tags/web-development">web-development</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">September 20, 2018</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/angular-vs-react-my-take-on-it/">Angular vs React</a></h3>
     <div>Ahh..I am sure you would have read umpteen number of blogs/articles comparing React, Angular (and Vue). Well this is going to be my version of it after having had a chance to work on both of them. I have developed a decent amount of projects in Angular and in React and kind of got a good grasp on both of these to write about their similarities/differences.
 For starters, both of them are used to build SPAs and good at what they are supposed to.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/angular">Angular</a></li>
-    
-      <li><a class="tag" href="/tags/react">React</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">September 1, 2018</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/ui-state-management-part-6/">State Management in Angular 2&#43; apps - Part 6 - Conclusion</a></h3>
     <div>Over the last 5 posts in this series, we have seen various ways of managing state in a Angular application. In this post, we would conclude by giving some pointers on which technique to choose based on the use cases.
 When to go for a Service based approach ? This is most easiest and the simplest approach to share/manage data across components/pages in your App. But this could quickly go haywire if not used in the right way and with proper encapsulation techniques.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/state-management">State Management</a></li>
-    
-      <li><a class="tag" href="/tags/redux">Redux</a></li>
-    
-      <li><a class="tag" href="/tags/ngrx">ngRx</a></li>
-    
-      <li><a class="tag" href="/tags/angular-2&#43;">Angular 2&#43;</a></li>
-    
-      <li><a class="tag" href="/tags/what-to-choose">what to choose</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">March 1, 2018</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/ui-state-management-part-5/">State Management in Angular 2&#43; apps - Part 5</a></h3>
     <div>In this post of our series in state management, we will be seeing how we can solve our state problem using a solution called Redux. We will be use the angular variant of Redux called ngRx.
 Redux has been inspired by elm and Flux. Elm is a pure functional programming language used for developing the front end of modern day web apps. Flux is a stage management solution. If this is first time you are hearing about Redux, please do watch these videos from the co-creator of Redux, Dan Abramov.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/state-management">State Management</a></li>
-    
-      <li><a class="tag" href="/tags/redux">Redux</a></li>
-    
-      <li><a class="tag" href="/tags/ngrx">ngRx</a></li>
-    
-      <li><a class="tag" href="/tags/angular-2&#43;">Angular 2&#43;</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">January 28, 2018</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/ui-state-management-part-4/">State Management in Angular 2&#43; apps - Part 4</a></h3>
     <div>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.
 Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in part-3. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/state-management">State Management</a></li>
-    
-      <li><a class="tag" href="/tags/mobx">Mobx</a></li>
-    
-      <li><a class="tag" href="/tags/change-detection-strategy">Change Detection Strategy</a></li>
-    
-      <li><a class="tag" href="/tags/angular-2&#43;">Angular 2&#43;</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">January 4, 2018</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/ui-state-management-part-3/">State Management in Angular 2&#43; apps - Part 3</a></h3>
     <div>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using Observables. We will also see how we can overcome the pitfalls of the Angular services approach discussed in part-2 of this series.
 Observables is something that I have seen which unsettles developers.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/state-management">State Management</a></li>
-    
-      <li><a class="tag" href="/tags/rxjs">RxJS</a></li>
-    
-      <li><a class="tag" href="/tags/observables">Observables</a></li>
-    
-      <li><a class="tag" href="/tags/change-detection-strategy">Change Detection Strategy</a></li>
-    
-      <li><a class="tag" href="/tags/angular-2&#43;">Angular 2&#43;</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">December 15, 2017</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/ui-state-management-part-2/">State Management in Angular 2&#43; apps - Part 2</a></h3>
     <div>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using plain Angular services.
 In the last post we identified that the good reads collection is the data that is being shared by the home component and the navbar component.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/state-management">State Management</a></li>
-    
-      <li><a class="tag" href="/tags/services">Services</a></li>
-    
-      <li><a class="tag" href="/tags/change-detection">Change Detection</a></li>
-    
-      <li><a class="tag" href="/tags/angular-2&#43;">Angular 2&#43;</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">December 11, 2017</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/ui-state-management-part-1/">State Management in Angular 2&#43; apps - Part 1</a></h3>
     <div>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.
 In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&hellip;
 How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp; 2+) background struggle to answer this question as they haven&rsquo;t encountered the term state while building apps.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/state-management">State Management</a></li>
-    
-      <li><a class="tag" href="/tags/rxjs">RxJS</a></li>
-    
-      <li><a class="tag" href="/tags/mobx">Mobx</a></li>
-    
-      <li><a class="tag" href="/tags/redux">Redux</a></li>
-    
-      <li><a class="tag" href="/tags/ngrx">ngRx</a></li>
-    
-      <li><a class="tag" href="/tags/angular-2&#43;">Angular 2&#43;</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">December 1, 2017</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/a-z-of-javascript/">A-Z of JavaScript</a></h3>
     <div>This is my collection of A-to-Z terms that one should know if they are into serious javascript programming.
 Async/Await Async and Await are new features introduced in the language to make asynchronous code block look synchronous and more importantly make it more readable.
 Brendan Eich Brendan Eich is the creator of JavaScript. He created the language in a matter of 10 days when working for Netscape Navigator. Due credit to be given to him for creating this language.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/javascript">JavaScript</a></li>
-    
-      <li><a class="tag" href="/tags/terminologies">terminologies</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">September 6, 2017</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/front-end-analogies/">Front End development Analogy</a></h3>
     <div>Whenever we learn about some topics or if you are teaching someone, I always felt analogies from day to day life makes a greater impact to a person&rsquo;s understanding. This post is my take on analogy of technologies/terminologies/people involved in front end development.
 I am going to compare building a website to building a house where :
 HTML(HyperText Markup Language) would be the raw building materials namely bricks, steels, cement. These help you in building the skeleton or structure of your house.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/web-development">web-development</a></li>
-    
-      <li><a class="tag" href="/tags/analogy">analogy</a></li>
-    
-      <li><a class="tag" href="/tags/front-end-basics">front-end-basics</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">August 1, 2017</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/git-workflow/">Git workflow - my ramblings</a></h3>
     <div>In this post, I would be talking about the git workflow that could be adopted when you are working on a project all alone and also when you are working in a team. Before we start, lets try to understand what is Git and why it is becoming the leader in Version control/SCM (Software Configuration Management).
 What is Git ? Git is a version control system with a de-centralized approach to source control.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/git">git</a></li>
-    
-      <li><a class="tag" href="/tags/version-control">version-control</a></li>
-    
-      <li><a class="tag" href="/tags/best-practices">best-practices</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">April 8, 2017</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
+      
         
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-row mb-5">
   <div class="publication-content mr-auto">
     <h3 class="mb-0"><a href="/blog/angularjs-vs-angular/">Difference between AngularJS and Angular</a></h3>
     <div>Angular the framework as this is what the Angular team would like to call, has evolved(and evolving) from being the most popular front end JavaScript framework over the last 5 years to a framework that has transformed itself to survive and be a leader for years to come. All references to Angular points to the version 2 and above and AngularJS means Angular 1.x.
 In this post, we would be seeing how different is Angular and what are the new additions it is bringing to the world of Single Page App development.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/angularjs">angularJS</a></li>
-    
-      <li><a class="tag" href="/tags/angular">angular</a></li>
+    <div><ul class="tags">
     
 </ul>
-</p>
+</div>
   </div>
-  <div class="resume-date text-md-right">
+  <div class="resume-date text-md-right flex-col">
     <span class="text-primary">March 25, 2017</span>
-    <img src="" style="max-width:250px;padding:5px;"/>
   </div>
 </div>
 
+      
     
     
   </div>
 </section>
 
 
-    <span style="color: #999999; font-size: 60%;">Template By <a href="https://startbootstrap.com/theme/resume">Start Bootstrap Theme</a> Ported to Hugo by <a class="pen-owner-link" href="https://github.com/eddiewebb/hugo-resume">eddiewebb</a> </span>
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
     
   </div>
   
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
   
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
