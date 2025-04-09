@@ -24,6 +24,7 @@ showQr = true
 showSkills = true
 showBlog = true
 publicationsAlternateName = "talks"
+sections = ["skills","publications","creations","contributions","blog"]
 
 [params.google]
 
