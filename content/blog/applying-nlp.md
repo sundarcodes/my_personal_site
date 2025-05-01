@@ -98,4 +98,4 @@ To ensure quality, we added a **human-in-the-loop** step for manual validation�
 
 ---
 
-This project was a great learning experience in applying natural language processing to solve practical finance problems. If you’re exploring similar challenges, I’d love to hear about your approach!
+This project was a great learning experience in applying natural language processing to solve practical finance problems.
