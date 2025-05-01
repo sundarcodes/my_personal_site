@@ -4,18 +4,16 @@
     <title>Mongo REALM on Sundar</title>
     <link>/tags/mongo-realm/</link>
     <description>Recent content in Mongo REALM on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jul 2022 12:41:05 -0500</lastBuildDate><atom:link href="/tags/mongo-realm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 12:41:05 -0500</lastBuildDate>
+    <atom:link href="/tags/mongo-realm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tuition Management App</title>
       <link>/projects/creations/tutora/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/tutora/</guid>
-      <description>This is about developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles of managing/running a online/physical classes. The backend is cloud native and frontend is built using React Native.
-Tech Stack Frontend React Native as UI framework Mobx for state management GraphQL/REST clients for CRUD Backend AWS Serverless for business logic AWS API Gateway for routing AWS Cognito for authentication AWS S3 for storage AWS Event Bridge for integrations with third party apps DataStore Mongo DB Atlas for storing application data Mongo Realm as the persistence layer interface exposing GraphQL server Integrations Twilio for SMS and Email Programming Languages TypeScript JavaScript </description>
+      <description>This is about developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles of managing/running a online/physical classes. The backend is cloud native and frontend is built using React Native.&#xA;Tech Stack Frontend React Native as UI framework Mobx for state management GraphQL/REST clients for CRUD Backend AWS Serverless for business logic AWS API Gateway for routing AWS Cognito for authentication AWS S3 for storage AWS Event Bridge for integrations with third party apps DataStore Mongo DB Atlas for storing application data Mongo Realm as the persistence layer interface exposing GraphQL server Integrations Twilio for SMS and Email Programming Languages TypeScript JavaScript Architecture </description>
     </item>
-    
   </channel>
 </rss>

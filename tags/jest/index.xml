@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jest on Sundar</title>
+    <title>Jest on Sundar</title>
     <link>/tags/jest/</link>
-    <description>Recent content in jest on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Jest on Sundar</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Mar 2021 17:09:26 +0000</lastBuildDate><atom:link href="/tags/jest/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Mar 2021 17:09:26 +0000</lastBuildDate>
+    <atom:link href="/tags/jest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Callback props to a React Add to Calendar library</title>
       <link>/projects/contributions/react_add_to_calendar/</link>
       <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
-      
       <guid>/projects/contributions/react_add_to_calendar/</guid>
       <description>Add to Calendar is a react package to add an event to calendar (Google, Outlook, Apple etc). I needed a way to handle the calendar dropdown close event when the mouse is clicked anywhere on the document. I added a callback function that would be passed as a param</description>
     </item>
-    
   </channel>
 </rss>

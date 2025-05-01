@@ -4,39 +4,30 @@
     <title>Mobx on Sundar</title>
     <link>/tags/mobx/</link>
     <description>Recent content in Mobx on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jul 2022 12:41:05 -0500</lastBuildDate><atom:link href="/tags/mobx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 12:41:05 -0500</lastBuildDate>
+    <atom:link href="/tags/mobx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tuition Management App</title>
       <link>/projects/creations/tutora/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/tutora/</guid>
-      <description>This is about developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles of managing/running a online/physical classes. The backend is cloud native and frontend is built using React Native.
-Tech Stack Frontend React Native as UI framework Mobx for state management GraphQL/REST clients for CRUD Backend AWS Serverless for business logic AWS API Gateway for routing AWS Cognito for authentication AWS S3 for storage AWS Event Bridge for integrations with third party apps DataStore Mongo DB Atlas for storing application data Mongo Realm as the persistence layer interface exposing GraphQL server Integrations Twilio for SMS and Email Programming Languages TypeScript JavaScript </description>
+      <description>This is about developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles of managing/running a online/physical classes. The backend is cloud native and frontend is built using React Native.&#xA;Tech Stack Frontend React Native as UI framework Mobx for state management GraphQL/REST clients for CRUD Backend AWS Serverless for business logic AWS API Gateway for routing AWS Cognito for authentication AWS S3 for storage AWS Event Bridge for integrations with third party apps DataStore Mongo DB Atlas for storing application data Mongo Realm as the persistence layer interface exposing GraphQL server Integrations Twilio for SMS and Email Programming Languages TypeScript JavaScript Architecture </description>
     </item>
-    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 4</title>
       <link>/blog/ui-state-management-part-4/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-4/</guid>
-      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.
-Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in part-3. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood.</description>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.&#xA;Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in part-3. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood.</description>
     </item>
-    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 1</title>
       <link>/blog/ui-state-management-part-1/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-1/</guid>
-      <description>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.
-In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&amp;hellip;
-How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp;amp; 2+) background struggle to answer this question as they haven&amp;rsquo;t encountered the term state while building apps.</description>
+      <description>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.&#xA;In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&amp;hellip;&#xA;How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp;amp; 2+) background struggle to answer this question as they haven&amp;rsquo;t encountered the term state while building apps.</description>
     </item>
-    
   </channel>
 </rss>

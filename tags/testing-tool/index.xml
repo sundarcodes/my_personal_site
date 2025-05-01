@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Testing tool on Sundar</title>
+    <title>Testing Tool on Sundar</title>
     <link>/tags/testing-tool/</link>
-    <description>Recent content in Testing tool on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Testing Tool on Sundar</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Aug 2017 12:41:05 -0500</lastBuildDate><atom:link href="/tags/testing-tool/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Aug 2017 12:41:05 -0500</lastBuildDate>
+    <atom:link href="/tags/testing-tool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FIX Messages Testing tool</title>
       <link>/projects/creations/fix_rattler/</link>
       <pubDate>Fri, 11 Aug 2017 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/fix_rattler/</guid>
-      <description>This was a tool developed in python to stress test a stock exchange management system. The tool could be configured to pump in different kinds of orders and also the rate at which orders need to be sent.
-Tech Stack Python XML Parser </description>
+      <description>This was a tool developed in python to stress test a stock exchange management system. The tool could be configured to pump in different kinds of orders and also the rate at which orders need to be sent.&#xA;Tech Stack Python XML Parser </description>
     </item>
-    
   </channel>
 </rss>

@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>what to choose on Sundar</title>
+    <title>What to Choose on Sundar</title>
     <link>/tags/what-to-choose/</link>
-    <description>Recent content in what to choose on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in What to Choose on Sundar</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/what-to-choose/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/what-to-choose/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>State Management in Angular 2&#43; apps - Part 6 - Conclusion</title>
       <link>/blog/ui-state-management-part-6/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-6/</guid>
-      <description>Over the last 5 posts in this series, we have seen various ways of managing state in a Angular application. In this post, we would conclude by giving some pointers on which technique to choose based on the use cases.
-When to go for a Service based approach ? This is most easiest and the simplest approach to share/manage data across components/pages in your App. But this could quickly go haywire if not used in the right way and with proper encapsulation techniques.</description>
+      <description>Over the last 5 posts in this series, we have seen various ways of managing state in a Angular application. In this post, we would conclude by giving some pointers on which technique to choose based on the use cases.&#xA;When to go for a Service based approach ? This is most easiest and the simplest approach to share/manage data across components/pages in your App. But this could quickly go haywire if not used in the right way and with proper encapsulation techniques.</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,18 +4,16 @@
     <title>Redis on Sundar</title>
     <link>/tags/redis/</link>
     <description>Recent content in Redis on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate><atom:link href="/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate>
+    <atom:link href="/tags/redis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search Engine for Discord</title>
       <link>/projects/creations/discord_search_engine/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/discord_search_engine/</guid>
-      <description>This is about building an aggregated search engine for Discord servers. Users could see and search on what people are talking publicly on popular discord servers. The current version of app is targeted to be used by people interested in fin tech and crypto news.
-Tech Stack Frontend React, Mithriljs Mobx for state management REST clients for CRUD Backend Feathersjs for REST APIs NodeJS app for data collection/scraping Bullmq for queueing DataStore Redis as in-memory data store Firestore for persistent data storage Programming Languages TypeScript JavaScript </description>
+      <description>This is about building an aggregated search engine for Discord servers. Users could see and search on what people are talking publicly on popular discord servers. The current version of app is targeted to be used by people interested in fin tech and crypto news.&#xA;Tech Stack Frontend React, Mithriljs Mobx for state management REST clients for CRUD Backend Feathersjs for REST APIs NodeJS app for data collection/scraping Bullmq for queueing DataStore Redis as in-memory data store Firestore for persistent data storage Programming Languages TypeScript JavaScript </description>
     </item>
-    
   </channel>
 </rss>

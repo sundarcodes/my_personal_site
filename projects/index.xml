@@ -4,8 +4,9 @@
     <title>Projects on Sundar</title>
     <link>/projects/</link>
     <description>Recent content in Projects on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jul 2022 12:41:05 -0500</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

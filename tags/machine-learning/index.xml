@@ -4,18 +4,16 @@
     <title>Machine Learning on Sundar</title>
     <link>/tags/machine-learning/</link>
     <description>Recent content in Machine Learning on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tooling in Maching Learning Lifecycle</title>
       <link>/publications/mlflow_talk/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>/publications/mlflow_talk/</guid>
-      <description>This talk was on the importance of tooling in a ML development lifecyle.
-Importance of tracking the various metrics involved in training the model - training parameters, training results Tieing up the model with the datasets and the training params Packaging the model in a standard format to be later deployed to any modern tech stack. </description>
+      <description>This talk was on the importance of tooling in a ML development lifecyle.&#xA;Importance of tracking the various metrics involved in training the model - training parameters, training results Tieing up the model with the datasets and the training params Packaging the model in a standard format to be later deployed to any modern tech stack. </description>
     </item>
-    
   </channel>
 </rss>

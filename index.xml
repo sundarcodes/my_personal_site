@@ -4,266 +4,198 @@
     <title>Home on Sundar</title>
     <link>/</link>
     <description>Recent content in Home on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tooling in Maching Learning Lifecycle</title>
       <link>/publications/mlflow_talk/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>/publications/mlflow_talk/</guid>
-      <description>This talk was on the importance of tooling in a ML development lifecyle.
-Importance of tracking the various metrics involved in training the model - training parameters, training results Tieing up the model with the datasets and the training params Packaging the model in a standard format to be later deployed to any modern tech stack. </description>
+      <description>This talk was on the importance of tooling in a ML development lifecyle.&#xA;Importance of tracking the various metrics involved in training the model - training parameters, training results Tieing up the model with the datasets and the training params Packaging the model in a standard format to be later deployed to any modern tech stack. </description>
     </item>
-    
     <item>
       <title>Journey from Monolith to Microservices - AWS Story</title>
       <link>/publications/aws_microservices/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>/publications/aws_microservices/</guid>
-      <description>This was a workshop cum training program for faculties of engineering colleges across India. I had the chance to talk about the evolution of modern day architecture - Cloud Native, Microservices. In this talk, I covered the tech journey of how amazon grew from a online book buying platform to a massive ecommerce market place. In the due process, covered the following topics
-Started as a 2 tier architecture Grew into a monolith with multi tier architecture Evolved into a Service Oriented architecture Birth of AWS - Amazon web services NoSQL movement Microservices all the way Serverless/Lambda </description>
+      <description>This was a workshop cum training program for faculties of engineering colleges across India. I had the chance to talk about the evolution of modern day architecture - Cloud Native, Microservices. In this talk, I covered the tech journey of how amazon grew from a online book buying platform to a massive ecommerce market place. In the due process, covered the following topics&#xA;Started as a 2 tier architecture Grew into a monolith with multi tier architecture Evolved into a Service Oriented architecture Birth of AWS - Amazon web services NoSQL movement Microservices all the way Serverless/Lambda </description>
     </item>
-    
     <item>
       <title>Callback props to a React Add to Calendar library</title>
       <link>/projects/contributions/react_add_to_calendar/</link>
       <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
-      
       <guid>/projects/contributions/react_add_to_calendar/</guid>
       <description>Add to Calendar is a react package to add an event to calendar (Google, Outlook, Apple etc). I needed a way to handle the calendar dropdown close event when the mouse is clicked anywhere on the document. I added a callback function that would be passed as a param</description>
     </item>
-    
     <item>
       <title>Added support for thousand separator in Angular localization library</title>
       <link>/projects/contributions/angular_i10n/</link>
       <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
-      
       <guid>/projects/contributions/angular_i10n/</guid>
       <description>Angular l10n is a Angular localization library that supports text translation, formatting dates and numbers. The number directive that comes as part of this library was missing the thousand&amp;rsquo;s separator. My PR was to add support to the thousand&amp;rsquo;s separator.</description>
     </item>
-    
     <item>
       <title>My own version of tictactoe game to builtwithelm</title>
       <link>/projects/contributions/elm_tictactoe/</link>
       <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
-      
       <guid>/projects/contributions/elm_tictactoe/</guid>
       <description>BuiltWithElm is a place where Elm enthusiasts can post any of their cool projects built on Elm. I wanted to try a functional programming language and got impressed with Elm. I came know about Elm after reading how it has influenced the Flux and Redux architecture that are being used for State management in the front end. Elm is inspired by haskell and it is something that I want to make use for building a production grade web app.</description>
     </item>
-    
+    <item>
+      <title>Bridging Financial Statements and IFRS Using NLP</title>
+      <link>/blog/applying-nlp/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/blog/applying-nlp/</guid>
+      <description>Recently, I had the opportunity to work on a challenging yet rewarding task—mapping line items in financial statements to their corresponding IFRS (International Financial Reporting Standards) concept names. While this may sound straightforward, the nuances of financial terminology and the variety in reporting formats make it anything but trivial.&#xA;In this post, I’ll walk through the different approaches we explored, the trade-offs we encountered, and the final solution we implemented.</description>
+    </item>
     <item>
       <title>Tuition Management App</title>
       <link>/projects/creations/tutora/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/tutora/</guid>
-      <description>This is about developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles of managing/running a online/physical classes. The backend is cloud native and frontend is built using React Native.
-Tech Stack Frontend React Native as UI framework Mobx for state management GraphQL/REST clients for CRUD Backend AWS Serverless for business logic AWS API Gateway for routing AWS Cognito for authentication AWS S3 for storage AWS Event Bridge for integrations with third party apps DataStore Mongo DB Atlas for storing application data Mongo Realm as the persistence layer interface exposing GraphQL server Integrations Twilio for SMS and Email Programming Languages TypeScript JavaScript </description>
+      <description>This is about developing a mobile app for small scale/home based tutors. The app is primarily targetted to reduce the administation hassles of managing/running a online/physical classes. The backend is cloud native and frontend is built using React Native.&#xA;Tech Stack Frontend React Native as UI framework Mobx for state management GraphQL/REST clients for CRUD Backend AWS Serverless for business logic AWS API Gateway for routing AWS Cognito for authentication AWS S3 for storage AWS Event Bridge for integrations with third party apps DataStore Mongo DB Atlas for storing application data Mongo Realm as the persistence layer interface exposing GraphQL server Integrations Twilio for SMS and Email Programming Languages TypeScript JavaScript Architecture </description>
     </item>
-    
     <item>
       <title>ERP Product suite</title>
       <link>/projects/creations/procure/</link>
       <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/procure/</guid>
-      <description>The product is an offering of a typical ERP suite which was being migrated from PHP to MERN. Was involved in both frontend development in React and also backend in NodeJS.
-Tech Stack Frontend Mobile App built on React Native Web App built on React Storybook for building reusable components Redux for state management Urql/REST clients for CRUD Chrome extension built with React Backend AWS Serverless for business logic AWS API Gateway for routing Auth0 for authentication AWS S3 for file storage Lerna for package management DataStore Postgres/MongoDB as data stores ElasticSearch for product data store Programming Languages TypeScript JavaScript </description>
+      <description>The product is an offering of a typical ERP suite which was being migrated from PHP to MERN. Was involved in both frontend development in React and also backend in NodeJS.&#xA;Tech Stack Frontend Mobile App built on React Native Web App built on React Storybook for building reusable components Redux for state management Urql/REST clients for CRUD Chrome extension built with React Backend AWS Serverless for business logic AWS API Gateway for routing Auth0 for authentication AWS S3 for file storage Lerna for package management DataStore Postgres/MongoDB as data stores ElasticSearch for product data store Programming Languages TypeScript JavaScript </description>
     </item>
-    
     <item>
       <title>A no/low code developer platform for building ML &amp; RPA solutions</title>
       <link>/projects/creations/nocode_platform/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/nocode_platform/</guid>
-      <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions for ML and RPA needs. Architected the entire platform right from ground up.
-Tech Stack Frontend React as UI library Redux for state management REST APIs for CRUD Electron for desktop application Backend NestJS for business logic ML microservices NodeRed for low-code development DataStore MongoDB Integrations MLFlow for machine learning lifecycle Programming Languages TypeScript JavaScript Python </description>
+      <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions for ML and RPA needs. Architected the entire platform right from ground up.&#xA;Tech Stack Frontend React as UI library Redux for state management REST APIs for CRUD Electron for desktop application Backend NestJS for business logic ML microservices NodeRed for low-code development DataStore MongoDB Integrations MLFlow for machine learning lifecycle Programming Languages TypeScript JavaScript Python </description>
     </item>
-    
     <item>
       <title>Search Engine for Discord</title>
       <link>/projects/creations/discord_search_engine/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/discord_search_engine/</guid>
-      <description>This is about building an aggregated search engine for Discord servers. Users could see and search on what people are talking publicly on popular discord servers. The current version of app is targeted to be used by people interested in fin tech and crypto news.
-Tech Stack Frontend React, Mithriljs Mobx for state management REST clients for CRUD Backend Feathersjs for REST APIs NodeJS app for data collection/scraping Bullmq for queueing DataStore Redis as in-memory data store Firestore for persistent data storage Programming Languages TypeScript JavaScript </description>
+      <description>This is about building an aggregated search engine for Discord servers. Users could see and search on what people are talking publicly on popular discord servers. The current version of app is targeted to be used by people interested in fin tech and crypto news.&#xA;Tech Stack Frontend React, Mithriljs Mobx for state management REST clients for CRUD Backend Feathersjs for REST APIs NodeJS app for data collection/scraping Bullmq for queueing DataStore Redis as in-memory data store Firestore for persistent data storage Programming Languages TypeScript JavaScript </description>
     </item>
-    
     <item>
       <title>Handwritten Data Recognition</title>
       <link>/projects/creations/form_reader/</link>
       <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/form_reader/</guid>
-      <description>This was about creating an OCR solution to understand and read hand written information from application forms. This involved using deep learning algorithms for image classification, object detection and character recognition. The entire ML life cycle of gathering data, annotating the data, training the models on different deep learning algorithms was followed and finally the solution was deployed on Cloud.
-Tech Stack Frontend Angular as UI framework REST APIs for CRUD Backend NestJS as backend for UI Flask for ML API AWS S3 for storage AWS EC2 for app container AWS lamda for micro services AWS Auto Scaling for scaling AWS DynamoDB for persistence Tensorflow for deep learning Yolo and Faster RCNN for object detection Inception for image classification DataStore Postgres Programming Languages TypeScript Python </description>
+      <description>This was about creating an OCR solution to understand and read hand written information from application forms. This involved using deep learning algorithms for image classification, object detection and character recognition. The entire ML life cycle of gathering data, annotating the data, training the models on different deep learning algorithms was followed and finally the solution was deployed on Cloud.&#xA;Tech Stack Frontend Angular as UI framework REST APIs for CRUD Backend NestJS as backend for UI Flask for ML API AWS S3 for storage AWS EC2 for app container AWS lamda for micro services AWS Auto Scaling for scaling AWS DynamoDB for persistence Tensorflow for deep learning Yolo and Faster RCNN for object detection Inception for image classification DataStore Postgres Programming Languages TypeScript Python Architecture </description>
     </item>
-    
     <item>
       <title>Scanned Cheque OCR</title>
       <link>/projects/creations/cheque_ocr/</link>
       <pubDate>Sun, 11 Aug 2019 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/cheque_ocr/</guid>
-      <description>As the traditional computer vision solutions were not able to recognize all the printed characters in a scanned cheque, this solution based on deep learning provided an acceptable level of results - More than 80% as opposed the traditional open cv based approach which yielded 60%. This involved annotating and training close to 10000 cheques.I was instrumental in designing and developing the entire solution.
-Tech Stack Backend Flask for ML API Docker Yolo and Faster RCNN for object detection Inception for image classification Tesseract for OCR Tensorflow as the deep learning framework Programming Languages and libraries Python OpenCV </description>
+      <description>As the traditional computer vision solutions were not able to recognize all the printed characters in a scanned cheque, this solution based on deep learning provided an acceptable level of results - More than 80% as opposed the traditional open cv based approach which yielded 60%. This involved annotating and training close to 10000 cheques.I was instrumental in designing and developing the entire solution.&#xA;Tech Stack Backend Flask for ML API Docker Yolo and Faster RCNN for object detection Inception for image classification Tesseract for OCR Tensorflow as the deep learning framework Programming Languages and libraries Python OpenCV </description>
     </item>
-    
     <item>
       <title>How did I go about choosing my techstack for my side web app project?</title>
       <link>/blog/how-did-i-go-about-choosing-my-techstack-for-my-pet-project/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/how-did-i-go-about-choosing-my-techstack-for-my-pet-project/</guid>
       <description>I find it its always good to work on a pet/side project outside my official dev work as it gives me room to explore new stuffs and in that process help in analyzing the pros/cons of choosing different technologies/frameworks for a use case. I am documenting my thoughts on how I went about choosing the stack (front end/back end technologies, code organization, devops workflow) for one of my side project which was a web app.</description>
     </item>
-    
     <item>
       <title>Postgres Vs MySQL - My experience on query optimization working on both</title>
       <link>/blog/postgres-mysql-query-optimization/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/postgres-mysql-query-optimization/</guid>
       <description>Recently, I had a peculiar incident while tuning a slow running SQL query which was logically doing the same thing but one was in Postgres (v11) and other in MySQL (v5.5). I just wanted to share my findings on how query planning/optimizing works in these 2 RDBMS within the context of my problem. Let me first give you the context of the problem in Postgres database. I was having 2 tables - A Client master table having information about client and a Client emails table having emails belonging to each client - 1 to Many relationship between Client and Email entities.</description>
     </item>
-    
     <item>
       <title>Tools that make me productive - Web Development</title>
       <link>/blog/tools-that-make-me-productive/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/tools-that-make-me-productive/</guid>
-      <description>Just wanted to share and list down the tools that I use for my projects (web-development in particular).
-VS Code I have become a super fan of VS-Code, so so light weight and it has become the defacto Editor for any JS projects - frontend as well as backend. I use it for few of my python projects as well it works as a Charm (infact better than PyCharm.. :)</description>
+      <description>Just wanted to share and list down the tools that I use for my projects (web-development in particular).&#xA;VS Code I have become a super fan of VS-Code, so so light weight and it has become the defacto Editor for any JS projects - frontend as well as backend. I use it for few of my python projects as well it works as a Charm (infact better than PyCharm.. :)</description>
     </item>
-    
     <item>
       <title>Angular vs React</title>
-      <link>/blog/angular-vs-react-my-take-on-it/</link>
+      <link>/blog/angular-vs-react---my-take-on-it/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/angular-vs-react-my-take-on-it/</guid>
-      <description>Ahh..I am sure you would have read umpteen number of blogs/articles comparing React, Angular (and Vue). Well this is going to be my version of it after having had a chance to work on both of them. I have developed a decent amount of projects in Angular and in React and kind of got a good grasp on both of these to write about their similarities/differences.
-For starters, both of them are used to build SPAs and good at what they are supposed to.</description>
+      <guid>/blog/angular-vs-react---my-take-on-it/</guid>
+      <description>Ahh..I am sure you would have read umpteen number of blogs/articles comparing React, Angular (and Vue). Well this is going to be my version of it after having had a chance to work on both of them. I have developed a decent amount of projects in Angular and in React and kind of got a good grasp on both of these to write about their similarities/differences.&#xA;For starters, both of them are used to build SPAs and good at what they are supposed to.</description>
     </item>
-    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 6 - Conclusion</title>
       <link>/blog/ui-state-management-part-6/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-6/</guid>
-      <description>Over the last 5 posts in this series, we have seen various ways of managing state in a Angular application. In this post, we would conclude by giving some pointers on which technique to choose based on the use cases.
-When to go for a Service based approach ? This is most easiest and the simplest approach to share/manage data across components/pages in your App. But this could quickly go haywire if not used in the right way and with proper encapsulation techniques.</description>
+      <description>Over the last 5 posts in this series, we have seen various ways of managing state in a Angular application. In this post, we would conclude by giving some pointers on which technique to choose based on the use cases.&#xA;When to go for a Service based approach ? This is most easiest and the simplest approach to share/manage data across components/pages in your App. But this could quickly go haywire if not used in the right way and with proper encapsulation techniques.</description>
     </item>
-    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 5</title>
       <link>/blog/ui-state-management-part-5/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-5/</guid>
-      <description>In this post of our series in state management, we will be seeing how we can solve our state problem using a solution called Redux. We will be use the angular variant of Redux called ngRx.
-Redux has been inspired by elm and Flux. Elm is a pure functional programming language used for developing the front end of modern day web apps. Flux is a stage management solution. If this is first time you are hearing about Redux, please do watch these videos from the co-creator of Redux, Dan Abramov.</description>
+      <description>In this post of our series in state management, we will be seeing how we can solve our state problem using a solution called Redux. We will be use the angular variant of Redux called ngRx.&#xA;Redux has been inspired by elm and Flux. Elm is a pure functional programming language used for developing the front end of modern day web apps. Flux is a stage management solution. If this is first time you are hearing about Redux, please do watch these videos from the co-creator of Redux, Dan Abramov.</description>
     </item>
-    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 4</title>
       <link>/blog/ui-state-management-part-4/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-4/</guid>
-      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.
-Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in part-3. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood.</description>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.&#xA;Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in part-3. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood.</description>
     </item>
-    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 3</title>
       <link>/blog/ui-state-management-part-3/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-3/</guid>
-      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using Observables. We will also see how we can overcome the pitfalls of the Angular services approach discussed in part-2 of this series.
-Observables is something that I have seen which unsettles developers.</description>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using Observables. We will also see how we can overcome the pitfalls of the Angular services approach discussed in part-2 of this series.&#xA;Observables is something that I have seen which unsettles developers.</description>
     </item>
-    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 2</title>
       <link>/blog/ui-state-management-part-2/</link>
       <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-2/</guid>
-      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using plain Angular services.
-In the last post we identified that the good reads collection is the data that is being shared by the home component and the navbar component.</description>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using plain Angular services.&#xA;In the last post we identified that the good reads collection is the data that is being shared by the home component and the navbar component.</description>
     </item>
-    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 1</title>
       <link>/blog/ui-state-management-part-1/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-1/</guid>
-      <description>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.
-In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&amp;hellip;
-How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp;amp; 2+) background struggle to answer this question as they haven&amp;rsquo;t encountered the term state while building apps.</description>
+      <description>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.&#xA;In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&amp;hellip;&#xA;How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp;amp; 2+) background struggle to answer this question as they haven&amp;rsquo;t encountered the term state while building apps.</description>
     </item>
-    
     <item>
       <title>A-Z of JavaScript</title>
       <link>/blog/a-z-of-javascript/</link>
       <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/a-z-of-javascript/</guid>
-      <description>This is my collection of A-to-Z terms that one should know if they are into serious javascript programming.
-Async/Await Async and Await are new features introduced in the language to make asynchronous code block look synchronous and more importantly make it more readable.
-Brendan Eich Brendan Eich is the creator of JavaScript. He created the language in a matter of 10 days when working for Netscape Navigator. Due credit to be given to him for creating this language.</description>
+      <description>This is my collection of A-to-Z terms that one should know if they are into serious javascript programming.&#xA;Async/Await Async and Await are new features introduced in the language to make asynchronous code block look synchronous and more importantly make it more readable.&#xA;Brendan Eich Brendan Eich is the creator of JavaScript. He created the language in a matter of 10 days when working for Netscape Navigator. Due credit to be given to him for creating this language.</description>
     </item>
-    
     <item>
       <title>FIX Messages Testing tool</title>
       <link>/projects/creations/fix_rattler/</link>
       <pubDate>Fri, 11 Aug 2017 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/fix_rattler/</guid>
-      <description>This was a tool developed in python to stress test a stock exchange management system. The tool could be configured to pump in different kinds of orders and also the rate at which orders need to be sent.
-Tech Stack Python XML Parser </description>
+      <description>This was a tool developed in python to stress test a stock exchange management system. The tool could be configured to pump in different kinds of orders and also the rate at which orders need to be sent.&#xA;Tech Stack Python XML Parser </description>
     </item>
-    
     <item>
       <title>Front End development Analogy</title>
       <link>/blog/front-end-analogies/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/front-end-analogies/</guid>
-      <description>Whenever we learn about some topics or if you are teaching someone, I always felt analogies from day to day life makes a greater impact to a person&amp;rsquo;s understanding. This post is my take on analogy of technologies/terminologies/people involved in front end development.
-I am going to compare building a website to building a house where :
-HTML(HyperText Markup Language) would be the raw building materials namely bricks, steels, cement. These help you in building the skeleton or structure of your house.</description>
+      <description>Whenever we learn about some topics or if you are teaching someone, I always felt analogies from day to day life makes a greater impact to a person&amp;rsquo;s understanding. This post is my take on analogy of technologies/terminologies/people involved in front end development.&#xA;I am going to compare building a website to building a house where :&#xA;HTML(HyperText Markup Language) would be the raw building materials namely bricks, steels, cement. These help you in building the skeleton or structure of your house.</description>
     </item>
-    
     <item>
       <title>Git workflow - my ramblings</title>
       <link>/blog/git-workflow/</link>
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/git-workflow/</guid>
-      <description>In this post, I would be talking about the git workflow that could be adopted when you are working on a project all alone and also when you are working in a team. Before we start, lets try to understand what is Git and why it is becoming the leader in Version control/SCM (Software Configuration Management).
-What is Git ? Git is a version control system with a de-centralized approach to source control.</description>
+      <description>In this post, I would be talking about the git workflow that could be adopted when you are working on a project all alone and also when you are working in a team. Before we start, lets try to understand what is Git and why it is becoming the leader in Version control/SCM (Software Configuration Management).&#xA;What is Git ? Git is a version control system with a de-centralized approach to source control.</description>
     </item>
-    
     <item>
       <title>Difference between AngularJS and Angular</title>
       <link>/blog/angularjs-vs-angular/</link>
       <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/angularjs-vs-angular/</guid>
-      <description>Angular the framework as this is what the Angular team would like to call, has evolved(and evolving) from being the most popular front end JavaScript framework over the last 5 years to a framework that has transformed itself to survive and be a leader for years to come. All references to Angular points to the version 2 and above and AngularJS means Angular 1.x.
-In this post, we would be seeing how different is Angular and what are the new additions it is bringing to the world of Single Page App development.</description>
+      <description>Angular the framework as this is what the Angular team would like to call, has evolved(and evolving) from being the most popular front end JavaScript framework over the last 5 years to a framework that has transformed itself to survive and be a leader for years to come. All references to Angular points to the version 2 and above and AngularJS means Angular 1.x.&#xA;In this post, we would be seeing how different is Angular and what are the new additions it is bringing to the world of Single Page App development.</description>
     </item>
-    
   </channel>
 </rss>

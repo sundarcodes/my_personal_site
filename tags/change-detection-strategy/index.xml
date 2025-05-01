@@ -4,28 +4,23 @@
     <title>Change Detection Strategy on Sundar</title>
     <link>/tags/change-detection-strategy/</link>
     <description>Recent content in Change Detection Strategy on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/change-detection-strategy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/change-detection-strategy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>State Management in Angular 2&#43; apps - Part 4</title>
       <link>/blog/ui-state-management-part-4/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-4/</guid>
-      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.
-Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in part-3. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood.</description>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using a solution called Mobx.&#xA;Mobx is a non-opionated state management technique which again uses concepts of observable that we had seen in part-3. You could say mobx is a wrapper built on top of observables and does lot of magic under the hood.</description>
     </item>
-    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 3</title>
       <link>/blog/ui-state-management-part-3/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-3/</guid>
-      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using Observables. We will also see how we can overcome the pitfalls of the Angular services approach discussed in part-2 of this series.
-Observables is something that I have seen which unsettles developers.</description>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using Observables. We will also see how we can overcome the pitfalls of the Angular services approach discussed in part-2 of this series.&#xA;Observables is something that I have seen which unsettles developers.</description>
     </item>
-    
   </channel>
 </rss>

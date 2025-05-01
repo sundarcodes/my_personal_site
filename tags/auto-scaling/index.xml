@@ -4,18 +4,16 @@
     <title>Auto Scaling on Sundar</title>
     <link>/tags/auto-scaling/</link>
     <description>Recent content in Auto Scaling on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jun 2020 12:41:05 -0500</lastBuildDate><atom:link href="/tags/auto-scaling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jun 2020 12:41:05 -0500</lastBuildDate>
+    <atom:link href="/tags/auto-scaling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Handwritten Data Recognition</title>
       <link>/projects/creations/form_reader/</link>
       <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/form_reader/</guid>
-      <description>This was about creating an OCR solution to understand and read hand written information from application forms. This involved using deep learning algorithms for image classification, object detection and character recognition. The entire ML life cycle of gathering data, annotating the data, training the models on different deep learning algorithms was followed and finally the solution was deployed on Cloud.
-Tech Stack Frontend Angular as UI framework REST APIs for CRUD Backend NestJS as backend for UI Flask for ML API AWS S3 for storage AWS EC2 for app container AWS lamda for micro services AWS Auto Scaling for scaling AWS DynamoDB for persistence Tensorflow for deep learning Yolo and Faster RCNN for object detection Inception for image classification DataStore Postgres Programming Languages TypeScript Python </description>
+      <description>This was about creating an OCR solution to understand and read hand written information from application forms. This involved using deep learning algorithms for image classification, object detection and character recognition. The entire ML life cycle of gathering data, annotating the data, training the models on different deep learning algorithms was followed and finally the solution was deployed on Cloud.&#xA;Tech Stack Frontend Angular as UI framework REST APIs for CRUD Backend NestJS as backend for UI Flask for ML API AWS S3 for storage AWS EC2 for app container AWS lamda for micro services AWS Auto Scaling for scaling AWS DynamoDB for persistence Tensorflow for deep learning Yolo and Faster RCNN for object detection Inception for image classification DataStore Postgres Programming Languages TypeScript Python Architecture </description>
     </item>
-    
   </channel>
 </rss>

@@ -4,18 +4,16 @@
     <title>Chrome Extension on Sundar</title>
     <link>/tags/chrome-extension/</link>
     <description>Recent content in Chrome Extension on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 May 2022 12:41:05 -0500</lastBuildDate><atom:link href="/tags/chrome-extension/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2022 12:41:05 -0500</lastBuildDate>
+    <atom:link href="/tags/chrome-extension/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ERP Product suite</title>
       <link>/projects/creations/procure/</link>
       <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/procure/</guid>
-      <description>The product is an offering of a typical ERP suite which was being migrated from PHP to MERN. Was involved in both frontend development in React and also backend in NodeJS.
-Tech Stack Frontend Mobile App built on React Native Web App built on React Storybook for building reusable components Redux for state management Urql/REST clients for CRUD Chrome extension built with React Backend AWS Serverless for business logic AWS API Gateway for routing Auth0 for authentication AWS S3 for file storage Lerna for package management DataStore Postgres/MongoDB as data stores ElasticSearch for product data store Programming Languages TypeScript JavaScript </description>
+      <description>The product is an offering of a typical ERP suite which was being migrated from PHP to MERN. Was involved in both frontend development in React and also backend in NodeJS.&#xA;Tech Stack Frontend Mobile App built on React Native Web App built on React Storybook for building reusable components Redux for state management Urql/REST clients for CRUD Chrome extension built with React Backend AWS Serverless for business logic AWS API Gateway for routing Auth0 for authentication AWS S3 for file storage Lerna for package management DataStore Postgres/MongoDB as data stores ElasticSearch for product data store Programming Languages TypeScript JavaScript </description>
     </item>
-    
   </channel>
 </rss>

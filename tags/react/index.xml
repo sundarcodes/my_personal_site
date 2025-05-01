@@ -4,57 +4,44 @@
     <title>React on Sundar</title>
     <link>/tags/react/</link>
     <description>Recent content in React on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 May 2022 12:41:05 -0500</lastBuildDate><atom:link href="/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2022 12:41:05 -0500</lastBuildDate>
+    <atom:link href="/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Callback props to a React Add to Calendar library</title>
       <link>/projects/contributions/react_add_to_calendar/</link>
       <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
-      
       <guid>/projects/contributions/react_add_to_calendar/</guid>
       <description>Add to Calendar is a react package to add an event to calendar (Google, Outlook, Apple etc). I needed a way to handle the calendar dropdown close event when the mouse is clicked anywhere on the document. I added a callback function that would be passed as a param</description>
     </item>
-    
     <item>
       <title>ERP Product suite</title>
       <link>/projects/creations/procure/</link>
       <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/procure/</guid>
-      <description>The product is an offering of a typical ERP suite which was being migrated from PHP to MERN. Was involved in both frontend development in React and also backend in NodeJS.
-Tech Stack Frontend Mobile App built on React Native Web App built on React Storybook for building reusable components Redux for state management Urql/REST clients for CRUD Chrome extension built with React Backend AWS Serverless for business logic AWS API Gateway for routing Auth0 for authentication AWS S3 for file storage Lerna for package management DataStore Postgres/MongoDB as data stores ElasticSearch for product data store Programming Languages TypeScript JavaScript </description>
+      <description>The product is an offering of a typical ERP suite which was being migrated from PHP to MERN. Was involved in both frontend development in React and also backend in NodeJS.&#xA;Tech Stack Frontend Mobile App built on React Native Web App built on React Storybook for building reusable components Redux for state management Urql/REST clients for CRUD Chrome extension built with React Backend AWS Serverless for business logic AWS API Gateway for routing Auth0 for authentication AWS S3 for file storage Lerna for package management DataStore Postgres/MongoDB as data stores ElasticSearch for product data store Programming Languages TypeScript JavaScript </description>
     </item>
-    
     <item>
       <title>A no/low code developer platform for building ML &amp; RPA solutions</title>
       <link>/projects/creations/nocode_platform/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/nocode_platform/</guid>
-      <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions for ML and RPA needs. Architected the entire platform right from ground up.
-Tech Stack Frontend React as UI library Redux for state management REST APIs for CRUD Electron for desktop application Backend NestJS for business logic ML microservices NodeRed for low-code development DataStore MongoDB Integrations MLFlow for machine learning lifecycle Programming Languages TypeScript JavaScript Python </description>
+      <description>This low code platform&amp;rsquo;s objective is to ease the lives of ML and RPA developers by providing a visual drag and drop interface to build solutions for ML and RPA needs. Architected the entire platform right from ground up.&#xA;Tech Stack Frontend React as UI library Redux for state management REST APIs for CRUD Electron for desktop application Backend NestJS for business logic ML microservices NodeRed for low-code development DataStore MongoDB Integrations MLFlow for machine learning lifecycle Programming Languages TypeScript JavaScript Python </description>
     </item>
-    
     <item>
       <title>Search Engine for Discord</title>
       <link>/projects/creations/discord_search_engine/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/discord_search_engine/</guid>
-      <description>This is about building an aggregated search engine for Discord servers. Users could see and search on what people are talking publicly on popular discord servers. The current version of app is targeted to be used by people interested in fin tech and crypto news.
-Tech Stack Frontend React, Mithriljs Mobx for state management REST clients for CRUD Backend Feathersjs for REST APIs NodeJS app for data collection/scraping Bullmq for queueing DataStore Redis as in-memory data store Firestore for persistent data storage Programming Languages TypeScript JavaScript </description>
+      <description>This is about building an aggregated search engine for Discord servers. Users could see and search on what people are talking publicly on popular discord servers. The current version of app is targeted to be used by people interested in fin tech and crypto news.&#xA;Tech Stack Frontend React, Mithriljs Mobx for state management REST clients for CRUD Backend Feathersjs for REST APIs NodeJS app for data collection/scraping Bullmq for queueing DataStore Redis as in-memory data store Firestore for persistent data storage Programming Languages TypeScript JavaScript </description>
     </item>
-    
     <item>
       <title>Angular vs React</title>
-      <link>/blog/angular-vs-react-my-take-on-it/</link>
+      <link>/blog/angular-vs-react---my-take-on-it/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/angular-vs-react-my-take-on-it/</guid>
-      <description>Ahh..I am sure you would have read umpteen number of blogs/articles comparing React, Angular (and Vue). Well this is going to be my version of it after having had a chance to work on both of them. I have developed a decent amount of projects in Angular and in React and kind of got a good grasp on both of these to write about their similarities/differences.
-For starters, both of them are used to build SPAs and good at what they are supposed to.</description>
+      <guid>/blog/angular-vs-react---my-take-on-it/</guid>
+      <description>Ahh..I am sure you would have read umpteen number of blogs/articles comparing React, Angular (and Vue). Well this is going to be my version of it after having had a chance to work on both of them. I have developed a decent amount of projects in Angular and in React and kind of got a good grasp on both of these to write about their similarities/differences.&#xA;For starters, both of them are used to build SPAs and good at what they are supposed to.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>version-control on Sundar</title>
+    <title>Version-Control on Sundar</title>
     <link>/tags/version-control/</link>
-    <description>Recent content in version-control on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Version-Control on Sundar</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git workflow - my ramblings</title>
       <link>/blog/git-workflow/</link>
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/git-workflow/</guid>
-      <description>In this post, I would be talking about the git workflow that could be adopted when you are working on a project all alone and also when you are working in a team. Before we start, lets try to understand what is Git and why it is becoming the leader in Version control/SCM (Software Configuration Management).
-What is Git ? Git is a version control system with a de-centralized approach to source control.</description>
+      <description>In this post, I would be talking about the git workflow that could be adopted when you are working on a project all alone and also when you are working in a team. Before we start, lets try to understand what is Git and why it is becoming the leader in Version control/SCM (Software Configuration Management).&#xA;What is Git ? Git is a version control system with a de-centralized approach to source control.</description>
     </item>
-    
   </channel>
 </rss>

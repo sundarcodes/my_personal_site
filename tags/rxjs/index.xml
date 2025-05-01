@@ -4,29 +4,23 @@
     <title>RxJS on Sundar</title>
     <link>/tags/rxjs/</link>
     <description>Recent content in RxJS on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/rxjs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/rxjs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>State Management in Angular 2&#43; apps - Part 3</title>
       <link>/blog/ui-state-management-part-3/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-3/</guid>
-      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using Observables. We will also see how we can overcome the pitfalls of the Angular services approach discussed in part-2 of this series.
-Observables is something that I have seen which unsettles developers.</description>
+      <description>In part-1 of this series, we got to know what state is and the need to have a state management solution especially in the case of a large web app. In this post, we will be seeing how we can solve our shared state problem using Observables. We will also see how we can overcome the pitfalls of the Angular services approach discussed in part-2 of this series.&#xA;Observables is something that I have seen which unsettles developers.</description>
     </item>
-    
     <item>
       <title>State Management in Angular 2&#43; apps - Part 1</title>
       <link>/blog/ui-state-management-part-1/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/ui-state-management-part-1/</guid>
-      <description>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.
-In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&amp;hellip;
-How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp;amp; 2+) background struggle to answer this question as they haven&amp;rsquo;t encountered the term state while building apps.</description>
+      <description>This is part-1 of the blog series where I would be trying to explain state management in Angular 2+ app using different strategies along with their pros and cons.&#xA;In this part, I will try to demystify the term state, how to identify state and why do we need to manage state. So lets get started&amp;hellip;&#xA;How do you define state or what is state of an app ? I have seen junior developers who just have Angular(1 &amp;amp; 2+) background struggle to answer this question as they haven&amp;rsquo;t encountered the term state while building apps.</description>
     </item>
-    
   </channel>
 </rss>

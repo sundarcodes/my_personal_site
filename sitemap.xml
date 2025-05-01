@@ -38,6 +38,24 @@
     <lastmod>2017-08-14T17:09:26+00:00</lastmod>
     <priority>0.8</priority>
   </url><url>
+    <loc>/blog/applying-nlp/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/finance/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/ifrs/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/nlp/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/python/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/aws/</loc>
     <lastmod>2022-07-11T12:41:05-05:00</lastmod>
   </url><url>
@@ -64,9 +82,6 @@
     <lastmod>2022-07-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>/tags/sns/</loc>
-    <lastmod>2022-07-11T12:41:05-05:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-07-11T12:41:05-05:00</lastmod>
   </url><url>
     <loc>/projects/creations/tutora/</loc>
@@ -106,9 +121,6 @@
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/mlflow/</loc>
-    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/python/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/microservices/</loc>
@@ -225,7 +237,7 @@
     <loc>/tags/angular/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/angular-vs-react-my-take-on-it/</loc>
+    <loc>/blog/angular-vs-react---my-take-on-it/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/angular-2&#43;/</loc>
@@ -304,6 +316,9 @@
     <loc>/tags/stock-exchange-management-system/</loc>
     <lastmod>2017-08-11T12:41:05-05:00</lastmod>
   </url><url>
+    <loc>/tags/stress/performance-testing/</loc>
+    <lastmod>2017-08-11T12:41:05-05:00</lastmod>
+  </url><url>
     <loc>/tags/testing-tool/</loc>
     <lastmod>2017-08-11T12:41:05-05:00</lastmod>
   </url><url>
@@ -333,7 +348,5 @@
   </url><url>
     <loc>/blog/angularjs-vs-angular/</loc>
     <lastmod>2017-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/stress/performance-testing/</loc>
   </url>
 </urlset>

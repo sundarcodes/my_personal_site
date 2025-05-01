@@ -4,27 +4,23 @@
     <title>Postgres on Sundar</title>
     <link>/tags/postgres/</link>
     <description>Recent content in Postgres on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 May 2022 12:41:05 -0500</lastBuildDate><atom:link href="/tags/postgres/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2022 12:41:05 -0500</lastBuildDate>
+    <atom:link href="/tags/postgres/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ERP Product suite</title>
       <link>/projects/creations/procure/</link>
       <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
-      
       <guid>/projects/creations/procure/</guid>
-      <description>The product is an offering of a typical ERP suite which was being migrated from PHP to MERN. Was involved in both frontend development in React and also backend in NodeJS.
-Tech Stack Frontend Mobile App built on React Native Web App built on React Storybook for building reusable components Redux for state management Urql/REST clients for CRUD Chrome extension built with React Backend AWS Serverless for business logic AWS API Gateway for routing Auth0 for authentication AWS S3 for file storage Lerna for package management DataStore Postgres/MongoDB as data stores ElasticSearch for product data store Programming Languages TypeScript JavaScript </description>
+      <description>The product is an offering of a typical ERP suite which was being migrated from PHP to MERN. Was involved in both frontend development in React and also backend in NodeJS.&#xA;Tech Stack Frontend Mobile App built on React Native Web App built on React Storybook for building reusable components Redux for state management Urql/REST clients for CRUD Chrome extension built with React Backend AWS Serverless for business logic AWS API Gateway for routing Auth0 for authentication AWS S3 for file storage Lerna for package management DataStore Postgres/MongoDB as data stores ElasticSearch for product data store Programming Languages TypeScript JavaScript </description>
     </item>
-    
     <item>
       <title>Postgres Vs MySQL - My experience on query optimization working on both</title>
       <link>/blog/postgres-mysql-query-optimization/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/postgres-mysql-query-optimization/</guid>
       <description>Recently, I had a peculiar incident while tuning a slow running SQL query which was logically doing the same thing but one was in Postgres (v11) and other in MySQL (v5.5). I just wanted to share my findings on how query planning/optimizing works in these 2 RDBMS within the context of my problem. Let me first give you the context of the problem in Postgres database. I was having 2 tables - A Client master table having information about client and a Client emails table having emails belonging to each client - 1 to Many relationship between Client and Email entities.</description>
     </item>
-    
   </channel>
 </rss>

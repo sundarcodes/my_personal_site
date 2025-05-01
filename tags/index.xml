@@ -4,683 +4,555 @@
     <title>Tags on Sundar</title>
     <link>/tags/</link>
     <description>Recent content in Tags on Sundar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jul 2022 12:41:05 -0500</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finance</title>
+      <link>/tags/finance/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/finance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IFRS</title>
+      <link>/tags/ifrs/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/ifrs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NLP</title>
+      <link>/tags/nlp/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AWS</title>
       <link>/tags/aws/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/aws/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GraphQL</title>
       <link>/tags/graphql/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/graphql/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lambda</title>
       <link>/tags/lambda/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/lambda/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mobx</title>
       <link>/tags/mobx/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/mobx/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mongo</title>
       <link>/tags/mongo/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/mongo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mongo REALM</title>
       <link>/tags/mongo-realm/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/mongo-realm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>React Native</title>
       <link>/tags/react-native/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/react-native/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SNS</title>
       <link>/tags/sns/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/sns/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TypeScript</title>
       <link>/tags/typescript/</link>
       <pubDate>Mon, 11 Jul 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/typescript/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Chrome Extension</title>
       <link>/tags/chrome-extension/</link>
       <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/chrome-extension/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lerna</title>
       <link>/tags/lerna/</link>
       <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/lerna/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Postgres</title>
       <link>/tags/postgres/</link>
       <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/postgres/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>React</title>
       <link>/tags/react/</link>
       <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/react/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Redux</title>
       <link>/tags/redux/</link>
       <pubDate>Wed, 11 May 2022 12:41:05 -0500</pubDate>
-      
       <guid>/tags/redux/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>JavaScript</title>
       <link>/tags/javascript/</link>
       <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
-      
       <guid>/tags/javascript/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>jest</title>
+      <title>Jest</title>
       <link>/tags/jest/</link>
       <pubDate>Sun, 14 Mar 2021 17:09:26 +0000</pubDate>
-      
       <guid>/tags/jest/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DevOps</title>
       <link>/tags/devops/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>/tags/devops/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Machine Learning</title>
       <link>/tags/machine-learning/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>MLflow</title>
       <link>/tags/mlflow/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>/tags/mlflow/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Python</title>
-      <link>/tags/python/</link>
-      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/python/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Microservices</title>
       <link>/tags/microservices/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>/tags/microservices/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Monolith</title>
       <link>/tags/monolith/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>/tags/monolith/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Service Oriented Architecture</title>
       <link>/tags/service-oriented-architecture/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>/tags/service-oriented-architecture/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Software Architecture</title>
       <link>/tags/software-architecture/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>/tags/software-architecture/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AI</title>
       <link>/tags/ai/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>BullMQ</title>
       <link>/tags/bullmq/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/bullmq/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Docker</title>
       <link>/tags/docker/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Electron</title>
       <link>/tags/electron/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/electron/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ML</title>
       <link>/tags/ml/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/ml/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NestJS</title>
       <link>/tags/nestjs/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/nestjs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NodeJS</title>
       <link>/tags/nodejs/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/nodejs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Redis</title>
       <link>/tags/redis/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/redis/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>REST APIs</title>
       <link>/tags/rest-apis/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/rest-apis/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Scalable</title>
       <link>/tags/scalable/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/scalable/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Auto Scaling</title>
       <link>/tags/auto-scaling/</link>
       <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/auto-scaling/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Computer Vision</title>
       <link>/tags/computer-vision/</link>
       <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/computer-vision/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Deep Learning</title>
       <link>/tags/deep-learning/</link>
       <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/deep-learning/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>opencv</title>
+      <title>Opencv</title>
       <link>/tags/opencv/</link>
       <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/opencv/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>REST API</title>
       <link>/tags/rest-api/</link>
       <pubDate>Thu, 11 Jun 2020 12:41:05 -0500</pubDate>
-      
       <guid>/tags/rest-api/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Backend</title>
       <link>/tags/backend/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/backend/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Data Store</title>
       <link>/tags/data-store/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/data-store/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Frontend</title>
       <link>/tags/frontend/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/frontend/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Tech stack</title>
+      <title>Tech Stack</title>
       <link>/tags/tech-stack/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/tech-stack/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mysql</title>
+      <title>Mysql</title>
       <link>/tags/mysql/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/mysql/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sql query tuning</title>
+      <title>Sql Query Tuning</title>
       <link>/tags/sql-query-tuning/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/sql-query-tuning/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>editor</title>
+      <title>Editor</title>
       <link>/tags/editor/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/editor/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>lint</title>
+      <title>Lint</title>
       <link>/tags/lint/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/lint/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>productivity</title>
+      <title>Productivity</title>
       <link>/tags/productivity/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/productivity/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tools</title>
+      <title>Tools</title>
       <link>/tags/tools/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/tools/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>web-development</title>
+      <title>Web-Development</title>
       <link>/tags/web-development/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/web-development/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Angular</title>
       <link>/tags/angular/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/angular/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Angular 2&#43;</title>
       <link>/tags/angular-2&#43;/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/angular-2&#43;/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ngRx</title>
+      <title>NgRx</title>
       <link>/tags/ngrx/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/ngrx/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>State Management</title>
       <link>/tags/state-management/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/state-management/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>what to choose</title>
+      <title>What to Choose</title>
       <link>/tags/what-to-choose/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/what-to-choose/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Change Detection Strategy</title>
       <link>/tags/change-detection-strategy/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/change-detection-strategy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Observables</title>
       <link>/tags/observables/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/observables/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>RxJS</title>
       <link>/tags/rxjs/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/rxjs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Change Detection</title>
       <link>/tags/change-detection/</link>
       <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/change-detection/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Services</title>
       <link>/tags/services/</link>
       <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/services/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>terminologies</title>
+      <title>Terminologies</title>
       <link>/tags/terminologies/</link>
       <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/terminologies/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Elm</title>
       <link>/tags/elm/</link>
       <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
-      
       <guid>/tags/elm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>functional programming</title>
+      <title>Functional Programming</title>
       <link>/tags/functional-programming/</link>
       <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
-      
       <guid>/tags/functional-programming/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>game</title>
+      <title>Game</title>
       <link>/tags/game/</link>
       <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
-      
       <guid>/tags/game/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>i10n</title>
+      <title>I10n</title>
       <link>/tags/i10n/</link>
       <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
-      
       <guid>/tags/i10n/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>FIX</title>
       <link>/tags/fix/</link>
       <pubDate>Fri, 11 Aug 2017 12:41:05 -0500</pubDate>
-      
       <guid>/tags/fix/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Stock Exchange Management System</title>
       <link>/tags/stock-exchange-management-system/</link>
       <pubDate>Fri, 11 Aug 2017 12:41:05 -0500</pubDate>
-      
       <guid>/tags/stock-exchange-management-system/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Testing tool</title>
-      <link>/tags/testing-tool/</link>
-      <pubDate>Fri, 11 Aug 2017 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/testing-tool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>analogy</title>
-      <link>/tags/analogy/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/analogy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>front-end-basics</title>
-      <link>/tags/front-end-basics/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/front-end-basics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>best-practices</title>
-      <link>/tags/best-practices/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/best-practices/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>/tags/git/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>version-control</title>
-      <link>/tags/version-control/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/version-control/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>angularJS</title>
-      <link>/tags/angularjs/</link>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/angularjs/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Stress/Performance Testing</title>
       <link>/tags/stress/performance-testing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Fri, 11 Aug 2017 12:41:05 -0500</pubDate>
       <guid>/tags/stress/performance-testing/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Testing Tool</title>
+      <link>/tags/testing-tool/</link>
+      <pubDate>Fri, 11 Aug 2017 12:41:05 -0500</pubDate>
+      <guid>/tags/testing-tool/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analogy</title>
+      <link>/tags/analogy/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/analogy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front-End-Basics</title>
+      <link>/tags/front-end-basics/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/front-end-basics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best-Practices</title>
+      <link>/tags/best-practices/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>/tags/git/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Version-Control</title>
+      <link>/tags/version-control/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/version-control/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AngularJS</title>
+      <link>/tags/angularjs/</link>
+      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/angularjs/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
