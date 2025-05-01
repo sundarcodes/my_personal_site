@@ -4,7 +4,8 @@
     "skills": [
       "Microservices",
       "Event Driven Architecture",
-      "Cloud Native Apps"
+      "Cloud Native Apps",
+      "Domain Driven Design"
     ]
   },
   {
@@ -65,7 +66,10 @@
       { "name": "Mongo", "icon": "mongodb-plain" },
       { "name": "MySQL", "icon": "mysql-plain" },
       { "name": "SQLLite" },
-      { "name": "Elasticsearch", "icon": "elasticsearch-plain" }
+      { "name": "Elasticsearch", "icon": "elasticsearch-plain" },
+      { "name": "Redis", "icon": "redis-plain" },
+      { "name": "DynamoDB", "icon": "amazonwebservices-original" },
+      { "name": "Google BigQuery", "icon": "googlebigquery-plain" }
     ]
   },
   {
@@ -99,11 +103,19 @@
     ]
   },
   {
+    "grouping": "GCP Services",
+    "skills": [
+      "Cloud Run", "Pub/Sub", "Artifacts Registry", "Cloud Storage", "Cloud SQL", "BigQuery",
+      "Cloud Composer (Managed Airflow)", "Cloud Build", "Cloud Scheduler"
+    ]
+  },
+  {
     "grouping": "DevOps",
     "skills": [
       { "name": "Cypress" },
       { "name": "Jest" },
       { "name": "Fastlane" },
+      { "name": "Github Actions" },
       { "name": "Gitlab CI/CD" }
     ]
   }

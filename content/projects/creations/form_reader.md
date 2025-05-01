@@ -2,7 +2,7 @@
 "title": "Handwritten Data Recognition",
 "date": "2020-06-11T12:41:05-05:00",
 "link": "",
-"image": "/img/WhiteLabelled_copy_of_Digitization Architecture.png",
+"image": "/img/white_labelled_copy_of_digitization_architecture.png",
 "description": "Reading an handfilled Application Form",
 "tags": ["AI","ML", "Computer Vision", "Python", "Deep Learning", "REST API", "Docker", "opencv", "AWS", "Lambda", "Auto Scaling"],
 "fact": "",
@@ -40,3 +40,6 @@ This was about creating an OCR solution to understand and read hand written info
 
 - TypeScript
 - Python
+
+#### Architecture
+![Architecture](/img/white_labelled_copy_of_digitization_architecture.png)

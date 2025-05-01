@@ -20,9 +20,11 @@ showExperience = false
 showOpenSource = true
 showProjects = true
 showPublications = true
+showSocializations = true
 showQr = true
 showSkills = true
 showBlog = true
+showBoards = false
 publicationsAlternateName = "talks"
 sections = ["skills","publications","creations","contributions","blog"]
 
