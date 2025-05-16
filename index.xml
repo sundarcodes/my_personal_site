@@ -6,7 +6,7 @@
     <description>Recent content in Home on Sundar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tooling in Maching Learning Lifecycle</title>
@@ -42,6 +42,13 @@
       <pubDate>Mon, 14 Aug 2017 17:09:26 +0000</pubDate>
       <guid>/projects/contributions/elm_tictactoe/</guid>
       <description>BuiltWithElm is a place where Elm enthusiasts can post any of their cool projects built on Elm. I wanted to try a functional programming language and got impressed with Elm. I came know about Elm after reading how it has influenced the Flux and Redux architecture that are being used for State management in the front end. Elm is inspired by haskell and it is something that I want to make use for building a production grade web app.</description>
+    </item>
+    <item>
+      <title>Have a Mobile-First App Idea? Think Web First</title>
+      <link>/blog/mobile_first_blog/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>/blog/mobile_first_blog/</guid>
+      <description>Have a Mobile-First App Idea? Think Web First You’ve got a mobile-first app idea. The instinct is to start with native Android or iOS development. But before you commit months of time and resources, here’s something worth considering from years of building and launching apps:&#xA;Start with a responsive web app.&#xA;Here’s why this approach can accelerate your progress and reduce overhead—especially when validating an idea.&#xA;Why the Web First Approach Makes Sense Let’s break down the advantages of going web-first:</description>
     </item>
     <item>
       <title>Bridging Financial Statements and IFRS Using NLP</title>

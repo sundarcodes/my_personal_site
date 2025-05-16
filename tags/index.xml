@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Sundar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mobile App</title>
+      <link>/tags/mobile-app/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/mobile-app/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MVP</title>
+      <link>/tags/mvp/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/mvp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Development</title>
+      <link>/tags/web-development/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/web-development/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Finance</title>
       <link>/tags/finance/</link>
@@ -370,13 +391,6 @@
       <link>/tags/tools/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/tags/tools/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web-Development</title>
-      <link>/tags/web-development/</link>
-      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/web-development/</guid>
       <description></description>
     </item>
     <item>
